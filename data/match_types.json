@@ -1,0 +1,154 @@
+{
+  "Normal": [
+    "One on One",
+    "Triple Threat",
+    "Fatal 4-Way",
+    "5-Way",
+    "6-Way",
+    "8-Way"
+  ],
+  "Tag Team": [
+    "Two on Two",
+    "Two on Two Tornado",
+    "Triple Threat Tornado Tag",
+    "4-Way Tornado Tag"
+  ],
+  "Extreme Rules": [
+    "One on One",
+    "Triple Threat",
+    "Fatal 4-Way",
+    "5-Way",
+    "Two on Two"
+  ],
+  "Extreme Rules (Chairs Only)": [
+    "One on One",
+    "Triple Threat",
+    "Fatal 4-Way",
+    "5-Way",
+    "Two on Two"
+  ],
+  "Hell in a Cell": [
+    "One on One",
+    "Triple Threat",
+    "Fatal 4-Way",
+    "5-Way",
+    "6-Way",
+    "Two on Two",
+    "Triple Threat Tornado Tag"
+  ],
+  "Steel Cage": [
+    "One on One",
+    "Triple Threat",
+    "Fatal 4-Way",
+    "Two on Two"
+  ],
+  "Table": [
+    "One on One",
+    "Triple Threat",
+    "Fatal 4-Way",
+    "5-Way",
+    "Two on Two",
+    "6-Way",
+    "Triple Threat Tornado Tag"
+  ],
+  "Ladder": [
+    "One on One",
+    "Triple Threat",
+    "Fatal 4-Way",
+    "5-Way",
+    "6-Way",
+    "8-Way",
+    "Two on Two",
+    "Triple Threat Tornado Tag",
+    "4-Way Tornado Tag"
+  ],
+  "TLC": [
+    "One on One",
+    "Triple Threat",
+    "Fatal 4-Way",
+    "5-Way",
+    "Two on Two",
+    "Triple Threat Tornado Tag"
+  ],
+  "Falls Count Anywhere": [
+    "One on One",
+    "Triple Threat",
+    "Fatal 4-Way"
+  ],
+  "Elimination Chamber": [
+    "6-Way"
+  ],
+  "Battle Royal": [
+    "Fatal 4-Way",
+    "5-Way",
+    "6-Way",
+    "8-Way"
+  ],
+  "Royal Rumble": [
+    "10 Man"
+  ],
+  "WarGames": [
+    "3v3 Champions vs Challengers",
+    "4v4 Champions vs Challengers"
+  ],
+  "Gauntlet": [
+    "4 Entrants",
+    "5 Entrants",
+    "6 Entrants",
+    "8 Entrants",
+    "10 Entrants"
+  ],
+  "Gauntlet Eliminator": [
+    "4 Entrants",
+    "5 Entrants",
+    "6 Entrants",
+    "8 Entrants",
+    "10 Entrants"
+  ],
+  "Brawl": [
+    "One on One",
+    "Triple Threat",
+    "Fatal 4-Way",
+    "Two on Two",
+    "6-Way",
+    "8-Way"
+  ],
+  "Inferno": null,
+  "3 Stages of Hell": null,
+  "I Quit": null,
+  "Dumpster": null,
+  "Submission": null,
+  "Ambulance": null,
+  "Casket": null,
+  "Iron Man": null,
+  "Last Man Standing": null,
+  "No Holds Barred": null,
+  "Underground": null,
+  "Bloodline Rules": null,
+  "Special Guest Referee": [
+    "Normal One on One",
+    "Normal Triple Threat",
+    "Normal Fatal 4-Way",
+    "Normal 5-Way",
+    "Normal 6-Way",
+    "Tag Team Two on Two",
+    "Tag Team Two on Two Tornado Tag",
+    "Tag Team Triple Threat Tornado Tag",
+    "Extreme Rules One on One",
+    "Extreme Rules Triple Threat",
+    "Extreme Rules Fatal 4-Way",
+    "Extreme Rules 5-Way",
+    "Extreme Rules Two on Two",
+    "Hell in a Cell One on One",
+    "Hell in a Cell Triple Threat",
+    "Hell in a Cell Fatal 4-Way",
+    "Hell in a Cell 6-Way",
+    "Hell in a Cell Two on Two",
+    "Iron Man One on One",
+    "Falls Count Anywhere One on One",
+    "Falls Count Anywhere Triple Threat",
+    "Falls Count Anywhere Fatal 4-Way",
+    "Submission One on One",
+    "No Holds Barred One on One"
+  ]
+}

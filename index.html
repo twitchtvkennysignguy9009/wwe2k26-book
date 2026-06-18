@@ -92,6 +92,15 @@ h1.page-title { color: #ff3333; font-size: 26px; letter-spacing: 3px; margin-bot
 .tag-eop { color: #cc99ff; } .tag-ps { color: #66ff99; }
 .loading { color: #d4a35a; padding: 30px; text-align: center; letter-spacing: 2px; }
 .err { color: #ff6666; padding: 20px; border: 1px solid #662222; border-radius: 6px; background: #170808; }
+.prose { color: #d8dde6; line-height: 1.7; font-size: 15px; max-width: 840px; }
+.prose .lead { font-size: 17px; color: #fff; border-left: 3px solid #ff3333; padding-left: 14px; margin-bottom: 20px; }
+.prose h2 { color: #ff5555; font-size: 18px; letter-spacing: 1px; margin: 24px 0 8px; }
+.prose p { margin-bottom: 12px; }
+.prose ul { margin: 6px 0 14px 22px; } .prose li { margin-bottom: 7px; }
+.prose b { color: #ffd700; }
+.prose .watch { margin-top: 24px; padding: 13px 16px; border: 1px solid #663399; border-radius: 6px; background: #0a0014; color: #c9b8ee; }
+.prose .watch a { color: #cc99ff; }
+.cover-hint { color: #66ff99; font-size: 12px; letter-spacing: 2px; margin-top: 16px; }
 </style>
 </head>
 <body>
@@ -104,7 +113,7 @@ h1.page-title { color: #ff3333; font-size: 26px; letter-spacing: 3px; margin-bot
 
 <main>
   <section id="cover">
-    <div class="book">
+    <div class="book" style="cursor:pointer" onclick="goto('about')">
       <h2>WWE 2K26</h2>
       <div class="ornament">&#10070; &#10070; &#10070;</div>
       <div style="color:#ff3333;font-size:18px;letter-spacing:5px;margin-bottom:14px">THE PLAYBOOK</div>
@@ -114,7 +123,47 @@ h1.page-title { color: #ff3333; font-size: 26px; letter-spacing: 3px; margin-bot
         Empire of Pain &middot; Factions<br>
         Master Roster
       </div>
+      <div class="cover-hint">&#9654; CLICK TO OPEN &middot; START WITH &ldquo;HOW IT WORKS&rdquo;</div>
       <div class="updated" id="coverUpdated"></div>
+    </div>
+  </section>
+
+  <section id="about">
+    <h1 class="page-title">How the Playbook Works</h1>
+    <div class="page-sub">EVERYTHING YOU NEED TO FOLLOW ALONG</div>
+    <div class="prose">
+      <div class="lead">The WWE 2K26 Playbook is the rulebook and record book for a season-long fantasy wrestling competition played in <b>WWE 2K26</b>. Every competitor, every championship, every tournament bracket and title defense is tracked right here. This is the public, read-only version of the same book the matches are built from on stream.</div>
+
+      <h2>The Roster</h2>
+      <p>Hundreds of competitors share one universe &mdash; WWE legends and current stars standing shoulder-to-shoulder with crossover characters from <b>cartoons, horror, superheroes &amp; villains, video games, and even streamers</b>. Every competitor is assigned to a <b>brand</b> (a division) that lines up with the championship they chase. The full list, with divisions, is on the <b>Roster</b> page.</p>
+
+      <h2>19 Championships</h2>
+      <p>Each belt represents a themed division. The titles are Cartoons, Horror, Superhero/Villain, High Flyers, Princess, Giants, Martial Arts, Million Dollar, Mortal Kombat, Hardcore, Streamer/YouTuber, United States, Legends, Intercontinental, Undisputed WWE, Government, DSEPW, the Elite Championship, and the WWE Tag Team Championship.</p>
+
+      <h2>How a Champion Is Crowned</h2>
+      <p>Every title begins with a tournament to crown its <b>first-ever champion</b>:</p>
+      <ul>
+        <li><b>Most titles</b> run an <b>8-wrestler single-elimination bracket</b>. Round 1 has a <b>Special Guest Referee</b>, the <b>Semi-Finals</b> use a randomly spun match type, and the <b>Final</b> is always a <b>TLC (Tables, Ladders &amp; Chairs) Match</b> &mdash; the belt hangs above the ring and you win by climbing the ladder to grab it.</li>
+        <li>The <b>Elite Championship</b> is decided by a <b>Best-of-7 Series</b> &mdash; Match 7 is the title match.</li>
+        <li>The <b>Government Championship</b> was a <b>6-Man Special Guest Referee Elimination Match</b> &mdash; a six-wrestler field can&rsquo;t make a fair 8-bracket, so all six start at once and the last one standing is crowned champion.</li>
+      </ul>
+      <p>You can walk every bracket, round by round, on the <b>Tournaments</b> page &mdash; winners are marked in gold.</p>
+
+      <h2>Seasons &amp; Title Defenses</h2>
+      <p>Once a belt&rsquo;s first champion is crowned, it enters the <b>seasons</b>. <b>Season 1</b> is the first run of title defenses across all belts; then come the <b>Season 1 Rematches</b>, then <b>Season 2</b>, and on it goes. The book keeps every champion, their win/loss record, how many times they&rsquo;ve defended, and the date each title was won. The current titleholders are on the <b>Champions</b> page.</p>
+
+      <h2>The Empire of Pain</h2>
+      <p>The <b>Empire of Pain</b> is the dominant faction in this universe &mdash; a stable organized into squads (EOP 1, EOP 2, and on). When a member of the Empire steps into a match, the book calls it out by name. Every squad and member is on the <b>Empire of Pain</b> page.</p>
+
+      <h2>How to Read This Book</h2>
+      <ul>
+        <li><b>Champions</b> &mdash; who currently holds each belt.</li>
+        <li><b>Tournaments</b> &mdash; the full bracket for every title, winners highlighted.</li>
+        <li><b>Empire of Pain</b> &mdash; the faction&rsquo;s squads and members.</li>
+        <li><b>Roster</b> &mdash; every competitor and their division (searchable).</li>
+      </ul>
+
+      <div class="watch">&#9654; Watch it live on Twitch: <a href="https://twitch.tv/kennysignguy9009">twitch.tv/kennysignguy9009</a> &mdash; full matches and tournaments are posted on YouTube.</div>
     </div>
   </section>
 
@@ -153,6 +202,7 @@ h1.page-title { color: #ff3333; font-size: 26px; letter-spacing: 3px; margin-bot
 <script>
 const PAGES = [
   { id: 'cover', label: 'Cover' },
+  { id: 'about', label: 'How It Works' },
   { id: 'champions', label: 'Champions' },
   { id: 'tournaments', label: 'Tournaments' },
   { id: 'factions', label: 'Empire of Pain' },

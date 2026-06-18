@@ -1,0 +1,797 @@
+{
+  "Adam Park": {
+    "gender": "M",
+    "status": "have"
+  },
+  "Aisha Campbell": {
+    "gender": "F",
+    "status": "have"
+  },
+  "Anna": {
+    "gender": "F",
+    "status": "have"
+  },
+  "Annabelle": {
+    "gender": "F",
+    "status": "have"
+  },
+  "April O'Neil": {
+    "gender": "F",
+    "status": "have"
+  },
+  "Ariel": {
+    "gender": "F",
+    "status": "have"
+  },
+  "Art the Clown": {
+    "gender": "M",
+    "status": "have"
+  },
+  "Aurora": {
+    "gender": "F",
+    "status": "have"
+  },
+  "Bamm-Bamm Rubble": {
+    "gender": "M",
+    "status": "have"
+  },
+  "Barack Obama": {
+    "gender": "M",
+    "status": "have"
+  },
+  "Barney Rubble": {
+    "gender": "M",
+    "status": "have"
+  },
+  "Batgirl": {
+    "gender": "F",
+    "status": "have"
+  },
+  "Batman": {
+    "gender": "M",
+    "status": "have"
+  },
+  "Bebop": {
+    "gender": "M",
+    "status": "have"
+  },
+  "Belle": {
+    "gender": "F",
+    "status": "have"
+  },
+  "Bernie Sanders": {
+    "gender": "M",
+    "status": "have"
+  },
+  "Beta": {
+    "gender": "M",
+    "status": "have"
+  },
+  "Bill Clinton": {
+    "gender": "M",
+    "status": "have"
+  },
+  "Billy Cranston": {
+    "gender": "M",
+    "status": "have"
+  },
+  "Billy the Puppet": {
+    "gender": "M",
+    "status": "have"
+  },
+  "Black Cat": {
+    "gender": "F",
+    "status": "have"
+  },
+  "Black Panther": {
+    "gender": "M",
+    "status": "have"
+  },
+  "Black Widow": {
+    "gender": "F",
+    "status": "have"
+  },
+  "Buzz Lightyear": {
+    "gender": "M",
+    "status": "have"
+  },
+  "Captain America": {
+    "gender": "M",
+    "status": "have"
+  },
+  "Captain Marvel": {
+    "gender": "F",
+    "status": "have"
+  },
+  "Carl Grimes": {
+    "gender": "M",
+    "status": "have"
+  },
+  "Casey Jones": {
+    "gender": "M",
+    "status": "have"
+  },
+  "Catwoman": {
+    "gender": "F",
+    "status": "have"
+  },
+  "Chuck Norris": {
+    "gender": "M",
+    "status": "have"
+  },
+  "Chucky": {
+    "gender": "M",
+    "status": "have"
+  },
+  "Cinderella": {
+    "gender": "F",
+    "status": "have"
+  },
+  "Cleopatra": {
+    "gender": "F",
+    "status": "have"
+  },
+  "Danny Lopez": {
+    "gender": "M",
+    "status": "have"
+  },
+  "Daphne Blake": {
+    "gender": "F",
+    "status": "have"
+  },
+  "Daryl Dixon": {
+    "gender": "M",
+    "status": "have"
+  },
+  "Donald Trump": {
+    "gender": "M",
+    "status": "have"
+  },
+  "Donatello": {
+    "gender": "M",
+    "status": "have"
+  },
+  "Fred Flintstone": {
+    "gender": "M",
+    "status": "have"
+  },
+  "Fred Jones": {
+    "gender": "M",
+    "status": "have"
+  },
+  "Freddy Krueger": {
+    "gender": "M",
+    "status": "have"
+  },
+  "Frost": {
+    "gender": "F",
+    "status": "have"
+  },
+  "Frozen Elsa": {
+    "gender": "F",
+    "status": "have"
+  },
+  "George W. Bush": {
+    "gender": "M",
+    "status": "have"
+  },
+  "Ghostface": {
+    "gender": "M",
+    "status": "have"
+  },
+  "Goldar": {
+    "gender": "M",
+    "status": "have"
+  },
+  "Governor, The": {
+    "gender": "M",
+    "status": "have"
+  },
+  "Green Goblin": {
+    "gender": "M",
+    "status": "have"
+  },
+  "Harley Quinn": {
+    "gender": "F",
+    "status": "have"
+  },
+  "Hela": {
+    "gender": "F",
+    "status": "have"
+  },
+  "Hillary Clinton": {
+    "gender": "F",
+    "status": "have"
+  },
+  "Hulk": {
+    "gender": "M",
+    "status": "have"
+  },
+  "Hunter Rhyn Trax": {
+    "gender": "F",
+    "status": "have"
+  },
+  "Jack Talos": {
+    "gender": "M",
+    "status": "have"
+  },
+  "Jade": {
+    "gender": "F",
+    "status": "have"
+  },
+  "Jane Jetson": {
+    "gender": "F",
+    "status": "have"
+  },
+  "Jasmine": {
+    "gender": "F",
+    "status": "have"
+  },
+  "Jason Voorhees": {
+    "gender": "M",
+    "status": "have"
+  },
+  "Joe Biden": {
+    "gender": "M",
+    "status": "have"
+  },
+  "John F. Kennedy": {
+    "gender": "M",
+    "status": "have"
+  },
+  "Johnny Bravo": {
+    "gender": "M",
+    "status": "have"
+  },
+  "Johnny Cage": {
+    "gender": "M",
+    "status": "have"
+  },
+  "Joker, The": {
+    "gender": "M",
+    "status": "have"
+  },
+  "Judy Jetson": {
+    "gender": "F",
+    "status": "have"
+  },
+  "Kim Possible": {
+    "gender": "F",
+    "status": "have"
+  },
+  "Kimberly Hart": {
+    "gender": "F",
+    "status": "have"
+  },
+  "Kingpin": {
+    "gender": "M",
+    "status": "have"
+  },
+  "Kitana": {
+    "gender": "F",
+    "status": "have"
+  },
+  "Lara Croft": {
+    "gender": "F",
+    "status": "have"
+  },
+  "Laura Bush": {
+    "gender": "F",
+    "status": "have"
+  },
+  "Laurie Strode": {
+    "gender": "F",
+    "status": "have"
+  },
+  "Leatherface": {
+    "gender": "M",
+    "status": "have"
+  },
+  "Lenneth Valkyrie": {
+    "gender": "F",
+    "status": "have"
+  },
+  "Leonardo": {
+    "gender": "M",
+    "status": "have"
+  },
+  "Lord Zedd": {
+    "gender": "M",
+    "status": "have"
+  },
+  "Luigi": {
+    "gender": "M",
+    "status": "have"
+  },
+  "Maggie Rhee": {
+    "gender": "F",
+    "status": "have"
+  },
+  "Mai Shiranui": {
+    "gender": "F",
+    "status": "have"
+  },
+  "Malachi The Mad": {
+    "gender": "M",
+    "status": "have"
+  },
+  "Mary Jane": {
+    "gender": "F",
+    "status": "have"
+  },
+  "Melania Trump": {
+    "gender": "F",
+    "status": "have"
+  },
+  "Michael Myers": {
+    "gender": "M",
+    "status": "have"
+  },
+  "Michelangelo": {
+    "gender": "M",
+    "status": "have"
+  },
+  "Michelle Obama": {
+    "gender": "F",
+    "status": "have"
+  },
+  "Mileena": {
+    "gender": "F",
+    "status": "have"
+  },
+  "Moana": {
+    "gender": "F",
+    "status": "have"
+  },
+  "Mr. Chicken": {
+    "gender": "M",
+    "status": "have"
+  },
+  "Mrs Incredible": {
+    "gender": "F",
+    "status": "have"
+  },
+  "Ms. Marvel": {
+    "gender": "F",
+    "status": "have"
+  },
+  "Mulan": {
+    "gender": "F",
+    "status": "have"
+  },
+  "Mysterio": {
+    "gender": "M",
+    "status": "have"
+  },
+  "Nashoba": {
+    "gender": "M",
+    "status": "have"
+  },
+  "Negan": {
+    "gender": "M",
+    "status": "have"
+  },
+  "Pamela Voorhees": {
+    "gender": "F",
+    "status": "have"
+  },
+  "Pebbles Flintstone": {
+    "gender": "F",
+    "status": "have"
+  },
+  "Pennywise": {
+    "gender": "M",
+    "status": "have"
+  },
+  "Princess Daisy": {
+    "gender": "F",
+    "status": "have"
+  },
+  "Princess Peach": {
+    "gender": "F",
+    "status": "have"
+  },
+  "Rain": {
+    "gender": "M",
+    "status": "have"
+  },
+  "Raphael": {
+    "gender": "M",
+    "status": "have"
+  },
+  "Rapunzel": {
+    "gender": "F",
+    "status": "have"
+  },
+  "Reptile": {
+    "gender": "M",
+    "status": "have"
+  },
+  "Rick Grimes": {
+    "gender": "M",
+    "status": "have"
+  },
+  "Robin": {
+    "gender": "M",
+    "status": "have"
+  },
+  "Rocksteady": {
+    "gender": "M",
+    "status": "have"
+  },
+  "Rocky DeSantos": {
+    "gender": "M",
+    "status": "have"
+  },
+  "Scooby-Doo": {
+    "gender": "M",
+    "status": "have"
+  },
+  "Scorpina": {
+    "gender": "F",
+    "status": "have"
+  },
+  "Scorpion": {
+    "gender": "M",
+    "status": "have"
+  },
+  "Shaggy Rogers": {
+    "gender": "M",
+    "status": "have"
+  },
+  "Shane Walsh": {
+    "gender": "M",
+    "status": "have"
+  },
+  "She-Hulk": {
+    "gender": "F",
+    "status": "have"
+  },
+  "Sheeva": {
+    "gender": "F",
+    "status": "have"
+  },
+  "Shego": {
+    "gender": "F",
+    "status": "have"
+  },
+  "Shredder, The": {
+    "gender": "M",
+    "status": "have"
+  },
+  "Sidney Prescott": {
+    "gender": "F",
+    "status": "have"
+  },
+  "Sindel": {
+    "gender": "F",
+    "status": "have"
+  },
+  "Sonya Blade": {
+    "gender": "F",
+    "status": "have"
+  },
+  "Spider-Gwen": {
+    "gender": "F",
+    "status": "have"
+  },
+  "Spider-Man": {
+    "gender": "M",
+    "status": "have"
+  },
+  "Sub-Zero": {
+    "gender": "M",
+    "status": "have"
+  },
+  "Super Mario": {
+    "gender": "M",
+    "status": "have"
+  },
+  "Supergirl": {
+    "gender": "F",
+    "status": "have"
+  },
+  "Superman": {
+    "gender": "M",
+    "status": "have"
+  },
+  "Tanya": {
+    "gender": "F",
+    "status": "have"
+  },
+  "Tiana": {
+    "gender": "F",
+    "status": "have"
+  },
+  "Tiffany Valentine": {
+    "gender": "F",
+    "status": "have"
+  },
+  "Tinkerbell": {
+    "gender": "F",
+    "status": "have"
+  },
+  "Tommy Oliver": {
+    "gender": "M",
+    "status": "have"
+  },
+  "Velma Dinkley": {
+    "gender": "F",
+    "status": "have"
+  },
+  "Wilma Flintstone": {
+    "gender": "F",
+    "status": "have"
+  },
+  "Woody": {
+    "gender": "M",
+    "status": "have"
+  },
+  "Adin Ross": {
+    "gender": "M",
+    "status": "have"
+  },
+  "Rug": {
+    "gender": "M",
+    "status": "have"
+  },
+  "IShowSpeed": {
+    "gender": "M",
+    "status": "have"
+  },
+  "Adapt": {
+    "gender": "M",
+    "status": "have"
+  },
+  "KSI": {
+    "gender": "M",
+    "status": "have"
+  },
+  "Kai Cenat": {
+    "gender": "M",
+    "status": "have"
+  },
+  "Markiplier": {
+    "gender": "M",
+    "status": "have"
+  },
+  "MrBeast": {
+    "gender": "M",
+    "status": "have"
+  },
+  "Ninja": {
+    "gender": "M",
+    "status": "have"
+  },
+  "Amouranth": {
+    "gender": "F",
+    "status": "have"
+  },
+  "Pokimane": {
+    "gender": "F",
+    "status": "have"
+  },
+  "Marlon": {
+    "gender": "M",
+    "status": "have"
+  },
+  "Jake Paul": {
+    "gender": "M",
+    "status": "have"
+  },
+  "Sketch": {
+    "gender": "M",
+    "status": "have"
+  },
+  "Ironmouse": {
+    "gender": "F",
+    "status": "have"
+  },
+  "Kenny Lopez": {
+    "gender": "M",
+    "status": "have"
+  },
+  "Daniel LaRusso": {
+    "gender": "M",
+    "status": "have"
+  },
+  "Hawk": {
+    "gender": "M",
+    "status": "have"
+  },
+  "Johnny Lawrence": {
+    "gender": "M",
+    "status": "have"
+  },
+  "John Kreese": {
+    "gender": "M",
+    "status": "have"
+  },
+  "Kenny Payne": {
+    "gender": "M",
+    "status": "have"
+  },
+  "Miguel Diaz": {
+    "gender": "M",
+    "status": "have"
+  },
+  "Mr. Miyagi": {
+    "gender": "M",
+    "status": "have"
+  },
+  "Sam LaRusso": {
+    "gender": "F",
+    "status": "have"
+  },
+  "Sensei Wolf": {
+    "gender": "M",
+    "status": "have"
+  },
+  "Terry Silver": {
+    "gender": "M",
+    "status": "have"
+  },
+  "Tory Nichols": {
+    "gender": "F",
+    "status": "have"
+  },
+  "Princess Zelda": {
+    "gender": "F",
+    "status": "have"
+  },
+  "Pocahontas": {
+    "gender": "F",
+    "status": "have"
+  },
+  "M3GAN": {
+    "gender": "F",
+    "status": "have"
+  },
+  "Chun-Li": {
+    "gender": "F",
+    "status": "have"
+  },
+  "Aquaman": {
+    "gender": "M",
+    "status": "have"
+  },
+  "Blade": {
+    "gender": "M",
+    "status": "have"
+  },
+  "Cheetah": {
+    "gender": "F",
+    "status": "have"
+  },
+  "Deadpool": {
+    "gender": "M",
+    "status": "have"
+  },
+  "Dr. Doom": {
+    "gender": "M",
+    "status": "have"
+  },
+  "Green Arrow": {
+    "gender": "M",
+    "status": "have"
+  },
+  "Invisible Woman": {
+    "gender": "F",
+    "status": "have"
+  },
+  "Mask, The": {
+    "gender": "M",
+    "status": "have"
+  },
+  "Mystique": {
+    "gender": "F",
+    "status": "have"
+  },
+  "Phoenix": {
+    "gender": "F",
+    "status": "have"
+  },
+  "Psylocke": {
+    "gender": "F",
+    "status": "have"
+  },
+  "Punisher, The": {
+    "gender": "M",
+    "status": "have"
+  },
+  "Rogue": {
+    "gender": "F",
+    "status": "have"
+  },
+  "Storm": {
+    "gender": "F",
+    "status": "have"
+  },
+  "Wolverine": {
+    "gender": "M",
+    "status": "have"
+  },
+  "Wonder Woman": {
+    "gender": "F",
+    "status": "have"
+  },
+  "Xena": {
+    "gender": "F",
+    "status": "have"
+  },
+  "Bert": {
+    "gender": "M",
+    "status": "have"
+  },
+  "Cappuccino Jones": {
+    "gender": "M",
+    "status": "have"
+  },
+  "Jenna Ortega": {
+    "gender": "F",
+    "status": "have"
+  },
+  "Princess Victoria": {
+    "gender": "F",
+    "status": "have"
+  },
+  "Velvet McIntyre": {
+    "gender": "F",
+    "status": "have"
+  },
+  "Bruce Lee": {
+    "gender": "M",
+    "status": "have"
+  },
+  "Jackie Chan": {
+    "gender": "M",
+    "status": "have"
+  },
+  "Sandra Lopez": {
+    "gender": "F",
+    "status": ""
+  },
+  "sid": {
+    "gender": "M",
+    "status": ""
+  },
+  "Art The Clown": {
+    "gender": "M"
+  },
+  "Bamm Bamm Rubble": {
+    "gender": "M"
+  },
+  "Billy The Puppet": {
+    "gender": "M"
+  },
+  "Rocky Desantos": {
+    "gender": "M"
+  },
+  "Scooby Doo": {
+    "gender": "M"
+  },
+  "Sub Zero": {
+    "gender": "M"
+  },
+  "Ishowspeed": {
+    "gender": "M"
+  },
+  "Ksi": {
+    "gender": "M"
+  },
+  "Daniel Larusso": {
+    "gender": "M"
+  },
+  "Sam Larusso": {
+    "gender": "M"
+  },
+  "Chun Li": {
+    "gender": "M"
+  },
+  "Velvet Mcintyre": {
+    "gender": "M"
+  },
+  "Tank Bryson": {
+    "gender": "M"
+  }
+}
