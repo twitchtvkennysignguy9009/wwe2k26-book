@@ -354,7 +354,7 @@ function renderRoster() {
 // ---- boot ----
 async function boot() {
   buildNav();
-  goto('cover');
+  goto('about');
   try {
     [STATE, TOUR, SEASON] = await Promise.all([
       loadJSON('data/reviewer_state.json'),
