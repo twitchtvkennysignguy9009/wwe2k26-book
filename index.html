@@ -97,6 +97,17 @@ h1.page-title { color: #ff3333; font-size: 26px; letter-spacing: 3px; margin-bot
 .gtag { font-size: 10px; color: #7fa0d8; margin-left: 4px; }
 .loading { color: #d4a35a; padding: 30px; text-align: center; letter-spacing: 2px; }
 .err { color: #ff6666; padding: 20px; border: 1px solid #662222; border-radius: 6px; background: #170808; }
+table.tbl { width: 100%; border-collapse: collapse; font-size: 13px; }
+table.tbl th { text-align: left; color: #d4a35a; border-bottom: 1px solid #663399; padding: 6px 8px; letter-spacing: 1px; font-size: 12px; }
+table.tbl td { padding: 6px 8px; border-bottom: 1px solid #161622; color: #ddd; }
+table.tbl tr:hover td { background: #0c0c18; }
+.rank { color: #ffd700; font-weight: bold; width: 34px; }
+.note { color: #9fb6ff; font-size: 12px; background: #0a1024; border: 1px solid #1a3a8a; border-radius: 5px; padding: 9px 12px; margin-bottom: 14px; }
+.statblock { margin-bottom: 22px; }
+.statblock h3 { color: #ff5555; font-size: 15px; letter-spacing: 1px; margin-bottom: 8px; }
+.h2h { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; margin-bottom: 12px; }
+.h2h input { background: #0a0a14; border: 1px solid #2a2a4a; color: #fff; padding: 7px 10px; border-radius: 5px; font-family: inherit; }
+.h2h button { background: #1a140a; color: #ffd700; border: 1px solid #663399; padding: 7px 14px; border-radius: 5px; cursor: pointer; font-family: inherit; }
 </style>
 </head>
 <body>
@@ -171,18 +182,46 @@ h1.page-title { color: #ff3333; font-size: 26px; letter-spacing: 3px; margin-bot
     <div class="page-sub" id="custSub">THE ORIGINALS, BY BRAND</div>
     <div class="cust-grid" id="custGrid"><div class="loading">Loading&hellip;</div></div>
   </section>
+
+  <section id="reigns">
+    <h1 class="page-title">Title Reigns</h1>
+    <div class="page-sub" id="reignSub">REIGN HISTORY &middot; LONGEST &middot; MOST DEFENSES</div>
+    <div id="reignBody"><div class="loading">Loading&hellip;</div></div>
+  </section>
+
+  <section id="season">
+    <h1 class="page-title">Season Tracker</h1>
+    <div class="page-sub" id="seasonSub">THE MATCH LOG</div>
+    <div id="seasonBody"><div class="loading">Loading&hellip;</div></div>
+  </section>
+
+  <section id="stats">
+    <h1 class="page-title">Records &amp; Stats</h1>
+    <div class="page-sub">BRAND PERFORMANCE &middot; STREAKS &middot; HEAD-TO-HEAD &amp; MORE</div>
+    <div id="statsBody"><div class="loading">Loading&hellip;</div></div>
+  </section>
+
+  <section id="rematch">
+    <h1 class="page-title">Rematch Pools</h1>
+    <div class="page-sub" id="rematchSub">CHALLENGER QUEUES BY TITLE</div>
+    <div class="cust-grid" id="rematchGrid"><div class="loading">Loading&hellip;</div></div>
+  </section>
 </main>
 
 <script>
 const PAGES = [
   { id: 'cover', label: 'Cover' },
   { id: 'champions', label: 'Champions' },
+  { id: 'reigns', label: 'Title Reigns' },
   { id: 'tournaments', label: 'Tournaments' },
+  { id: 'season', label: 'Season Log' },
+  { id: 'stats', label: 'Records & Stats' },
   { id: 'factions', label: 'Empire of Pain' },
   { id: 'teams', label: 'Tag Teams' },
   { id: 'divisions', label: 'Divisions' },
   { id: 'roster', label: 'Master Roster' },
   { id: 'customs', label: 'Custom Roster' },
+  { id: 'rematch', label: 'Rematch Pools' },
 ];
 let STATE = {}, TOUR = {}, SEASON = {}, TEAMS = [], SORTER = { assignments: {} }, ROSTERST = {};
 let BRAND = {}, KEPT_BY_NORM = {}, EOP_SET = new Set(), selTour = null;
@@ -353,6 +392,109 @@ function renderCustoms() {
   }).join('') || '<div class="err">No custom characters.</div>';
 }
 
+function seasonNow() { return (SEASON.seasons && SEASON.seasons[SEASON.currentSeason]) || {}; }
+function allMatches() { return seasonNow().matches || []; }
+function daysSince(d) { if (!d) return null; const t = new Date(d); if (isNaN(t.getTime())) return null; return Math.max(0, Math.floor((Date.now() - t.getTime()) / 86400000)); }
+
+function renderReigns() {
+  const holders = seasonNow().titleHolders || {};
+  const hist = Object.keys(holders).map(t => { const h = holders[t] || {}; return { title: t, holder: h.holder, won: h.wonDate, def: h.defenses || 0, days: daysSince(h.wonDate) }; }).filter(r => r.holder);
+  document.getElementById('reignSub').textContent = hist.length + ' ACTIVE TITLE REIGNS';
+  if (!hist.length) { document.getElementById('reignBody').innerHTML = '<div class="err">No title reigns yet.</div>'; return; }
+  let h = '<div class="statblock"><h3>Title Reign History</h3><table class="tbl"><tr><th>Championship</th><th>Champion</th><th>Since</th><th>Days</th><th>Defenses</th></tr>';
+  hist.forEach(r => { h += '<tr><td>' + esc(r.title) + '</td><td>' + esc(r.holder) + eopTag(r.holder) + '</td><td>' + esc(r.won || '') + '</td><td>' + (r.days == null ? '?' : r.days) + '</td><td>' + r.def + '</td></tr>'; });
+  h += '</table></div>';
+  const longest = hist.slice().sort((a, b) => (b.days || 0) - (a.days || 0));
+  h += '<div class="statblock"><h3>Longest Reigns</h3><table class="tbl"><tr><th class="rank">#</th><th>Champion</th><th>Championship</th><th>Days</th></tr>';
+  longest.forEach((r, i) => { h += '<tr><td class="rank">' + (i + 1) + '</td><td>' + esc(r.holder) + '</td><td>' + esc(r.title) + '</td><td>' + (r.days == null ? '?' : r.days) + '</td></tr>'; });
+  h += '</table></div>';
+  const md = hist.slice().sort((a, b) => b.def - a.def);
+  h += '<div class="statblock"><h3>Most Title Defenses</h3><table class="tbl"><tr><th class="rank">#</th><th>Champion</th><th>Championship</th><th>Defenses</th></tr>';
+  md.forEach((r, i) => { h += '<tr><td class="rank">' + (i + 1) + '</td><td>' + esc(r.holder) + '</td><td>' + esc(r.title) + '</td><td>' + r.def + '</td></tr>'; });
+  h += '</table></div>';
+  document.getElementById('reignBody').innerHTML = h;
+}
+
+function renderSeasonLog() {
+  const m = allMatches();
+  document.getElementById('seasonSub').textContent = 'SEASON ' + (SEASON.currentSeason || 1) + ' — ' + m.length + ' MATCHES LOGGED';
+  if (!m.length) { document.getElementById('seasonBody').innerHTML = '<div class="note">No matches recorded yet for this season. This fills in as matches are logged in the book.</div>'; return; }
+  let h = '<table class="tbl"><tr><th>Date</th><th>Match</th><th>Winner</th><th>Type</th><th>Title</th></tr>';
+  m.slice().reverse().forEach(x => {
+    h += '<tr><td>' + esc(x.date || '') + '</td><td>' + esc((x.participants || []).join(' vs ')) + '</td><td style="color:#ffd700">' + esc(x.winner || '') + '</td><td>' + esc(x.matchType || '') + '</td><td>' + esc(x.championship || '') + (x.isRematch ? ' <span style="color:#cc99ff">(rematch)</span>' : '') + '</td></tr>';
+  });
+  document.getElementById('seasonBody').innerHTML = h + '</table>';
+}
+
+function renderStats() {
+  const m = allMatches();
+  let h = '';
+  h += '<div class="statblock"><h3>Brand Performance</h3>';
+  if (m.length) {
+    const bw = {}, bl = {};
+    m.forEach(x => { const wb = brandOf(x.winner); if (wb) bw[wb] = (bw[wb] || 0) + 1; (x.losers || []).forEach(l => { const lb = brandOf(l); if (lb) bl[lb] = (bl[lb] || 0) + 1; }); });
+    const brands = [...new Set([...Object.keys(bw), ...Object.keys(bl)])];
+    brands.sort((a, b) => ((bw[b] || 0) / (((bw[b] || 0) + (bl[b] || 0)) || 1)) - ((bw[a] || 0) / (((bw[a] || 0) + (bl[a] || 0)) || 1)));
+    h += '<table class="tbl"><tr><th>Brand</th><th>Wins</th><th>Losses</th><th>Win %</th></tr>';
+    brands.forEach(b => { const w = bw[b] || 0, l = bl[b] || 0, p = (w + l) ? Math.round(100 * w / (w + l)) : 0; h += '<tr><td>' + esc(b) + '</td><td>' + w + '</td><td>' + l + '</td><td>' + p + '%</td></tr>'; });
+    h += '</table>';
+  } else {
+    const bc = {}; (SEASON.customRoster || []).forEach(r => { if (r && r.brand) bc[r.brand] = (bc[r.brand] || 0) + 1; });
+    h += '<div class="note">No match results yet — showing roster size per brand. Win/loss fills in as matches are logged.</div><table class="tbl"><tr><th>Brand</th><th>Roster</th></tr>';
+    Object.keys(bc).sort((a, b) => bc[b] - bc[a]).forEach(b => { h += '<tr><td>' + esc(b) + '</td><td>' + bc[b] + '</td></tr>'; });
+    h += '</table>';
+  }
+  h += '</div>';
+  h += '<div class="statblock"><h3>Most Matches Wrestled</h3>';
+  if (m.length) { const c = {}; m.forEach(x => (x.participants || []).forEach(p => c[p] = (c[p] || 0) + 1)); const top = Object.keys(c).sort((a, b) => c[b] - c[a]).slice(0, 25); h += '<table class="tbl"><tr><th class="rank">#</th><th>Wrestler</th><th>Matches</th></tr>'; top.forEach((n, i) => h += '<tr><td class="rank">' + (i + 1) + '</td><td>' + esc(n) + '</td><td>' + c[n] + '</td></tr>'); h += '</table>'; }
+  else h += '<div class="note">No matches logged yet.</div>';
+  h += '</div>';
+  h += '<div class="statblock"><h3>Match Type Frequency</h3>';
+  if (m.length) { const c = {}; m.forEach(x => { const t = x.matchType || 'Unknown'; c[t] = (c[t] || 0) + 1; }); h += '<table class="tbl"><tr><th>Match Type</th><th>Count</th></tr>'; Object.keys(c).sort((a, b) => c[b] - c[a]).forEach(t => h += '<tr><td>' + esc(t) + '</td><td>' + c[t] + '</td></tr>'); h += '</table>'; }
+  else h += '<div class="note">No matches logged yet.</div>';
+  h += '</div>';
+  h += '<div class="statblock"><h3>Win / Loss Streaks</h3>';
+  if (m.length) {
+    const seq = {}; m.forEach(x => (x.participants || []).forEach(p => { (seq[p] = seq[p] || []).push(p === x.winner ? 'W' : 'L'); }));
+    const streak = arr => { if (!arr.length) return { t: '', n: 0 }; const last = arr[arr.length - 1]; let n = 0; for (let i = arr.length - 1; i >= 0 && arr[i] === last; i--) n++; return { t: last, n }; };
+    const wins = [], losses = []; Object.keys(seq).forEach(p => { const s = streak(seq[p]); if (s.t === 'W' && s.n >= 2) wins.push([p, s.n]); if (s.t === 'L' && s.n >= 2) losses.push([p, s.n]); });
+    wins.sort((a, b) => b[1] - a[1]); losses.sort((a, b) => b[1] - a[1]);
+    h += '<div style="display:grid;grid-template-columns:1fr 1fr;gap:14px">';
+    h += '<div><b style="color:#66ff99">Hot — win streaks</b><table class="tbl"><tr><th>Wrestler</th><th>W</th></tr>' + (wins.length ? wins.map(x => '<tr><td>' + esc(x[0]) + '</td><td>' + x[1] + '</td></tr>').join('') : '<tr><td colspan="2">None</td></tr>') + '</table></div>';
+    h += '<div><b style="color:#ff6666">Cold — loss streaks</b><table class="tbl"><tr><th>Wrestler</th><th>L</th></tr>' + (losses.length ? losses.map(x => '<tr><td>' + esc(x[0]) + '</td><td>' + x[1] + '</td></tr>').join('') : '<tr><td colspan="2">None</td></tr>') + '</table></div>';
+    h += '</div>';
+  } else h += '<div class="note">No matches logged yet.</div>';
+  h += '</div>';
+  h += '<div class="statblock"><h3>Head-to-Head</h3><div class="h2h"><input id="h2hA" placeholder="Wrestler A"><span style="color:#ff5555">vs</span><input id="h2hB" placeholder="Wrestler B"><button onclick="runH2H()">Compare</button></div><div id="h2hResult" class="note" style="display:none"></div></div>';
+  document.getElementById('statsBody').innerHTML = h;
+}
+function runH2H() {
+  const a = (document.getElementById('h2hA').value || '').trim(), b = (document.getElementById('h2hB').value || '').trim();
+  const res = document.getElementById('h2hResult'); res.style.display = 'block';
+  if (!a || !b) { res.textContent = 'Enter two names.'; return; }
+  const m = allMatches(), na = normName(a), nb = normName(b); let aw = 0, bw = 0, meet = 0;
+  m.forEach(x => { const ps = (x.participants || []).map(normName); if (ps.includes(na) && ps.includes(nb)) { meet++; if (normName(x.winner) === na) aw++; else if (normName(x.winner) === nb) bw++; } });
+  res.innerHTML = meet ? (esc(a) + ' <b>' + aw + '</b> &mdash; <b>' + bw + '</b> ' + esc(b) + '  (' + meet + ' meeting' + (meet === 1 ? '' : 's') + ')') : 'No recorded matches between ' + esc(a) + ' and ' + esc(b) + ' yet.';
+}
+
+function renderRematch() {
+  const s = seasonNow(), rl = s.rematchList || {}, holders = s.titleHolders || {};
+  const titles = Object.keys(TOUR.tournaments || {});
+  let any = false;
+  const h = titles.map(t => {
+    const champ = (holders[t] && holders[t].holder) || (TOUR.tournaments[t] && TOUR.tournaments[t].champion) || null;
+    const queue = rl[t] || [];
+    if (queue.length) any = true;
+    return '<div class="divcard"><h3><span>' + esc(t) + '</span></h3>'
+      + '<div style="color:#ffd700;font-size:13px;margin-bottom:4px">&#127942; ' + (champ ? esc(champ) : '<span style="color:#888">vacant</span>') + '</div>'
+      + '<div style="color:#9aa;font-size:11px;letter-spacing:1px;margin-bottom:3px">CONTENDERS</div>'
+      + (queue.length ? '<ul>' + queue.map(n => '<li>' + esc(n) + eopTag(n) + '</li>').join('') + '</ul>' : '<div style="color:#666;font-size:12px;font-style:italic">none queued</div>')
+      + '</div>';
+  }).join('');
+  document.getElementById('rematchSub').textContent = any ? 'CHALLENGER QUEUES BY TITLE' : 'CURRENT CHAMPIONS — NO REMATCHES QUEUED YET';
+  document.getElementById('rematchGrid').innerHTML = h || '<div class="err">No titles.</div>';
+}
+
 async function boot() {
   buildNav();
   goto('cover');
@@ -386,6 +528,10 @@ async function boot() {
   renderDivisions();
   renderRoster();
   renderCustoms();
+  renderReigns();
+  renderSeasonLog();
+  renderStats();
+  renderRematch();
 }
 boot();
 </script>
