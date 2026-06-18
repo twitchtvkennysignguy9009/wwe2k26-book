@@ -10,7 +10,6 @@ html, body { background: #000; color: #e6e6e6; font-family: Calibri, 'Segoe UI',
 body { min-height: 100vh; }
 a { color: inherit; }
 
-/* ---- top nav ---- */
 header { position: sticky; top: 0; z-index: 50; background: linear-gradient(to right,#0a0a14,#1a0a0a); border-bottom: 2px solid #1a3a8a; padding: 10px 16px; display: flex; align-items: center; gap: 16px; flex-wrap: wrap; }
 header .brand { color: #ff3333; font-size: 18px; letter-spacing: 3px; font-weight: bold; text-shadow: 0 0 12px rgba(255,51,51,.5); }
 nav { display: flex; gap: 6px; flex-wrap: wrap; }
@@ -26,7 +25,6 @@ section.active { display: block; animation: fade .15s ease-out; }
 h1.page-title { color: #ff3333; font-size: 26px; letter-spacing: 3px; margin-bottom: 4px; }
 .page-sub { color: #d4a35a; font-size: 13px; letter-spacing: 2px; margin-bottom: 18px; }
 
-/* ---- cover ---- */
 #cover.active { display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; min-height: 70vh; }
 #cover .book { width: min(90vw,640px); padding: 50px 30px; border: 6px solid #1a0a02; border-radius: 8px 20px 20px 8px; background: linear-gradient(135deg,#5a3015,#3a1a08 50%,#1a0a02); box-shadow: -8px 0 26px rgba(0,0,0,.85), inset 5px 0 12px rgba(0,0,0,.7); }
 #cover h2 { color: #ff3333; font-size: 50px; letter-spacing: 6px; text-shadow: 0 0 14px rgba(255,51,51,.55),3px 3px 0 #000; }
@@ -34,7 +32,9 @@ h1.page-title { color: #ff3333; font-size: 26px; letter-spacing: 3px; margin-bot
 #cover .chapters { color: #e8c98a; font-size: 14px; line-height: 2; letter-spacing: 2px; }
 #cover .updated { color: #777; font-size: 11px; letter-spacing: 2px; margin-top: 22px; }
 
-/* ---- champions ---- */
+.group-hdr { color: #d4a35a; font-size: 14px; letter-spacing: 2px; padding: 6px 10px; background: #0a0014; border: 1px solid #663399; border-radius: 4px; margin: 18px 0 10px; }
+.group-hdr .cnt { color: #888; font-size: 11px; }
+
 .champ-grid { display: grid; grid-template-columns: repeat(auto-fill,minmax(280px,1fr)); gap: 12px; }
 .belt { border: 2px solid #ffd700; border-radius: 8px; padding: 14px 16px; background: linear-gradient(135deg,#241b04,#0a0a14); }
 .belt.vacant { border-color: #3a3a3a; background: #0a0a10; }
@@ -42,10 +42,8 @@ h1.page-title { color: #ff3333; font-size: 26px; letter-spacing: 3px; margin-bot
 .belt.vacant .title { color: #888; }
 .belt .holder { color: #fff; font-size: 20px; margin-top: 6px; }
 .belt .meta { color: #9aa; font-size: 12px; margin-top: 6px; letter-spacing: 1px; }
-.belt .live { color: #66ff99; }
-.belt .pending { color: #d4a35a; }
+.belt .live { color: #66ff99; } .belt .pending { color: #d4a35a; }
 
-/* ---- tournaments ---- */
 .tour-wrap { display: grid; grid-template-columns: 240px 1fr; gap: 16px; }
 @media (max-width: 720px){ .tour-wrap { grid-template-columns: 1fr; } }
 .tour-list { border: 1px solid #222; border-radius: 6px; background: #050509; padding: 8px; max-height: 70vh; overflow-y: auto; }
@@ -68,28 +66,35 @@ h1.page-title { color: #ff3333; font-size: 26px; letter-spacing: 3px; margin-bot
 .champ-banner { background: linear-gradient(90deg,#2a1f05,#1a1405); border: 2px solid #ffd700; border-radius: 6px; padding: 12px 16px; margin-bottom: 14px; color: #ffd700; font-size: 19px; letter-spacing: 2px; text-align: center; text-shadow: 0 0 12px rgba(255,215,0,.5); }
 .eoptag { color: #cc99ff; font-size: 11px; font-weight: bold; letter-spacing: 1px; border: 1px solid #7733bb; border-radius: 10px; padding: 1px 7px; white-space: nowrap; }
 
-/* ---- factions ---- */
-.fac-grid { display: grid; grid-template-columns: repeat(auto-fill,minmax(260px,1fr)); gap: 12px; }
-.faction { background: #0a0a14; border: 2px solid #444; border-radius: 6px; padding: 12px; }
+.fac-grid, .div-grid, .cust-grid { display: grid; grid-template-columns: repeat(auto-fill,minmax(260px,1fr)); gap: 12px; }
+.faction, .divcard { background: #0a0a14; border: 2px solid #444; border-radius: 6px; padding: 12px; }
 .faction.full { border-color: #66ff99; background: #0a1a0a; }
-.faction h3 { color: #cc99ff; font-size: 15px; display: flex; justify-content: space-between; margin-bottom: 6px; }
+.faction h3, .divcard h3 { color: #cc99ff; font-size: 15px; display: flex; justify-content: space-between; margin-bottom: 6px; }
+.divcard h3 { color: #d4a35a; }
 .faction.full h3 { color: #66ff99; }
-.faction ul { list-style: none; }
-.faction li { padding: 4px 6px; color: #ddd; border-bottom: 1px solid #1a1a2a; font-size: 14px; }
-.faction li:last-child { border-bottom: none; }
+.faction ul, .divcard ul { list-style: none; }
+.faction li, .divcard li { padding: 4px 6px; color: #ddd; border-bottom: 1px solid #1a1a2a; font-size: 13px; }
+.faction li:last-child, .divcard li:last-child { border-bottom: none; }
 .faction li .brand { color: #7fa0d8; font-size: 11px; margin-left: 6px; }
 
-/* ---- roster ---- */
+.team { background: #0a0a14; border: 1px solid #1a3a8a; border-left: 3px solid #d4a35a; border-radius: 5px; padding: 9px 12px; margin-bottom: 7px; }
+.team .tn { color: #ffd700; font-size: 14px; font-weight: bold; }
+.team .mem { margin-top: 4px; }
+.team .sub { margin-top: 6px; padding-left: 10px; border-left: 2px solid #663399; }
+.team .sub .sn { color: #cc99ff; font-size: 12px; letter-spacing: 1px; }
+.chip { display: inline-block; background: #11162a; border: 1px solid #2a2a4a; border-radius: 10px; padding: 1px 9px; margin: 2px 3px 2px 0; font-size: 12px; color: #cfd6e6; }
+.chip.eopc { border-color: #7733bb; color: #cc99ff; }
+
 .roster-tools { display: flex; gap: 10px; align-items: center; margin-bottom: 14px; flex-wrap: wrap; }
 .roster-tools input { background: #0a0a14; border: 1px solid #2a2a4a; color: #fff; padding: 8px 12px; border-radius: 5px; font-size: 14px; min-width: 220px; font-family: inherit; }
 .roster-tools .cnt { color: #888; font-size: 12px; letter-spacing: 1px; }
 .roster-grid { display: grid; grid-template-columns: repeat(auto-fill,minmax(230px,1fr)); gap: 6px; }
 .rcard { border: 1px solid #1a2030; border-radius: 5px; padding: 7px 11px; background: #0a0a12; display: flex; align-items: center; justify-content: space-between; gap: 8px; }
-.rcard .rn { font-size: 14px; }
-.rcard .rb { color: #7fa0d8; font-size: 11px; white-space: nowrap; }
+.rcard .rn { font-size: 14px; } .rcard .rb { color: #7fa0d8; font-size: 11px; white-space: nowrap; }
 .rcard.eop { border-color: #5a3a7a; }
-.tags { font-size: 10px; letter-spacing: 1px; }
-.tag-eop { color: #cc99ff; } .tag-ps { color: #66ff99; }
+.tags { font-size: 10px; letter-spacing: 1px; } .tag-eop { color: #cc99ff; } .tag-ps { color: #66ff99; }
+.st-have { color: #66ff99; } .st-donthave { color: #ffb347; } .st-cut { color: #d4a35a; } .st-delete { color: #ff6666; }
+.gtag { font-size: 10px; color: #7fa0d8; margin-left: 4px; }
 .loading { color: #d4a35a; padding: 30px; text-align: center; letter-spacing: 2px; }
 .err { color: #ff6666; padding: 20px; border: 1px solid #662222; border-radius: 6px; background: #170808; }
 </style>
@@ -109,10 +114,10 @@ h1.page-title { color: #ff3333; font-size: 26px; letter-spacing: 3px; margin-bot
       <div class="ornament">&#10070; &#10070; &#10070;</div>
       <div style="color:#ff3333;font-size:18px;letter-spacing:5px;margin-bottom:14px">THE PLAYBOOK</div>
       <div class="chapters">
-        Champions &middot; Hall of Belts<br>
-        Tournaments &middot; Brackets<br>
-        Empire of Pain &middot; Factions<br>
-        Master Roster
+        Champions &middot; Tournaments<br>
+        Empire of Pain &middot; Tag Teams<br>
+        Divisions &middot; Master Roster<br>
+        Custom Roster
       </div>
       <div class="updated" id="coverUpdated"></div>
     </div>
@@ -139,6 +144,18 @@ h1.page-title { color: #ff3333; font-size: 26px; letter-spacing: 3px; margin-bot
     <div class="fac-grid" id="facGrid"><div class="loading">Loading&hellip;</div></div>
   </section>
 
+  <section id="teams">
+    <h1 class="page-title">Tag Teams</h1>
+    <div class="page-sub" id="teamSub">EVERY DUO &amp; PARTNERSHIP</div>
+    <div id="teamList"><div class="loading">Loading&hellip;</div></div>
+  </section>
+
+  <section id="divisions">
+    <h1 class="page-title">Divisions</h1>
+    <div class="page-sub" id="divSub">THE ROSTER BY CATEGORY</div>
+    <div class="div-grid" id="divGrid"><div class="loading">Loading&hellip;</div></div>
+  </section>
+
   <section id="roster">
     <h1 class="page-title">Master Roster</h1>
     <div class="page-sub">EVERY COMPETITOR IN THE BOOK</div>
@@ -148,6 +165,12 @@ h1.page-title { color: #ff3333; font-size: 26px; letter-spacing: 3px; margin-bot
     </div>
     <div class="roster-grid" id="rosterGrid"><div class="loading">Loading&hellip;</div></div>
   </section>
+
+  <section id="customs">
+    <h1 class="page-title">Custom Roster</h1>
+    <div class="page-sub" id="custSub">THE ORIGINALS, BY BRAND</div>
+    <div class="cust-grid" id="custGrid"><div class="loading">Loading&hellip;</div></div>
+  </section>
 </main>
 
 <script>
@@ -156,11 +179,14 @@ const PAGES = [
   { id: 'champions', label: 'Champions' },
   { id: 'tournaments', label: 'Tournaments' },
   { id: 'factions', label: 'Empire of Pain' },
-  { id: 'roster', label: 'Roster' },
+  { id: 'teams', label: 'Tag Teams' },
+  { id: 'divisions', label: 'Divisions' },
+  { id: 'roster', label: 'Master Roster' },
+  { id: 'customs', label: 'Custom Roster' },
 ];
-let STATE = {}, TOUR = {}, SEASON = {}, BRAND = {}, EOP_SET = new Set(), selTour = null;
+let STATE = {}, TOUR = {}, SEASON = {}, TEAMS = [], SORTER = { assignments: {} }, ROSTERST = {};
+let BRAND = {}, KEPT_BY_NORM = {}, EOP_SET = new Set(), selTour = null;
 
-// ---- data loading (browser fetch, BOM-safe) ----
 async function loadJSON(p) {
   const res = await fetch(p + '?v=' + Date.now());
   if (!res.ok) throw new Error(p + ' -> HTTP ' + res.status);
@@ -178,14 +204,10 @@ function normName(s) {
 }
 function isEOP(name) { return EOP_SET.has(normName(name)); }
 function eopTag(name) { return isEOP(name) ? ' <span class="eoptag">&#9876; Empire of Pain</span>' : ''; }
-function brandOf(name) {
-  if (BRAND[name]) return BRAND[name];
-  const k = normName(name);
-  for (const n in BRAND) if (normName(n) === k) return BRAND[n];
-  return '';
-}
+function brandOf(name) { if (BRAND[name]) return BRAND[name]; const k = normName(name); for (const n in BRAND) if (normName(n) === k) return BRAND[n]; return ''; }
+function dispName(key) { return KEPT_BY_NORM[normName(key)] || String(key).replace(/\b\w/g, c => c.toUpperCase()); }
+function rstateOf(name) { if (ROSTERST[name]) return ROSTERST[name]; const k = normName(name); for (const n in ROSTERST) if (normName(n) === k) return ROSTERST[n]; return {}; }
 
-// ---- nav ----
 function goto(id) {
   document.querySelectorAll('section').forEach(s => s.classList.toggle('active', s.id === id));
   document.querySelectorAll('#nav button').forEach(b => b.classList.toggle('active', b.dataset.id === id));
@@ -196,33 +218,26 @@ function buildNav() {
     '<button data-id="' + p.id + '" onclick="goto(\'' + p.id + '\')">' + esc(p.label) + '</button>').join('');
 }
 
-// ---- champions ----
 function renderChampions() {
   const titles = Object.keys(TOUR.tournaments || {});
   const season = SEASON.seasons && SEASON.seasons[SEASON.currentSeason];
   const holders = (season && season.titleHolders) || {};
   const cur = TOUR.currentTitle;
   const html = titles.map(name => {
-    const t = TOUR.tournaments[name];
-    const h = holders[name];
+    const t = TOUR.tournaments[name], h = holders[name];
     const champ = (t && t.completed && t.champion) || (h && h.holder) || null;
     if (champ) {
       const meta = h ? ('Won ' + esc(h.wonDate || '') + (h.defenses ? ' &middot; ' + h.defenses + ' defense' + (h.defenses === 1 ? '' : 's') : '')) : 'Champion';
-      return '<div class="belt"><div class="title">&#127942; ' + esc(name) + '</div>'
-        + '<div class="holder">' + esc(champ) + eopTag(champ) + '</div>'
-        + '<div class="meta">' + meta + '</div></div>';
+      return '<div class="belt"><div class="title">&#127942; ' + esc(name) + '</div><div class="holder">' + esc(champ) + eopTag(champ) + '</div><div class="meta">' + meta + '</div></div>';
     }
     const live = name === cur;
-    return '<div class="belt vacant"><div class="title">' + esc(name) + '</div>'
-      + '<div class="holder" style="color:#888;font-size:16px">' + (live ? '<span class="live">&#9654; Being decided now</span>' : '<span class="pending">Not crowned yet</span>') + '</div>'
-      + '<div class="meta">' + (live ? 'Current tournament' : 'Upcoming') + '</div></div>';
+    return '<div class="belt vacant"><div class="title">' + esc(name) + '</div><div class="holder" style="color:#888;font-size:16px">' + (live ? '<span class="live">&#9654; Being decided now</span>' : '<span class="pending">Not crowned yet</span>') + '</div><div class="meta">' + (live ? 'Current tournament' : 'Upcoming') + '</div></div>';
   }).join('');
   const crowned = titles.filter(n => { const t = TOUR.tournaments[n]; return (t && t.completed) || (holders[n] && holders[n].holder); }).length;
   document.getElementById('champSub').textContent = crowned + ' OF ' + titles.length + ' TITLES CROWNED';
   document.getElementById('champGrid').innerHTML = html || '<div class="err">No titles found.</div>';
 }
 
-// ---- tournaments ----
 function tourStatus(name) {
   const t = TOUR.tournaments[name];
   if (t && t.completed && t.champion) return { cls: 'done', txt: 'CHAMPION: ' + t.champion };
@@ -234,9 +249,7 @@ function renderTourList() {
   const titles = Object.keys(TOUR.tournaments || {});
   document.getElementById('tourList').innerHTML = titles.map((name, i) => {
     const st = tourStatus(name);
-    return '<div class="tour-item ' + (name === selTour ? 'sel' : '') + '" onclick="selectTour(\'' + name.replace(/'/g, "\\'") + '\')">'
-      + '<div class="n">' + (i + 1) + '. ' + esc(name) + '</div>'
-      + '<div class="st ' + st.cls + '">' + esc(st.txt) + '</div></div>';
+    return '<div class="tour-item ' + (name === selTour ? 'sel' : '') + '" onclick="selectTour(\'' + name.replace(/'/g, "\\'") + '\')"><div class="n">' + (i + 1) + '. ' + esc(name) + '</div><div class="st ' + st.cls + '">' + esc(st.txt) + '</div></div>';
   }).join('') || '<div class="err">No tournaments.</div>';
 }
 function selectTour(name) { selTour = name; renderTourList(); renderBracket(); }
@@ -246,8 +259,7 @@ function side(name, winner) {
   return '<div class="side' + cls + '"><span class="nm">' + esc(name) + '</span>' + eopTag(name) + '</div>';
 }
 function renderBracket() {
-  const name = selTour, t = TOUR.tournaments[name];
-  const el = document.getElementById('bracket');
+  const name = selTour, t = TOUR.tournaments[name], el = document.getElementById('bracket');
   if (!t) { el.innerHTML = '<div class="err">Pick a tournament.</div>'; return; }
   let html = '';
   if (t.completed && t.champion) html += '<div class="champ-banner">&#127942; ' + esc(t.champion) + eopTag(t.champion) + ' &mdash; ' + esc(name) + '</div>';
@@ -259,34 +271,57 @@ function renderBracket() {
   rounds.forEach(r => {
     const matches = (r.matches || []).filter(m => m.a || m.b);
     if (!matches.length) return;
-    html += '<div class="round"><div class="round-hdr">' + esc(r.name || 'Round')
-      + (r.matchType ? ' <span class="mt">&middot; ' + esc(r.matchType) + '</span>' : '') + '</div>';
-    matches.forEach(m => {
-      html += '<div class="match">' + side(m.a, m.winner) + '<div class="vs">vs</div>' + side(m.b, m.winner) + '</div>';
-    });
+    html += '<div class="round"><div class="round-hdr">' + esc(r.name || 'Round') + (r.matchType ? ' <span class="mt">&middot; ' + esc(r.matchType) + '</span>' : '') + '</div>';
+    matches.forEach(m => { html += '<div class="match">' + side(m.a, m.winner) + '<div class="vs">vs</div>' + side(m.b, m.winner) + '</div>'; });
     html += '</div>';
   });
   el.innerHTML = html;
 }
 
-// ---- factions ----
 function renderFactions() {
   const factions = STATE.factions || {};
-  const keys = Object.keys(factions).filter(k => (factions[k] || []).length)
-    .sort((a, b) => (parseInt(a.replace(/\D/g, '')) || 0) - (parseInt(b.replace(/\D/g, '')) || 0));
-  const total = new Set();
-  keys.forEach(k => factions[k].forEach(n => total.add(n)));
+  const keys = Object.keys(factions).filter(k => (factions[k] || []).length).sort((a, b) => (parseInt(a.replace(/\D/g, '')) || 0) - (parseInt(b.replace(/\D/g, '')) || 0));
+  const total = new Set(); keys.forEach(k => factions[k].forEach(n => total.add(n)));
   document.getElementById('facSub').textContent = total.size + ' MEMBERS ACROSS ' + keys.length + ' SQUADS';
   document.getElementById('facGrid').innerHTML = keys.map(k => {
-    const mem = factions[k] || [];
-    const full = mem.length >= 5;
+    const mem = factions[k] || [], full = mem.length >= 5;
     return '<div class="faction' + (full ? ' full' : '') + '"><h3><span>' + esc(k) + '</span><span>' + mem.length + ' / 5</span></h3><ul>'
-      + mem.map(n => { const b = brandOf(n); return '<li>' + esc(n) + (b ? '<span class="brand">' + esc(b) + '</span>' : '') + '</li>'; }).join('')
-      + '</ul></div>';
+      + mem.map(n => { const b = brandOf(n); return '<li>' + esc(n) + (b ? '<span class="brand">' + esc(b) + '</span>' : '') + '</li>'; }).join('') + '</ul></div>';
   }).join('') || '<div class="err">No factions set.</div>';
 }
 
-// ---- roster ----
+function renderTeams() {
+  const teams = TEAMS || [];
+  const cats = [...new Set(teams.map(t => t.category || 'OTHER'))];
+  document.getElementById('teamSub').textContent = teams.length + ' TAG TEAMS';
+  let html = '';
+  cats.forEach(cat => {
+    const list = teams.filter(t => (t.category || 'OTHER') === cat);
+    if (!list.length) return;
+    html += '<div class="group-hdr">' + esc(cat) + ' <span class="cnt">&mdash; ' + list.length + '</span></div>';
+    list.forEach(t => {
+      html += '<div class="team"><div class="tn">' + esc(t.name || 'Team') + '</div>';
+      if ((t.members || []).length) html += '<div class="mem">' + t.members.map(m => '<span class="chip' + (isEOP(m) ? ' eopc' : '') + '">' + esc(m) + '</span>').join('') + '</div>';
+      (t.subs || []).forEach(s => { html += '<div class="sub"><span class="sn">' + esc(s.name || 'Sub-team') + ':</span> ' + (s.members || []).map(m => '<span class="chip' + (isEOP(m) ? ' eopc' : '') + '">' + esc(m) + '</span>').join('') + '</div>'; });
+      html += '</div>';
+    });
+  });
+  document.getElementById('teamList').innerHTML = html || '<div class="err">No tag teams.</div>';
+}
+
+function renderDivisions() {
+  const a = (SORTER && SORTER.assignments) || {};
+  const byCat = {};
+  Object.keys(a).forEach(k => (a[k] || []).forEach(c => { (byCat[c] = byCat[c] || []).push(dispName(k)); }));
+  const cats = Object.keys(byCat).sort();
+  document.getElementById('divSub').textContent = cats.length + ' DIVISIONS';
+  document.getElementById('divGrid').innerHTML = cats.map(c => {
+    const names = byCat[c].slice().sort((x, y) => x.localeCompare(y));
+    return '<div class="divcard"><h3><span>' + esc(c) + '</span><span style="color:#888;font-size:12px">' + names.length + '</span></h3><ul>'
+      + names.map(n => '<li>' + esc(n) + (isEOP(n) ? ' <span class="eoptag">&#9876;</span>' : '') + '</li>').join('') + '</ul></div>';
+  }).join('') || '<div class="err">No categories set.</div>';
+}
+
 function renderRoster() {
   const all = (STATE.kept || []).slice().sort((a, b) => a.localeCompare(b));
   const ps = new Set((STATE.playerStreamer || []).map(normName));
@@ -296,12 +331,28 @@ function renderRoster() {
   document.getElementById('rosterGrid').innerHTML = list.map(n => {
     const b = brandOf(n), eop = isEOP(n), isPS = ps.has(normName(n));
     const tags = (eop ? '<span class="tag-eop">&#9876;EOP</span> ' : '') + (isPS ? '<span class="tag-ps">&#9733;P/S</span>' : '');
-    return '<div class="rcard' + (eop ? ' eop' : '') + '"><span class="rn">' + esc(n) + '</span>'
-      + '<span class="rb">' + (tags ? '<span class="tags">' + tags + '</span> ' : '') + esc(b) + '</span></div>';
+    return '<div class="rcard' + (eop ? ' eop' : '') + '"><span class="rn">' + esc(n) + '</span><span class="rb">' + (tags ? '<span class="tags">' + tags + '</span> ' : '') + esc(b) + '</span></div>';
   }).join('') || '<div class="err">No matches.</div>';
 }
 
-// ---- boot ----
+function renderCustoms() {
+  const cr = (SEASON.customRoster) || [];
+  const byBrand = {};
+  cr.forEach(r => { if (!r || !r.name) return; (byBrand[r.brand || 'Unsorted'] = byBrand[r.brand || 'Unsorted'] || []).push(r.name); });
+  const brands = Object.keys(byBrand).sort();
+  document.getElementById('custSub').textContent = cr.length + ' CUSTOM CHARACTERS ACROSS ' + brands.length + ' BRANDS';
+  document.getElementById('custGrid').innerHTML = brands.map(b => {
+    const names = byBrand[b].slice().sort((x, y) => x.localeCompare(y));
+    return '<div class="divcard"><h3><span>' + esc(b) + '</span><span style="color:#888;font-size:12px">' + names.length + '</span></h3><ul>'
+      + names.map(n => {
+        const rs = rstateOf(n);
+        const st = rs.status ? ' <span class="st-' + esc(rs.status) + '" style="font-size:11px">&bull; ' + esc(rs.status) + '</span>' : '';
+        const g = (rs.gender && rs.gender !== '?') ? '<span class="gtag">' + esc(rs.gender) + '</span>' : '';
+        return '<li>' + esc(n) + g + (isEOP(n) ? ' <span class="eoptag">&#9876;</span>' : '') + st + '</li>';
+      }).join('') + '</ul></div>';
+  }).join('') || '<div class="err">No custom characters.</div>';
+}
+
 async function boot() {
   buildNav();
   goto('cover');
@@ -315,19 +366,26 @@ async function boot() {
     document.querySelectorAll('.loading').forEach(el => { el.outerHTML = '<div class="err">Could not load book data: ' + esc(e.message) + '</div>'; });
     return;
   }
-  // brand map from the custom roster
+  TEAMS = await loadJSON('data/teams_state.json').catch(() => []);
+  SORTER = await loadJSON('data/sorter_data.json').catch(() => ({ assignments: {} }));
+  ROSTERST = await loadJSON('data/roster_state.json').catch(() => ({}));
+
   (SEASON.customRoster || []).forEach(r => { if (r && r.name) BRAND[r.name] = r.brand || ''; });
-  // EOP set = membership list + everyone assigned to a squad
+  (STATE.kept || []).forEach(n => { KEPT_BY_NORM[normName(n)] = n; });
   const names = [].concat(STATE.empireOfPain || [], ...Object.values(STATE.factions || {}));
   EOP_SET = new Set(names.map(normName).filter(Boolean));
-  // default selected tournament = current, else first
+
   const titles = Object.keys(TOUR.tournaments || {});
   selTour = (TOUR.currentTitle && TOUR.tournaments[TOUR.currentTitle]) ? TOUR.currentTitle : (titles[0] || null);
   document.getElementById('coverUpdated').textContent = 'Season ' + (SEASON.currentSeason || 1);
+
   renderChampions();
   renderTourList(); renderBracket();
   renderFactions();
+  renderTeams();
+  renderDivisions();
   renderRoster();
+  renderCustoms();
 }
 boot();
 </script>
