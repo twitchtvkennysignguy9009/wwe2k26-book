@@ -1,0 +1,1354 @@
+{
+  "tournaments": {
+    "DSEPW Championship": {
+      "size": 8,
+      "wrestlers": [
+        "Rick Grimes",
+        "Anna",
+        "Cinnabrit",
+        "Robin",
+        "MrBeast",
+        "Fred Flintstone",
+        "Billy The Puppet",
+        "Pokimane"
+      ],
+      "rounds": [
+        {
+          "name": "Round 1",
+          "matchType": "Special Guest Referee 1-on-1 Normal",
+          "matches": [
+            {
+              "a": "Rick Grimes",
+              "b": "Anna",
+              "winner": "Rick Grimes"
+            },
+            {
+              "a": "Cinnabrit",
+              "b": "Robin",
+              "winner": "Robin"
+            },
+            {
+              "a": "MrBeast",
+              "b": "Fred Flintstone",
+              "winner": "MrBeast"
+            },
+            {
+              "a": "Billy The Puppet",
+              "b": "Pokimane",
+              "winner": "Pokimane"
+            }
+          ],
+          "byes": []
+        },
+        {
+          "name": "Semi-Finals",
+          "matchType": "Special Guest Referee 1-on-1 Normal",
+          "matches": [
+            {
+              "a": "Rick Grimes",
+              "b": "Robin",
+              "winner": "Rick Grimes"
+            },
+            {
+              "a": "MrBeast",
+              "b": "Pokimane",
+              "winner": "MrBeast"
+            }
+          ],
+          "byes": []
+        },
+        {
+          "name": "Finale",
+          "matchType": "Tables Ladders & Chairs Match",
+          "matches": [
+            {
+              "a": "Rick Grimes",
+              "b": "MrBeast",
+              "winner": "Rick Grimes"
+            }
+          ],
+          "byes": []
+        }
+      ],
+      "champion": "Rick Grimes",
+      "completed": true
+    },
+    "Horror Championship": {
+      "size": 8,
+      "wrestlers": [
+        "Rick Grimes",
+        "Jenna Ortega",
+        "Freddy Krueger",
+        "Ghostface (Player/Streamer)",
+        "Samara",
+        "Shane Walsh",
+        "Art The Clown",
+        "Daryl Dixon"
+      ],
+      "rounds": [
+        {
+          "name": "Round 1",
+          "matchType": "Special Guest Referee 1-on-1 Normal",
+          "matches": [
+            {
+              "a": "Rick Grimes",
+              "b": "Jenna Ortega",
+              "winner": "Jenna Ortega"
+            },
+            {
+              "a": "Freddy Krueger",
+              "b": "Ghostface (Player/Streamer)",
+              "winner": "Ghostface (Player/Streamer)"
+            },
+            {
+              "a": "Samara",
+              "b": "Shane Walsh",
+              "winner": "Samara"
+            },
+            {
+              "a": "Art The Clown",
+              "b": "Daryl Dixon",
+              "winner": "Art The Clown"
+            }
+          ],
+          "byes": []
+        },
+        {
+          "name": "Semi-Finals",
+          "matchType": "Special Guest Referee 1-on-1 Normal",
+          "matches": [
+            {
+              "a": "Jenna Ortega",
+              "b": "Ghostface (Player/Streamer)",
+              "winner": "Ghostface (Player/Streamer)"
+            },
+            {
+              "a": "Samara",
+              "b": "Art The Clown",
+              "winner": "Samara"
+            }
+          ],
+          "byes": []
+        },
+        {
+          "name": "Finale",
+          "matchType": "Tables Ladders & Chairs Match",
+          "matches": [
+            {
+              "a": "Ghostface (Player/Streamer)",
+              "b": "Samara",
+              "winner": "Ghostface (Player/Streamer)"
+            }
+          ],
+          "byes": []
+        }
+      ],
+      "champion": "Ghostface (Player/Streamer)",
+      "completed": true
+    },
+    "Cartoons Championship": {
+      "size": 8,
+      "wrestlers": [
+        "Lenneth Valkyrie",
+        "Luigi",
+        "Shaggy Rogers",
+        "Buzz Lightyear",
+        "Sid",
+        "Kim Possible",
+        "Velma Dinkley",
+        "Daphne Blake"
+      ],
+      "rounds": [
+        {
+          "name": "Round 1",
+          "matchType": "Special Guest Referee 1-on-1 Normal",
+          "matches": [
+            {
+              "a": "Lenneth Valkyrie",
+              "b": "Luigi",
+              "winner": "Lenneth Valkyrie"
+            },
+            {
+              "a": "Shaggy Rogers",
+              "b": "Buzz Lightyear",
+              "winner": "Shaggy Rogers"
+            },
+            {
+              "a": "Sid",
+              "b": "Kim Possible",
+              "winner": "Kim Possible"
+            },
+            {
+              "a": "Velma Dinkley",
+              "b": "Daphne Blake",
+              "winner": "Velma Dinkley"
+            }
+          ],
+          "byes": []
+        },
+        {
+          "name": "Semi-Finals",
+          "matchType": "Special Guest Referee 1-on-1 Normal",
+          "matches": [
+            {
+              "a": "Lenneth Valkyrie",
+              "b": "Shaggy Rogers",
+              "winner": "Shaggy Rogers"
+            },
+            {
+              "a": "Kim Possible",
+              "b": "Velma Dinkley",
+              "winner": "Kim Possible"
+            }
+          ],
+          "byes": []
+        },
+        {
+          "name": "Finale",
+          "matchType": "Tables Ladders & Chairs Match",
+          "matches": [
+            {
+              "a": "Shaggy Rogers",
+              "b": "Kim Possible",
+              "winner": "Kim Possible"
+            }
+          ],
+          "byes": []
+        }
+      ],
+      "champion": "Kim Possible",
+      "completed": true
+    },
+    "Million Dollar Championship": {
+      "size": 8,
+      "wrestlers": [
+        "Mrs Incredible",
+        "Batgirl",
+        "Jesse The Body Ventura",
+        "Ivar",
+        "Fallon Henley",
+        "Alba Fyre",
+        "Danny Lopez (Player/Streamer)",
+        "Shinsuke Nakamura"
+      ],
+      "rounds": [
+        {
+          "name": "Round 1",
+          "matchType": "Special Guest Referee 1-on-1 Normal",
+          "matches": [
+            {
+              "a": "Mrs Incredible",
+              "b": "Batgirl",
+              "winner": "Mrs Incredible"
+            },
+            {
+              "a": "Jesse The Body Ventura",
+              "b": "Ivar",
+              "winner": "Ivar"
+            },
+            {
+              "a": "Fallon Henley",
+              "b": "Alba Fyre",
+              "winner": "Fallon Henley"
+            },
+            {
+              "a": "Danny Lopez (Player/Streamer)",
+              "b": "Shinsuke Nakamura",
+              "winner": "Danny Lopez (Player/Streamer)"
+            }
+          ],
+          "byes": []
+        },
+        {
+          "name": "Semi-Finals",
+          "matchType": "Special Guest Referee 1-on-1 Normal",
+          "matches": [
+            {
+              "a": "Mrs Incredible",
+              "b": "Ivar",
+              "winner": "Mrs Incredible"
+            },
+            {
+              "a": "Fallon Henley",
+              "b": "Danny Lopez (Player/Streamer)",
+              "winner": "Danny Lopez (Player/Streamer)"
+            }
+          ],
+          "byes": []
+        },
+        {
+          "name": "Finale",
+          "matchType": "Tables Ladders & Chairs Match",
+          "matches": [
+            {
+              "a": "Mrs Incredible",
+              "b": "Danny Lopez (Player/Streamer)",
+              "winner": "Danny Lopez (Player/Streamer)"
+            }
+          ],
+          "byes": []
+        }
+      ],
+      "champion": "Danny Lopez (Player/Streamer)",
+      "completed": true
+    },
+    "Mortal Kombat Championship": {
+      "size": 8,
+      "wrestlers": [
+        "Mileena",
+        "Scorpion",
+        "Mai Shiranui",
+        "Nitara Marshall",
+        "Sub Zero (Player/Streamer)",
+        "Tanya",
+        "Sheeva",
+        "Reptile"
+      ],
+      "rounds": [
+        {
+          "name": "Round 1",
+          "matchType": "Special Guest Referee 1-on-1 Normal",
+          "matches": [
+            {
+              "a": "Mileena",
+              "b": "Scorpion",
+              "winner": "Mileena"
+            },
+            {
+              "a": "Mai Shiranui",
+              "b": "Nitara Marshall",
+              "winner": "Nitara Marshall"
+            },
+            {
+              "a": "Sub Zero (Player/Streamer)",
+              "b": "Tanya",
+              "winner": "Sub Zero (Player/Streamer)"
+            },
+            {
+              "a": "Sheeva",
+              "b": "Reptile",
+              "winner": "Sheeva"
+            }
+          ],
+          "byes": []
+        },
+        {
+          "name": "Semi-Finals",
+          "matchType": "Special Guest Referee 1-on-1 Normal",
+          "matches": [
+            {
+              "a": "Mileena",
+              "b": "Nitara Marshall",
+              "winner": "Nitara Marshall"
+            },
+            {
+              "a": "Sub Zero (Player/Streamer)",
+              "b": "Sheeva",
+              "winner": "Sub Zero (Player/Streamer)"
+            }
+          ],
+          "byes": []
+        },
+        {
+          "name": "Finale",
+          "matchType": "Tables Ladders & Chairs Match",
+          "matches": [
+            {
+              "a": "Nitara Marshall",
+              "b": "Sub Zero (Player/Streamer)",
+              "winner": "Sub Zero (Player/Streamer)"
+            }
+          ],
+          "byes": []
+        }
+      ],
+      "champion": "Sub Zero (Player/Streamer)",
+      "completed": true
+    },
+    "WWE Hardcore Championship": {
+      "size": 8,
+      "wrestlers": [
+        "Joe Biden",
+        "Laurie Strode",
+        "Ethan Page",
+        "Rogue",
+        "Zaria",
+        "Naomi",
+        "Johnny Cage",
+        "Rey Mysterio"
+      ],
+      "rounds": [
+        {
+          "name": "Round 1",
+          "matchType": "Special Guest Referee 1-on-1 Normal",
+          "matches": [
+            {
+              "a": "Joe Biden",
+              "b": "Laurie Strode",
+              "winner": "Laurie Strode"
+            },
+            {
+              "a": "Ethan Page",
+              "b": "Rogue",
+              "winner": "Ethan Page"
+            },
+            {
+              "a": "Zaria",
+              "b": "Naomi",
+              "winner": "Naomi"
+            },
+            {
+              "a": "Johnny Cage",
+              "b": "Rey Mysterio",
+              "winner": "Rey Mysterio"
+            }
+          ],
+          "byes": []
+        },
+        {
+          "name": "Semi-Finals",
+          "matchType": "Special Guest Referee 1-on-1 Normal",
+          "matches": [
+            {
+              "a": "Laurie Strode",
+              "b": "Ethan Page",
+              "winner": "Ethan Page"
+            },
+            {
+              "a": "Naomi",
+              "b": "Rey Mysterio",
+              "winner": null
+            }
+          ],
+          "byes": []
+        },
+        {
+          "name": "Finale",
+          "matchType": "Tables Ladders & Chairs Match",
+          "matches": [
+            {
+              "a": null,
+              "b": null,
+              "winner": null
+            }
+          ],
+          "byes": []
+        }
+      ],
+      "champion": null,
+      "completed": false
+    },
+    "Streamer/YouTuber Championship": {
+      "size": 8,
+      "wrestlers": [
+        "Marlon",
+        "Ishowspeed",
+        "Ksi",
+        "Kai Cenat",
+        "Ironmouse",
+        "Rug",
+        "Markiplier",
+        "Adin Ross"
+      ],
+      "rounds": [
+        {
+          "name": "Round 1",
+          "matchType": "Special Guest Referee 1-on-1 Normal",
+          "matches": [
+            {
+              "a": "Marlon",
+              "b": "Ishowspeed",
+              "winner": null
+            },
+            {
+              "a": "Ksi",
+              "b": "Kai Cenat",
+              "winner": null
+            },
+            {
+              "a": "Ironmouse",
+              "b": "Rug",
+              "winner": null
+            },
+            {
+              "a": "Markiplier",
+              "b": "Adin Ross",
+              "winner": null
+            }
+          ],
+          "byes": []
+        },
+        {
+          "name": "Semi-Finals",
+          "matchType": "Special Guest Referee 1-on-1 Normal",
+          "matches": [
+            {
+              "a": null,
+              "b": null,
+              "winner": null
+            },
+            {
+              "a": null,
+              "b": null,
+              "winner": null
+            }
+          ],
+          "byes": []
+        },
+        {
+          "name": "Finale",
+          "matchType": "Tables Ladders & Chairs Match",
+          "matches": [
+            {
+              "a": null,
+              "b": null,
+              "winner": null
+            }
+          ],
+          "byes": []
+        }
+      ],
+      "champion": null,
+      "completed": false
+    },
+    "WWE United States Championship": {
+      "size": 8,
+      "wrestlers": [
+        "Jey Uso",
+        "Batman",
+        "Tank Ledger",
+        "Charlie Dempsey",
+        "Batgirl",
+        "Erick Rowan",
+        "Harley Quinn",
+        "Annabelle"
+      ],
+      "rounds": [
+        {
+          "name": "Round 1",
+          "matchType": "Special Guest Referee 1-on-1 Normal",
+          "matches": [
+            {
+              "a": "Jey Uso",
+              "b": "Batman",
+              "winner": null
+            },
+            {
+              "a": "Tank Ledger",
+              "b": "Charlie Dempsey",
+              "winner": null
+            },
+            {
+              "a": "Batgirl",
+              "b": "Erick Rowan",
+              "winner": null
+            },
+            {
+              "a": "Harley Quinn",
+              "b": "Annabelle",
+              "winner": null
+            }
+          ],
+          "byes": []
+        },
+        {
+          "name": "Semi-Finals",
+          "matchType": "Special Guest Referee 1-on-1 Normal",
+          "matches": [
+            {
+              "a": null,
+              "b": null,
+              "winner": null
+            },
+            {
+              "a": null,
+              "b": null,
+              "winner": null
+            }
+          ],
+          "byes": []
+        },
+        {
+          "name": "Finale",
+          "matchType": "Tables Ladders & Chairs Match",
+          "matches": [
+            {
+              "a": null,
+              "b": null,
+              "winner": null
+            }
+          ],
+          "byes": []
+        }
+      ],
+      "champion": null,
+      "completed": false
+    },
+    "Legends Championship": {
+      "size": 8,
+      "wrestlers": [
+        "Stacy Keibler",
+        "William Regal",
+        "Dusty Rhodes",
+        "Hollywood Hogan",
+        "DDP",
+        "Undertaker '98",
+        "Thrasher",
+        "Tito Santana"
+      ],
+      "rounds": [
+        {
+          "name": "Round 1",
+          "matchType": "Special Guest Referee 1-on-1 Normal",
+          "matches": [
+            {
+              "a": "Stacy Keibler",
+              "b": "William Regal",
+              "winner": null
+            },
+            {
+              "a": "Dusty Rhodes",
+              "b": "Hollywood Hogan",
+              "winner": null
+            },
+            {
+              "a": "DDP",
+              "b": "Undertaker '98",
+              "winner": null
+            },
+            {
+              "a": "Thrasher",
+              "b": "Tito Santana",
+              "winner": null
+            }
+          ],
+          "byes": []
+        },
+        {
+          "name": "Semi-Finals",
+          "matchType": "Special Guest Referee 1-on-1 Normal",
+          "matches": [
+            {
+              "a": null,
+              "b": null,
+              "winner": null
+            },
+            {
+              "a": null,
+              "b": null,
+              "winner": null
+            }
+          ],
+          "byes": []
+        },
+        {
+          "name": "Finale",
+          "matchType": "Tables Ladders & Chairs Match",
+          "matches": [
+            {
+              "a": null,
+              "b": null,
+              "winner": null
+            }
+          ],
+          "byes": []
+        }
+      ],
+      "champion": null,
+      "completed": false
+    },
+    "Undisputed WWE Championship": {
+      "size": 8,
+      "wrestlers": [
+        "Adapt",
+        "Dude Love",
+        "Superstar Billy Graham",
+        "Dirty Dominik Mysterio",
+        "Blade",
+        "Johnny Bravo",
+        "Chuck Norris",
+        "Andre The Giant"
+      ],
+      "rounds": [
+        {
+          "name": "Round 1",
+          "matchType": "Special Guest Referee 1-on-1 Normal",
+          "matches": [
+            {
+              "a": "Adapt",
+              "b": "Dude Love",
+              "winner": null
+            },
+            {
+              "a": "Superstar Billy Graham",
+              "b": "Dirty Dominik Mysterio",
+              "winner": null
+            },
+            {
+              "a": "Blade",
+              "b": "Johnny Bravo",
+              "winner": null
+            },
+            {
+              "a": "Chuck Norris",
+              "b": "Andre The Giant",
+              "winner": null
+            }
+          ],
+          "byes": []
+        },
+        {
+          "name": "Semi-Finals",
+          "matchType": "Special Guest Referee 1-on-1 Normal",
+          "matches": [
+            {
+              "a": null,
+              "b": null,
+              "winner": null
+            },
+            {
+              "a": null,
+              "b": null,
+              "winner": null
+            }
+          ],
+          "byes": []
+        },
+        {
+          "name": "Finale",
+          "matchType": "Tables Ladders & Chairs Match",
+          "matches": [
+            {
+              "a": null,
+              "b": null,
+              "winner": null
+            }
+          ],
+          "byes": []
+        }
+      ],
+      "champion": null,
+      "completed": false
+    },
+    "WWE Intercontinental Championship": {
+      "size": 8,
+      "wrestlers": [
+        "Barney Rubble",
+        "Barack Obama",
+        "Scott Steiner '03",
+        "Zara",
+        "Shawn Spears",
+        "Wonder Woman",
+        "Bayley",
+        "Rikishi"
+      ],
+      "rounds": [
+        {
+          "name": "Round 1",
+          "matchType": "Special Guest Referee 1-on-1 Normal",
+          "matches": [
+            {
+              "a": "Barney Rubble",
+              "b": "Barack Obama",
+              "winner": null
+            },
+            {
+              "a": "Scott Steiner '03",
+              "b": "Zara",
+              "winner": null
+            },
+            {
+              "a": "Shawn Spears",
+              "b": "Wonder Woman",
+              "winner": null
+            },
+            {
+              "a": "Bayley",
+              "b": "Rikishi",
+              "winner": null
+            }
+          ],
+          "byes": []
+        },
+        {
+          "name": "Semi-Finals",
+          "matchType": "Special Guest Referee 1-on-1 Normal",
+          "matches": [
+            {
+              "a": null,
+              "b": null,
+              "winner": null
+            },
+            {
+              "a": null,
+              "b": null,
+              "winner": null
+            }
+          ],
+          "byes": []
+        },
+        {
+          "name": "Finale",
+          "matchType": "Tables Ladders & Chairs Match",
+          "matches": [
+            {
+              "a": null,
+              "b": null,
+              "winner": null
+            }
+          ],
+          "byes": []
+        }
+      ],
+      "champion": null,
+      "completed": false
+    },
+    "WWE Tag Team Championship": {
+      "size": 8,
+      "wrestlers": [
+        "Hart Foundation, The (Bret Hit Man Hart & Jim The Anvil Neidhart)",
+        "Usos, The (Jey Uso & Jimmy Uso)",
+        "Judgement Day, The (Damien Priest & JD McDonagh)",
+        "No Quarter Catch Crew (Charlie Dempsey & Myles Borne)",
+        "Rhiyo (Rhea Ripley & IYO SKY)",
+        "3 Minute Warning (Jamal & Rosey)",
+        "Culling, The (Lexis King & Lola Vice)",
+        "American Made (Julius Creed & Brutus Creed)"
+      ],
+      "rounds": [
+        {
+          "name": "Round 1",
+          "matchType": "Normal Tag",
+          "matches": [
+            {
+              "a": "Hart Foundation, The (Bret Hit Man Hart & Jim The Anvil Neidhart)",
+              "b": "Usos, The (Jey Uso & Jimmy Uso)",
+              "winner": null
+            },
+            {
+              "a": "Judgement Day, The (Damien Priest & JD McDonagh)",
+              "b": "No Quarter Catch Crew (Charlie Dempsey & Myles Borne)",
+              "winner": null
+            },
+            {
+              "a": "Rhiyo (Rhea Ripley & IYO SKY)",
+              "b": "3 Minute Warning (Jamal & Rosey)",
+              "winner": null
+            },
+            {
+              "a": "Culling, The (Lexis King & Lola Vice)",
+              "b": "American Made (Julius Creed & Brutus Creed)",
+              "winner": null
+            }
+          ],
+          "byes": []
+        }
+      ],
+      "champion": null,
+      "completed": false
+    },
+    "Government Championship": {
+      "size": 6,
+      "wrestlers": [
+        "Bernie Sanders",
+        "Cleopatra",
+        "Barack Obama",
+        "Abe Lincoln",
+        "Donald Trump",
+        "Joe Biden"
+      ],
+      "rounds": [
+        {
+          "name": "Round 1",
+          "matchType": "Special Guest Referee 1-on-1 Normal",
+          "matches": [
+            {
+              "a": "Bernie Sanders",
+              "b": "Cleopatra",
+              "winner": null
+            },
+            {
+              "a": "Barack Obama",
+              "b": "Abe Lincoln",
+              "winner": null
+            },
+            {
+              "a": "Donald Trump",
+              "b": "Joe Biden",
+              "winner": null
+            }
+          ],
+          "byes": []
+        },
+        {
+          "name": "Semi-Finals",
+          "matchType": "Special Guest Referee 1-on-1 Normal",
+          "matches": [
+            {
+              "a": null,
+              "b": null,
+              "winner": null
+            }
+          ],
+          "byes": [
+            null
+          ]
+        },
+        {
+          "name": "Finale",
+          "matchType": "Tables Ladders & Chairs Match",
+          "matches": [
+            {
+              "a": null,
+              "b": null,
+              "winner": null
+            }
+          ],
+          "byes": []
+        }
+      ],
+      "champion": null,
+      "completed": false
+    },
+    "Superhero/Villain Championship": {
+      "size": 8,
+      "wrestlers": [
+        "Punisher, The",
+        "Invisible Woman",
+        "Casey Jones",
+        "Mary Jane",
+        "Kingpin",
+        "Cheetah",
+        "Mrs. Incredible",
+        "Shredder, The"
+      ],
+      "rounds": [
+        {
+          "name": "Round 1",
+          "matchType": "Special Guest Referee 1-on-1 Normal",
+          "matches": [
+            {
+              "a": "Punisher, The",
+              "b": "Invisible Woman",
+              "winner": null
+            },
+            {
+              "a": "Casey Jones",
+              "b": "Mary Jane",
+              "winner": null
+            },
+            {
+              "a": "Kingpin",
+              "b": "Cheetah",
+              "winner": null
+            },
+            {
+              "a": "Mrs. Incredible",
+              "b": "Shredder, The",
+              "winner": null
+            }
+          ],
+          "byes": []
+        },
+        {
+          "name": "Semi-Finals",
+          "matchType": "Special Guest Referee 1-on-1 Normal",
+          "matches": [
+            {
+              "a": null,
+              "b": null,
+              "winner": null
+            },
+            {
+              "a": null,
+              "b": null,
+              "winner": null
+            }
+          ],
+          "byes": []
+        },
+        {
+          "name": "Finale",
+          "matchType": "Tables Ladders & Chairs Match",
+          "matches": [
+            {
+              "a": null,
+              "b": null,
+              "winner": null
+            }
+          ],
+          "byes": []
+        }
+      ],
+      "champion": null,
+      "completed": false
+    },
+    "High Flyers Championship": {
+      "size": 8,
+      "wrestlers": [
+        "Joaquin Wilde",
+        "Je'Von Evans (Player/Streamer)",
+        "Sol Ruca",
+        "Dragon Lee",
+        "Eddie Guerrero",
+        "Lita",
+        "Psycho Clown",
+        "Jey Uso"
+      ],
+      "rounds": [
+        {
+          "name": "Round 1",
+          "matchType": "Special Guest Referee 1-on-1 Normal",
+          "matches": [
+            {
+              "a": "Joaquin Wilde",
+              "b": "Je'Von Evans (Player/Streamer)",
+              "winner": null
+            },
+            {
+              "a": "Sol Ruca",
+              "b": "Dragon Lee",
+              "winner": null
+            },
+            {
+              "a": "Eddie Guerrero",
+              "b": "Lita",
+              "winner": null
+            },
+            {
+              "a": "Psycho Clown",
+              "b": "Jey Uso",
+              "winner": null
+            }
+          ],
+          "byes": []
+        },
+        {
+          "name": "Semi-Finals",
+          "matchType": "Special Guest Referee 1-on-1 Normal",
+          "matches": [
+            {
+              "a": null,
+              "b": null,
+              "winner": null
+            },
+            {
+              "a": null,
+              "b": null,
+              "winner": null
+            }
+          ],
+          "byes": []
+        },
+        {
+          "name": "Finale",
+          "matchType": "Tables Ladders & Chairs Match",
+          "matches": [
+            {
+              "a": null,
+              "b": null,
+              "winner": null
+            }
+          ],
+          "byes": []
+        }
+      ],
+      "champion": null,
+      "completed": false
+    },
+    "Princess Championship": {
+      "size": 8,
+      "wrestlers": [
+        "Princess Zelda",
+        "Jasmine",
+        "Anna",
+        "Belle",
+        "Princess Daisy",
+        "Princess Peach",
+        "Frozen Elsa",
+        "Rapunzel"
+      ],
+      "rounds": [
+        {
+          "name": "Round 1",
+          "matchType": "Special Guest Referee 1-on-1 Normal",
+          "matches": [
+            {
+              "a": "Princess Zelda",
+              "b": "Jasmine",
+              "winner": null
+            },
+            {
+              "a": "Anna",
+              "b": "Belle",
+              "winner": null
+            },
+            {
+              "a": "Princess Daisy",
+              "b": "Princess Peach",
+              "winner": null
+            },
+            {
+              "a": "Frozen Elsa",
+              "b": "Rapunzel",
+              "winner": null
+            }
+          ],
+          "byes": []
+        },
+        {
+          "name": "Semi-Finals",
+          "matchType": "Special Guest Referee 1-on-1 Normal",
+          "matches": [
+            {
+              "a": null,
+              "b": null,
+              "winner": null
+            },
+            {
+              "a": null,
+              "b": null,
+              "winner": null
+            }
+          ],
+          "byes": []
+        },
+        {
+          "name": "Finale",
+          "matchType": "Tables Ladders & Chairs Match",
+          "matches": [
+            {
+              "a": null,
+              "b": null,
+              "winner": null
+            }
+          ],
+          "byes": []
+        }
+      ],
+      "champion": null,
+      "completed": false
+    },
+    "Giants Championship": {
+      "size": 8,
+      "wrestlers": [
+        "Nia Jax",
+        "Ivar",
+        "Kevin Nash",
+        "Hank Walker",
+        "Rusev",
+        "Otis",
+        "Kane",
+        "Mark Henry (Player/Streamer)"
+      ],
+      "rounds": [
+        {
+          "name": "Round 1",
+          "matchType": "Special Guest Referee 1-on-1 Normal",
+          "matches": [
+            {
+              "a": "Nia Jax",
+              "b": "Ivar",
+              "winner": null
+            },
+            {
+              "a": "Kevin Nash",
+              "b": "Hank Walker",
+              "winner": null
+            },
+            {
+              "a": "Rusev",
+              "b": "Otis",
+              "winner": null
+            },
+            {
+              "a": "Kane",
+              "b": "Mark Henry (Player/Streamer)",
+              "winner": null
+            }
+          ],
+          "byes": []
+        },
+        {
+          "name": "Semi-Finals",
+          "matchType": "Special Guest Referee 1-on-1 Normal",
+          "matches": [
+            {
+              "a": null,
+              "b": null,
+              "winner": null
+            },
+            {
+              "a": null,
+              "b": null,
+              "winner": null
+            }
+          ],
+          "byes": []
+        },
+        {
+          "name": "Finale",
+          "matchType": "Tables Ladders & Chairs Match",
+          "matches": [
+            {
+              "a": null,
+              "b": null,
+              "winner": null
+            }
+          ],
+          "byes": []
+        }
+      ],
+      "champion": null,
+      "completed": false
+    },
+    "Elite Championship": {
+      "size": 2,
+      "wrestlers": [
+        "Elite Jacob Fatu",
+        "Elite Rhea Ripley"
+      ],
+      "rounds": [
+        {
+          "name": "Elite Series",
+          "matchType": "Best of 7 — Match 7 is the Title Match",
+          "matches": [
+            {
+              "a": "Elite Jacob Fatu",
+              "b": "Elite Rhea Ripley",
+              "winner": null,
+              "stip": "SGR · Extreme Rules 1-on-1",
+              "titleMatch": false
+            },
+            {
+              "a": "Elite Jacob Fatu",
+              "b": "Elite Rhea Ripley",
+              "winner": null,
+              "stip": "SGR · Hell in a Cell 1-on-1",
+              "titleMatch": false
+            },
+            {
+              "a": "Elite Jacob Fatu",
+              "b": "Elite Rhea Ripley",
+              "winner": null,
+              "stip": "SGR · Falls Count Anywhere 1-on-1",
+              "titleMatch": false
+            },
+            {
+              "a": "Elite Jacob Fatu",
+              "b": "Elite Rhea Ripley",
+              "winner": null,
+              "stip": "SGR · No Holds Barred 1-on-1",
+              "titleMatch": false
+            },
+            {
+              "a": "Elite Jacob Fatu",
+              "b": "Elite Rhea Ripley",
+              "winner": null,
+              "stip": "SGR · Submission 1-on-1",
+              "titleMatch": false
+            },
+            {
+              "a": "Elite Jacob Fatu",
+              "b": "Elite Rhea Ripley",
+              "winner": null,
+              "stip": "SGR · Normal 1-on-1",
+              "titleMatch": false
+            },
+            {
+              "a": "Elite Jacob Fatu",
+              "b": "Elite Rhea Ripley",
+              "winner": null,
+              "stip": "SGR · Iron Man 5 Minutes 1-on-1",
+              "titleMatch": true
+            }
+          ],
+          "byes": []
+        }
+      ],
+      "champion": null,
+      "completed": false
+    },
+    "Martial Arts Championship": {
+      "size": 8,
+      "wrestlers": [
+        "Chuck Norris (Player/Streamer)",
+        "Daniel Larusso",
+        "Tory Nichols",
+        "Kenny Payne",
+        "Hawk",
+        "Mr. Miyagi",
+        "Sam Larusso",
+        "Bruce Lee"
+      ],
+      "rounds": [
+        {
+          "name": "Round 1",
+          "matchType": "Special Guest Referee 1-on-1 Normal",
+          "matches": [
+            {
+              "a": "Chuck Norris (Player/Streamer)",
+              "b": "Daniel Larusso",
+              "winner": null
+            },
+            {
+              "a": "Tory Nichols",
+              "b": "Kenny Payne",
+              "winner": null
+            },
+            {
+              "a": "Hawk",
+              "b": "Mr. Miyagi",
+              "winner": null
+            },
+            {
+              "a": "Sam Larusso",
+              "b": "Bruce Lee",
+              "winner": null
+            }
+          ],
+          "byes": []
+        },
+        {
+          "name": "Semi-Finals",
+          "matchType": "Special Guest Referee 1-on-1 Normal",
+          "matches": [
+            {
+              "a": null,
+              "b": null,
+              "winner": null
+            },
+            {
+              "a": null,
+              "b": null,
+              "winner": null
+            }
+          ],
+          "byes": []
+        },
+        {
+          "name": "Finale",
+          "matchType": "Tables Ladders & Chairs Match",
+          "matches": [
+            {
+              "a": null,
+              "b": null,
+              "winner": null
+            }
+          ],
+          "byes": []
+        }
+      ],
+      "champion": null,
+      "completed": false
+    }
+  },
+  "completedTitles": [
+    "DSEPW Championship",
+    "Horror Championship",
+    "Cartoons Championship",
+    "Million Dollar Championship",
+    "Mortal Kombat Championship"
+  ],
+  "currentTitle": "WWE Hardcore Championship"
+}

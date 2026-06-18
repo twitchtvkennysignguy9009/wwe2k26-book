@@ -1,0 +1,869 @@
+{
+  "currentSeason": 1,
+  "seasons": {
+    "1": {
+      "matches": [],
+      "titleHolders": {
+        "DSEPW Championship": {
+          "holder": "Rick Grimes",
+          "wonDate": "2026-06-03",
+          "defenses": 0
+        },
+        "Horror Championship": {
+          "holder": "Ghostface (Player/Streamer)",
+          "wonDate": "2026-06-07",
+          "defenses": 0
+        },
+        "Cartoons Championship": {
+          "holder": "Kim Possible",
+          "wonDate": "2026-06-09",
+          "defenses": 0
+        },
+        "Million Dollar Championship": {
+          "holder": "Danny Lopez (Player/Streamer)",
+          "wonDate": "2026-06-12",
+          "defenses": 0
+        },
+        "Mortal Kombat Championship": {
+          "holder": "Sub Zero (Player/Streamer)",
+          "wonDate": "2026-06-18",
+          "defenses": 0
+        }
+      },
+      "eliminated": {},
+      "rematchList": {},
+      "rematchQueue": {},
+      "titlesUsedCycle": [],
+      "titlePhases": {}
+    }
+  },
+  "customRoster": [
+    {
+      "name": "Abe Lincoln",
+      "brand": "Government"
+    },
+    {
+      "name": "Adam Park",
+      "brand": "Superhero/Villain"
+    },
+    {
+      "name": "Adapt",
+      "brand": "Streamer/YouTuber"
+    },
+    {
+      "name": "Adin Ross",
+      "brand": "Streamer/YouTuber"
+    },
+    {
+      "name": "Aisha Campbell",
+      "brand": "Superhero/Villain"
+    },
+    {
+      "name": "Amouranth",
+      "brand": "Streamer/YouTuber"
+    },
+    {
+      "name": "Anna",
+      "brand": "Princess"
+    },
+    {
+      "name": "Annabelle",
+      "brand": "Horror"
+    },
+    {
+      "name": "April O'Neil",
+      "brand": "DSEPW"
+    },
+    {
+      "name": "Aquaman",
+      "brand": "Superhero/Villain"
+    },
+    {
+      "name": "Ariel",
+      "brand": "Princess"
+    },
+    {
+      "name": "Art The Clown",
+      "brand": "Horror"
+    },
+    {
+      "name": "Aurora",
+      "brand": "Princess"
+    },
+    {
+      "name": "Bamm Bamm Rubble",
+      "brand": "Cartoons"
+    },
+    {
+      "name": "Barack Obama",
+      "brand": "Government"
+    },
+    {
+      "name": "Barney Rubble",
+      "brand": "Cartoons"
+    },
+    {
+      "name": "Batgirl",
+      "brand": "Superhero/Villain"
+    },
+    {
+      "name": "Batman",
+      "brand": "Superhero/Villain"
+    },
+    {
+      "name": "Bebop",
+      "brand": "Superhero/Villain"
+    },
+    {
+      "name": "Belle",
+      "brand": "Princess"
+    },
+    {
+      "name": "Bernie Sanders",
+      "brand": "Government"
+    },
+    {
+      "name": "Bert",
+      "brand": "Martial Arts"
+    },
+    {
+      "name": "Beta",
+      "brand": "Horror"
+    },
+    {
+      "name": "Bill Clinton",
+      "brand": "DSEPW"
+    },
+    {
+      "name": "Billy Cranston",
+      "brand": "Superhero/Villain"
+    },
+    {
+      "name": "Billy The Puppet",
+      "brand": "Horror"
+    },
+    {
+      "name": "Black Cat",
+      "brand": "Superhero/Villain"
+    },
+    {
+      "name": "Black Panther",
+      "brand": "Superhero/Villain"
+    },
+    {
+      "name": "Black Widow",
+      "brand": "Superhero/Villain"
+    },
+    {
+      "name": "Blade",
+      "brand": "Superhero/Villain"
+    },
+    {
+      "name": "Bruce Lee",
+      "brand": "Martial Arts"
+    },
+    {
+      "name": "Buzz Lightyear",
+      "brand": "Cartoons"
+    },
+    {
+      "name": "Cappuccino Jones",
+      "brand": "DSEPW"
+    },
+    {
+      "name": "Captain America",
+      "brand": "Superhero/Villain"
+    },
+    {
+      "name": "Captain Marvel",
+      "brand": "Superhero/Villain"
+    },
+    {
+      "name": "Carl Grimes",
+      "brand": "Horror"
+    },
+    {
+      "name": "Case Oh",
+      "brand": "Streamer/YouTuber"
+    },
+    {
+      "name": "Casey Jones",
+      "brand": "Superhero/Villain"
+    },
+    {
+      "name": "Catwoman",
+      "brand": "Superhero/Villain"
+    },
+    {
+      "name": "Cheetah",
+      "brand": "Superhero/Villain"
+    },
+    {
+      "name": "Chuck Norris",
+      "brand": "Martial Arts"
+    },
+    {
+      "name": "Chucky",
+      "brand": "Horror"
+    },
+    {
+      "name": "Chun Li",
+      "brand": "Mortal Kombat"
+    },
+    {
+      "name": "Cinderella",
+      "brand": "Princess"
+    },
+    {
+      "name": "Cinnabrit",
+      "brand": "Streamer/YouTuber"
+    },
+    {
+      "name": "Cleopatra",
+      "brand": "Government"
+    },
+    {
+      "name": "Daniel Larusso",
+      "brand": "Martial Arts"
+    },
+    {
+      "name": "Danny Lopez",
+      "brand": "DSEPW"
+    },
+    {
+      "name": "Daphne Blake",
+      "brand": "Cartoons"
+    },
+    {
+      "name": "Daryl Dixon",
+      "brand": "Horror"
+    },
+    {
+      "name": "Deadpool",
+      "brand": "Superhero/Villain"
+    },
+    {
+      "name": "Donald Trump",
+      "brand": "Government"
+    },
+    {
+      "name": "Donatello",
+      "brand": "Superhero/Villain"
+    },
+    {
+      "name": "Dr. Doom",
+      "brand": "DSEPW"
+    },
+    {
+      "name": "Fred Flintstone",
+      "brand": "DSEPW"
+    },
+    {
+      "name": "Fred Jones",
+      "brand": "Cartoons"
+    },
+    {
+      "name": "Freddy Krueger",
+      "brand": "Horror"
+    },
+    {
+      "name": "Frost",
+      "brand": "Mortal Kombat"
+    },
+    {
+      "name": "Frozen Elsa",
+      "brand": "Princess"
+    },
+    {
+      "name": "George W. Bush",
+      "brand": "DSEPW"
+    },
+    {
+      "name": "Ghostface",
+      "brand": "Horror"
+    },
+    {
+      "name": "Goldar",
+      "brand": "Superhero/Villain"
+    },
+    {
+      "name": "Governor, The",
+      "brand": "Horror"
+    },
+    {
+      "name": "Green Arrow",
+      "brand": "Superhero/Villain"
+    },
+    {
+      "name": "Green Goblin",
+      "brand": "Superhero/Villain"
+    },
+    {
+      "name": "Harley Quinn",
+      "brand": "Superhero/Villain"
+    },
+    {
+      "name": "Hawk",
+      "brand": "Martial Arts"
+    },
+    {
+      "name": "Hela",
+      "brand": "Superhero/Villain"
+    },
+    {
+      "name": "Hillary Clinton",
+      "brand": "DSEPW"
+    },
+    {
+      "name": "Hulk",
+      "brand": "Superhero/Villain"
+    },
+    {
+      "name": "Hunter Rhyn Trax",
+      "brand": "DSEPW"
+    },
+    {
+      "name": "Invisible Woman",
+      "brand": "Superhero/Villain"
+    },
+    {
+      "name": "Ironman",
+      "brand": "Superhero/Villain"
+    },
+    {
+      "name": "Ironmouse",
+      "brand": "Streamer/YouTuber"
+    },
+    {
+      "name": "Ishowspeed",
+      "brand": "Streamer/YouTuber"
+    },
+    {
+      "name": "Jack Talos",
+      "brand": "DSEPW"
+    },
+    {
+      "name": "Jackie Chan",
+      "brand": "Martial Arts"
+    },
+    {
+      "name": "Jade",
+      "brand": "Mortal Kombat"
+    },
+    {
+      "name": "Jake Paul",
+      "brand": "Streamer/YouTuber"
+    },
+    {
+      "name": "Jane Jetson",
+      "brand": "Cartoons"
+    },
+    {
+      "name": "Jasmine",
+      "brand": "Princess"
+    },
+    {
+      "name": "Jason Voorhees",
+      "brand": "Horror"
+    },
+    {
+      "name": "Jenna Ortega",
+      "brand": "Horror"
+    },
+    {
+      "name": "Johnny Lawrence",
+      "brand": "Martial Arts"
+    },
+    {
+      "name": "Joe Biden",
+      "brand": "Government"
+    },
+    {
+      "name": "John F. Kennedy",
+      "brand": "DSEPW"
+    },
+    {
+      "name": "John Kreese",
+      "brand": "Martial Arts"
+    },
+    {
+      "name": "Johnny Bravo",
+      "brand": "Cartoons"
+    },
+    {
+      "name": "Johnny Cage",
+      "brand": "Mortal Kombat"
+    },
+    {
+      "name": "Joker, The",
+      "brand": "Superhero/Villain"
+    },
+    {
+      "name": "Judy Jetson",
+      "brand": "Cartoons"
+    },
+    {
+      "name": "Jynxzi",
+      "brand": "Streamer/YouTuber"
+    },
+    {
+      "name": "Kai Cenat",
+      "brand": "Streamer/YouTuber"
+    },
+    {
+      "name": "Kenny Payne",
+      "brand": "Martial Arts"
+    },
+    {
+      "name": "Kim Possible",
+      "brand": "Cartoons"
+    },
+    {
+      "name": "Kimberly Hart",
+      "brand": "Superhero/Villain"
+    },
+    {
+      "name": "Kingpin",
+      "brand": "Superhero/Villain"
+    },
+    {
+      "name": "Kitana",
+      "brand": "Mortal Kombat"
+    },
+    {
+      "name": "Ksi",
+      "brand": "Streamer/YouTuber"
+    },
+    {
+      "name": "Lara Croft",
+      "brand": "Superhero/Villain"
+    },
+    {
+      "name": "Laurie Strode",
+      "brand": "Horror"
+    },
+    {
+      "name": "Leatherface",
+      "brand": "Horror"
+    },
+    {
+      "name": "Lenneth Valkyrie",
+      "brand": "Cartoons"
+    },
+    {
+      "name": "Leonardo",
+      "brand": "Superhero/Villain"
+    },
+    {
+      "name": "Lord Zedd",
+      "brand": "DSEPW"
+    },
+    {
+      "name": "Luigi",
+      "brand": "Cartoons"
+    },
+    {
+      "name": "Laura Bush",
+      "brand": "DSEPW"
+    },
+    {
+      "name": "M3GAN",
+      "brand": "Horror"
+    },
+    {
+      "name": "Maggie Rhee",
+      "brand": "Horror"
+    },
+    {
+      "name": "Mai Shiranui",
+      "brand": "Mortal Kombat"
+    },
+    {
+      "name": "Malachi The Mad",
+      "brand": "DSEPW"
+    },
+    {
+      "name": "Melania Trump",
+      "brand": "DSEPW"
+    },
+    {
+      "name": "Markiplier",
+      "brand": "Streamer/YouTuber"
+    },
+    {
+      "name": "Marlon",
+      "brand": "Streamer/YouTuber"
+    },
+    {
+      "name": "Mary Jane",
+      "brand": "Superhero/Villain"
+    },
+    {
+      "name": "Michelle Obama",
+      "brand": "DSEPW"
+    },
+    {
+      "name": "Mask, The",
+      "brand": "Superhero/Villain"
+    },
+    {
+      "name": "Michael Myers",
+      "brand": "Horror"
+    },
+    {
+      "name": "Michelangelo",
+      "brand": "Superhero/Villain"
+    },
+    {
+      "name": "Miguel Diaz",
+      "brand": "Martial Arts"
+    },
+    {
+      "name": "Mileena",
+      "brand": "Mortal Kombat"
+    },
+    {
+      "name": "Moana",
+      "brand": "Princess"
+    },
+    {
+      "name": "Mr. Miyagi",
+      "brand": "DSEPW"
+    },
+    {
+      "name": "Mr. Chicken",
+      "brand": "DSEPW"
+    },
+    {
+      "name": "MrBeast",
+      "brand": "DSEPW"
+    },
+    {
+      "name": "Mrs Incredible",
+      "brand": "DSEPW"
+    },
+    {
+      "name": "Ms. Marvel",
+      "brand": "DSEPW"
+    },
+    {
+      "name": "Mulan",
+      "brand": "Princess"
+    },
+    {
+      "name": "Mysterio",
+      "brand": "Superhero/Villain"
+    },
+    {
+      "name": "Mystique",
+      "brand": "Superhero/Villain"
+    },
+    {
+      "name": "Nashoba",
+      "brand": "DSEPW"
+    },
+    {
+      "name": "Negan",
+      "brand": "Horror"
+    },
+    {
+      "name": "Ninja",
+      "brand": "Streamer/YouTuber"
+    },
+    {
+      "name": "Nitara Marshall",
+      "brand": "Mortal Kombat"
+    },
+    {
+      "name": "Pamela Voorhees",
+      "brand": "Horror"
+    },
+    {
+      "name": "Paul Walter Hauser",
+      "brand": "Martial Arts"
+    },
+    {
+      "name": "Pebbles Flintstone",
+      "brand": "DSEPW"
+    },
+    {
+      "name": "Pennywise",
+      "brand": "Horror"
+    },
+    {
+      "name": "Phoenix",
+      "brand": "Superhero/Villain"
+    },
+    {
+      "name": "Pocahontas",
+      "brand": "Princess"
+    },
+    {
+      "name": "Pokimane",
+      "brand": "Streamer/YouTuber"
+    },
+    {
+      "name": "Princess Daisy",
+      "brand": "Princess"
+    },
+    {
+      "name": "Princess Peach",
+      "brand": "Princess"
+    },
+    {
+      "name": "Princess Victoria",
+      "brand": "Legend"
+    },
+    {
+      "name": "Princess Zelda",
+      "brand": "Princess"
+    },
+    {
+      "name": "Psylocke",
+      "brand": "Superhero/Villain"
+    },
+    {
+      "name": "Punisher, The",
+      "brand": "Superhero/Villain"
+    },
+    {
+      "name": "Rain",
+      "brand": "Mortal Kombat"
+    },
+    {
+      "name": "Raphael",
+      "brand": "Superhero/Villain"
+    },
+    {
+      "name": "Rapunzel",
+      "brand": "Princess"
+    },
+    {
+      "name": "Reptile",
+      "brand": "Mortal Kombat"
+    },
+    {
+      "name": "Rick Grimes",
+      "brand": "Horror"
+    },
+    {
+      "name": "Robby Keen",
+      "brand": "Martial Arts"
+    },
+    {
+      "name": "Robin",
+      "brand": "Superhero/Villain"
+    },
+    {
+      "name": "Rocksteady",
+      "brand": "Superhero/Villain"
+    },
+    {
+      "name": "Rocky Desantos",
+      "brand": "Superhero/Villain"
+    },
+    {
+      "name": "Rogue",
+      "brand": "Superhero/Villain"
+    },
+    {
+      "name": "Rug",
+      "brand": "Streamer/YouTuber"
+    },
+    {
+      "name": "Sam Larusso",
+      "brand": "Martial Arts"
+    },
+    {
+      "name": "Samara",
+      "brand": "Horror"
+    },
+    {
+      "name": "Scooby Doo",
+      "brand": "Cartoons"
+    },
+    {
+      "name": "Scorpina",
+      "brand": "Superhero/Villain"
+    },
+    {
+      "name": "Scorpion",
+      "brand": "Mortal Kombat"
+    },
+    {
+      "name": "Sensei Wolf",
+      "brand": "Martial Arts"
+    },
+    {
+      "name": "Shaggy Rogers",
+      "brand": "Cartoons"
+    },
+    {
+      "name": "Shane Walsh",
+      "brand": "Horror"
+    },
+    {
+      "name": "She-Hulk",
+      "brand": "DSEPW"
+    },
+    {
+      "name": "Sheeva",
+      "brand": "Mortal Kombat"
+    },
+    {
+      "name": "Shego",
+      "brand": "Superhero/Villain"
+    },
+    {
+      "name": "Shredder, The",
+      "brand": "Superhero/Villain"
+    },
+    {
+      "name": "Sid",
+      "brand": "Cartoons"
+    },
+    {
+      "name": "Sidney Prescott",
+      "brand": "Horror"
+    },
+    {
+      "name": "Sindel",
+      "brand": "Mortal Kombat"
+    },
+    {
+      "name": "Scarlet",
+      "brand": "DSEPW"
+    },
+    {
+      "name": "Sketch",
+      "brand": "Streamer/YouTuber"
+    },
+    {
+      "name": "Sonya Blade",
+      "brand": "Mortal Kombat"
+    },
+    {
+      "name": "Spider-Gwen",
+      "brand": "DSEPW"
+    },
+    {
+      "name": "Spider-Man",
+      "brand": "DSEPW"
+    },
+    {
+      "name": "Storm",
+      "brand": "Superhero/Villain"
+    },
+    {
+      "name": "Sub Zero",
+      "brand": "Mortal Kombat"
+    },
+    {
+      "name": "Super Mario",
+      "brand": "DSEPW"
+    },
+    {
+      "name": "Supergirl",
+      "brand": "Superhero/Villain"
+    },
+    {
+      "name": "Superman",
+      "brand": "Superhero/Villain"
+    },
+    {
+      "name": "Tank Bryson",
+      "brand": "DSEPW"
+    },
+    {
+      "name": "Tanya",
+      "brand": "Mortal Kombat"
+    },
+    {
+      "name": "Terry Silver",
+      "brand": "Martial Arts"
+    },
+    {
+      "name": "Tiana",
+      "brand": "Princess"
+    },
+    {
+      "name": "Tiffany Valentine",
+      "brand": "Horror"
+    },
+    {
+      "name": "Tinkerbell",
+      "brand": "Princess"
+    },
+    {
+      "name": "Tommy Oliver",
+      "brand": "Superhero/Villain"
+    },
+    {
+      "name": "Tory Nichols",
+      "brand": "Martial Arts"
+    },
+    {
+      "name": "Velma Dinkley",
+      "brand": "Cartoons"
+    },
+    {
+      "name": "Velvet Mcintyre",
+      "brand": "Legend"
+    },
+    {
+      "name": "Wilma Flintstone",
+      "brand": "DSEPW"
+    },
+    {
+      "name": "Wolverine",
+      "brand": "Superhero/Villain"
+    },
+    {
+      "name": "Wonder Woman",
+      "brand": "Superhero/Villain"
+    },
+    {
+      "name": "Woody",
+      "brand": "Cartoons"
+    },
+    {
+      "name": "Xena",
+      "brand": "Superhero/Villain"
+    },
+    {
+      "name": "Zara",
+      "brand": "Martial Arts"
+    },
+    {
+      "name": "Kenny Lopez",
+      "brand": "DSEPW"
+    },
+    {
+      "name": "Sandra Lopez",
+      "brand": "DSEPW"
+    },
+    {
+      "name": "Mrs. Incredible",
+      "brand": "Superhero/Villain"
+    },
+    {
+      "name": "Je'Von Evans",
+      "brand": "Roster"
+    },
+    {
+      "name": "Elite Jacob Fatu",
+      "brand": "Elite"
+    },
+    {
+      "name": "Elite Rhea Ripley",
+      "brand": "Elite"
+    }
+  ],
+  "customMatchTypes": [],
+  "customChampionships": [],
+  "removedRoster": [],
+  "removedMatchTypes": [],
+  "removedChampionships": [],
+  "testMode": false,
+  "version": 1
+}

@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>WWE 2K26 Playbook</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { background: #000; color: #e6e6e6; font-family: Calibri, 'Segoe UI', sans-serif; font-size: 15px; }
+body { min-height: 100vh; }
+a { color: inherit; }
+
+/* ---- top nav ---- */
+header { position: sticky; top: 0; z-index: 50; background: linear-gradient(to right,#0a0a14,#1a0a0a); border-bottom: 2px solid #1a3a8a; padding: 10px 16px; display: flex; align-items: center; gap: 16px; flex-wrap: wrap; }
+header .brand { color: #ff3333; font-size: 18px; letter-spacing: 3px; font-weight: bold; text-shadow: 0 0 12px rgba(255,51,51,.5); }
+nav { display: flex; gap: 6px; flex-wrap: wrap; }
+nav button { background: #0a0a14; color: #cfd6e6; border: 1px solid #2a2a4a; padding: 6px 13px; border-radius: 4px; cursor: pointer; font-size: 13px; letter-spacing: 1px; font-family: inherit; }
+nav button:hover { border-color: #ff3333; color: #fff; }
+nav button.active { background: #1a140a; color: #ffd700; border-color: #663399; }
+.readonly { margin-left: auto; color: #888; font-size: 11px; letter-spacing: 2px; border: 1px solid #333; padding: 3px 9px; border-radius: 10px; }
+
+main { max-width: 1100px; margin: 0 auto; padding: 22px 18px 60px; }
+section { display: none; }
+section.active { display: block; animation: fade .15s ease-out; }
+@keyframes fade { from { opacity: 0; } to { opacity: 1; } }
+h1.page-title { color: #ff3333; font-size: 26px; letter-spacing: 3px; margin-bottom: 4px; }
+.page-sub { color: #d4a35a; font-size: 13px; letter-spacing: 2px; margin-bottom: 18px; }
+
+/* ---- cover ---- */
+#cover.active { display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; min-height: 70vh; }
+#cover .book { width: min(90vw,640px); padding: 50px 30px; border: 6px solid #1a0a02; border-radius: 8px 20px 20px 8px; background: linear-gradient(135deg,#5a3015,#3a1a08 50%,#1a0a02); box-shadow: -8px 0 26px rgba(0,0,0,.85), inset 5px 0 12px rgba(0,0,0,.7); }
+#cover h2 { color: #ff3333; font-size: 50px; letter-spacing: 6px; text-shadow: 0 0 14px rgba(255,51,51,.55),3px 3px 0 #000; }
+#cover .ornament { color: #aa8855; font-size: 20px; letter-spacing: 6px; margin: 10px 0 18px; }
+#cover .chapters { color: #e8c98a; font-size: 14px; line-height: 2; letter-spacing: 2px; }
+#cover .updated { color: #777; font-size: 11px; letter-spacing: 2px; margin-top: 22px; }
+
+/* ---- champions ---- */
+.champ-grid { display: grid; grid-template-columns: repeat(auto-fill,minmax(280px,1fr)); gap: 12px; }
+.belt { border: 2px solid #ffd700; border-radius: 8px; padding: 14px 16px; background: linear-gradient(135deg,#241b04,#0a0a14); }
+.belt.vacant { border-color: #3a3a3a; background: #0a0a10; }
+.belt .title { color: #ffd700; font-size: 14px; letter-spacing: 1px; font-weight: bold; }
+.belt.vacant .title { color: #888; }
+.belt .holder { color: #fff; font-size: 20px; margin-top: 6px; }
+.belt .meta { color: #9aa; font-size: 12px; margin-top: 6px; letter-spacing: 1px; }
+.belt .live { color: #66ff99; }
+.belt .pending { color: #d4a35a; }
+
+/* ---- tournaments ---- */
+.tour-wrap { display: grid; grid-template-columns: 240px 1fr; gap: 16px; }
+@media (max-width: 720px){ .tour-wrap { grid-template-columns: 1fr; } }
+.tour-list { border: 1px solid #222; border-radius: 6px; background: #050509; padding: 8px; max-height: 70vh; overflow-y: auto; }
+.tour-item { padding: 8px 10px; border: 1px solid #1a3a8a; border-left: 3px solid #555; border-radius: 4px; margin-bottom: 6px; cursor: pointer; background: #0a0a14; }
+.tour-item:hover { border-color: #ff3333; }
+.tour-item.sel { border-left-color: #ffd700; background: #1a140a; }
+.tour-item .n { color: #ddd; font-size: 13px; font-weight: bold; }
+.tour-item .st { font-size: 11px; letter-spacing: 1px; margin-top: 2px; }
+.st.done { color: #ffd700; } .st.live { color: #66ff99; } .st.pending { color: #777; }
+.bracket .round { margin-bottom: 16px; }
+.round-hdr { color: #d4a35a; font-size: 13px; letter-spacing: 2px; padding: 5px 10px; background: #0a0014; border: 1px solid #663399; border-radius: 4px; }
+.round-hdr .mt { color: #888; font-size: 11px; }
+.match { border: 1px solid #1a3a8a; border-left: 3px solid #d4a35a; border-radius: 5px; padding: 8px 12px; margin-top: 8px; background: #0a0a14; }
+.match .side { display: flex; align-items: center; gap: 8px; padding: 3px 0; }
+.match .side .nm { font-size: 15px; }
+.match .side.win .nm { color: #ffd700; font-weight: bold; }
+.match .side.win .nm::before { content: "\1F3C6  "; }
+.match .side.lose .nm { color: #777; text-decoration: line-through; }
+.match .vs { color: #ff5555; font-size: 11px; letter-spacing: 1px; padding: 1px 0; }
+.champ-banner { background: linear-gradient(90deg,#2a1f05,#1a1405); border: 2px solid #ffd700; border-radius: 6px; padding: 12px 16px; margin-bottom: 14px; color: #ffd700; font-size: 19px; letter-spacing: 2px; text-align: center; text-shadow: 0 0 12px rgba(255,215,0,.5); }
+.eoptag { color: #cc99ff; font-size: 11px; font-weight: bold; letter-spacing: 1px; border: 1px solid #7733bb; border-radius: 10px; padding: 1px 7px; white-space: nowrap; }
+
+/* ---- factions ---- */
+.fac-grid { display: grid; grid-template-columns: repeat(auto-fill,minmax(260px,1fr)); gap: 12px; }
+.faction { background: #0a0a14; border: 2px solid #444; border-radius: 6px; padding: 12px; }
+.faction.full { border-color: #66ff99; background: #0a1a0a; }
+.faction h3 { color: #cc99ff; font-size: 15px; display: flex; justify-content: space-between; margin-bottom: 6px; }
+.faction.full h3 { color: #66ff99; }
+.faction ul { list-style: none; }
+.faction li { padding: 4px 6px; color: #ddd; border-bottom: 1px solid #1a1a2a; font-size: 14px; }
+.faction li:last-child { border-bottom: none; }
+.faction li .brand { color: #7fa0d8; font-size: 11px; margin-left: 6px; }
+
+/* ---- roster ---- */
+.roster-tools { display: flex; gap: 10px; align-items: center; margin-bottom: 14px; flex-wrap: wrap; }
+.roster-tools input { background: #0a0a14; border: 1px solid #2a2a4a; color: #fff; padding: 8px 12px; border-radius: 5px; font-size: 14px; min-width: 220px; font-family: inherit; }
+.roster-tools .cnt { color: #888; font-size: 12px; letter-spacing: 1px; }
+.roster-grid { display: grid; grid-template-columns: repeat(auto-fill,minmax(230px,1fr)); gap: 6px; }
+.rcard { border: 1px solid #1a2030; border-radius: 5px; padding: 7px 11px; background: #0a0a12; display: flex; align-items: center; justify-content: space-between; gap: 8px; }
+.rcard .rn { font-size: 14px; }
+.rcard .rb { color: #7fa0d8; font-size: 11px; white-space: nowrap; }
+.rcard.eop { border-color: #5a3a7a; }
+.tags { font-size: 10px; letter-spacing: 1px; }
+.tag-eop { color: #cc99ff; } .tag-ps { color: #66ff99; }
+.loading { color: #d4a35a; padding: 30px; text-align: center; letter-spacing: 2px; }
+.err { color: #ff6666; padding: 20px; border: 1px solid #662222; border-radius: 6px; background: #170808; }
+</style>
+</head>
+<body>
+
+<header>
+  <span class="brand">&#9876; WWE 2K26 PLAYBOOK</span>
+  <nav id="nav"></nav>
+  <span class="readonly">READ-ONLY</span>
+</header>
+
+<main>
+  <section id="cover">
+    <div class="book">
+      <h2>WWE 2K26</h2>
+      <div class="ornament">&#10070; &#10070; &#10070;</div>
+      <div style="color:#ff3333;font-size:18px;letter-spacing:5px;margin-bottom:14px">THE PLAYBOOK</div>
+      <div class="chapters">
+        Champions &middot; Hall of Belts<br>
+        Tournaments &middot; Brackets<br>
+        Empire of Pain &middot; Factions<br>
+        Master Roster
+      </div>
+      <div class="updated" id="coverUpdated"></div>
+    </div>
+  </section>
+
+  <section id="champions">
+    <h1 class="page-title">Champions</h1>
+    <div class="page-sub" id="champSub">THE CURRENT TITLEHOLDERS</div>
+    <div class="champ-grid" id="champGrid"><div class="loading">Loading&hellip;</div></div>
+  </section>
+
+  <section id="tournaments">
+    <h1 class="page-title">Tournaments</h1>
+    <div class="page-sub" id="tourSub">THE BRACKETS</div>
+    <div class="tour-wrap">
+      <div class="tour-list" id="tourList"><div class="loading">Loading&hellip;</div></div>
+      <div class="bracket" id="bracket"></div>
+    </div>
+  </section>
+
+  <section id="factions">
+    <h1 class="page-title">&#9876; Empire of Pain</h1>
+    <div class="page-sub" id="facSub">THE FACTIONS</div>
+    <div class="fac-grid" id="facGrid"><div class="loading">Loading&hellip;</div></div>
+  </section>
+
+  <section id="roster">
+    <h1 class="page-title">Master Roster</h1>
+    <div class="page-sub">EVERY COMPETITOR IN THE BOOK</div>
+    <div class="roster-tools">
+      <input id="rosterSearch" type="text" placeholder="Search the roster&hellip;" oninput="renderRoster()">
+      <span class="cnt" id="rosterCount"></span>
+    </div>
+    <div class="roster-grid" id="rosterGrid"><div class="loading">Loading&hellip;</div></div>
+  </section>
+</main>
+
+<script>
+const PAGES = [
+  { id: 'cover', label: 'Cover' },
+  { id: 'champions', label: 'Champions' },
+  { id: 'tournaments', label: 'Tournaments' },
+  { id: 'factions', label: 'Empire of Pain' },
+  { id: 'roster', label: 'Roster' },
+];
+let STATE = {}, TOUR = {}, SEASON = {}, BRAND = {}, EOP_SET = new Set(), selTour = null;
+
+// ---- data loading (browser fetch, BOM-safe) ----
+async function loadJSON(p) {
+  const res = await fetch(p + '?v=' + Date.now());
+  if (!res.ok) throw new Error(p + ' -> HTTP ' + res.status);
+  let t = await res.text();
+  if (t.charCodeAt(0) === 0xFEFF) t = t.slice(1);
+  return JSON.parse(t);
+}
+function esc(s) { return String(s == null ? '' : s).replace(/[&<>"']/g, c => ({ '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;' }[c])); }
+function normName(s) {
+  s = String(s == null ? '' : s).toLowerCase().trim();
+  s = s.replace(/^(.*),\s*(the|a|an)$/, '$2 $1');
+  s = s.replace(/\([^)]*\)/g, ' ');
+  s = s.replace(/[^a-z0-9]+/g, '');
+  return s;
+}
+function isEOP(name) { return EOP_SET.has(normName(name)); }
+function eopTag(name) { return isEOP(name) ? ' <span class="eoptag">&#9876; Empire of Pain</span>' : ''; }
+function brandOf(name) {
+  if (BRAND[name]) return BRAND[name];
+  const k = normName(name);
+  for (const n in BRAND) if (normName(n) === k) return BRAND[n];
+  return '';
+}
+
+// ---- nav ----
+function goto(id) {
+  document.querySelectorAll('section').forEach(s => s.classList.toggle('active', s.id === id));
+  document.querySelectorAll('#nav button').forEach(b => b.classList.toggle('active', b.dataset.id === id));
+  window.scrollTo(0, 0);
+}
+function buildNav() {
+  document.getElementById('nav').innerHTML = PAGES.map(p =>
+    '<button data-id="' + p.id + '" onclick="goto(\'' + p.id + '\')">' + esc(p.label) + '</button>').join('');
+}
+
+// ---- champions ----
+function renderChampions() {
+  const titles = Object.keys(TOUR.tournaments || {});
+  const season = SEASON.seasons && SEASON.seasons[SEASON.currentSeason];
+  const holders = (season && season.titleHolders) || {};
+  const cur = TOUR.currentTitle;
+  const html = titles.map(name => {
+    const t = TOUR.tournaments[name];
+    const h = holders[name];
+    const champ = (t && t.completed && t.champion) || (h && h.holder) || null;
+    if (champ) {
+      const meta = h ? ('Won ' + esc(h.wonDate || '') + (h.defenses ? ' &middot; ' + h.defenses + ' defense' + (h.defenses === 1 ? '' : 's') : '')) : 'Champion';
+      return '<div class="belt"><div class="title">&#127942; ' + esc(name) + '</div>'
+        + '<div class="holder">' + esc(champ) + eopTag(champ) + '</div>'
+        + '<div class="meta">' + meta + '</div></div>';
+    }
+    const live = name === cur;
+    return '<div class="belt vacant"><div class="title">' + esc(name) + '</div>'
+      + '<div class="holder" style="color:#888;font-size:16px">' + (live ? '<span class="live">&#9654; Being decided now</span>' : '<span class="pending">Not crowned yet</span>') + '</div>'
+      + '<div class="meta">' + (live ? 'Current tournament' : 'Upcoming') + '</div></div>';
+  }).join('');
+  const crowned = titles.filter(n => { const t = TOUR.tournaments[n]; return (t && t.completed) || (holders[n] && holders[n].holder); }).length;
+  document.getElementById('champSub').textContent = crowned + ' OF ' + titles.length + ' TITLES CROWNED';
+  document.getElementById('champGrid').innerHTML = html || '<div class="err">No titles found.</div>';
+}
+
+// ---- tournaments ----
+function tourStatus(name) {
+  const t = TOUR.tournaments[name];
+  if (t && t.completed && t.champion) return { cls: 'done', txt: 'CHAMPION: ' + t.champion };
+  if (name === TOUR.currentTitle) return { cls: 'live', txt: 'IN PROGRESS' };
+  const started = t && (t.rounds || []).some(r => (r.matches || []).some(m => m.winner));
+  return started ? { cls: 'live', txt: 'IN PROGRESS' } : { cls: 'pending', txt: 'NOT STARTED' };
+}
+function renderTourList() {
+  const titles = Object.keys(TOUR.tournaments || {});
+  document.getElementById('tourList').innerHTML = titles.map((name, i) => {
+    const st = tourStatus(name);
+    return '<div class="tour-item ' + (name === selTour ? 'sel' : '') + '" onclick="selectTour(\'' + name.replace(/'/g, "\\'") + '\')">'
+      + '<div class="n">' + (i + 1) + '. ' + esc(name) + '</div>'
+      + '<div class="st ' + st.cls + '">' + esc(st.txt) + '</div></div>';
+  }).join('') || '<div class="err">No tournaments.</div>';
+}
+function selectTour(name) { selTour = name; renderTourList(); renderBracket(); }
+function side(name, winner) {
+  if (!name) return '<div class="side"><span class="nm" style="color:#555;font-style:italic">(TBD)</span></div>';
+  const cls = winner ? (winner === name ? ' win' : ' lose') : '';
+  return '<div class="side' + cls + '"><span class="nm">' + esc(name) + '</span>' + eopTag(name) + '</div>';
+}
+function renderBracket() {
+  const name = selTour, t = TOUR.tournaments[name];
+  const el = document.getElementById('bracket');
+  if (!t) { el.innerHTML = '<div class="err">Pick a tournament.</div>'; return; }
+  let html = '';
+  if (t.completed && t.champion) html += '<div class="champ-banner">&#127942; ' + esc(t.champion) + eopTag(t.champion) + ' &mdash; ' + esc(name) + '</div>';
+  const rounds = t.rounds || [];
+  if (!rounds.length || !rounds.some(r => (r.matches || []).length)) {
+    html += '<div class="err">This tournament hasn\'t started yet. Competitors: ' + (t.wrestlers || []).map(esc).join(', ') + '</div>';
+    el.innerHTML = html; return;
+  }
+  rounds.forEach(r => {
+    const matches = (r.matches || []).filter(m => m.a || m.b);
+    if (!matches.length) return;
+    html += '<div class="round"><div class="round-hdr">' + esc(r.name || 'Round')
+      + (r.matchType ? ' <span class="mt">&middot; ' + esc(r.matchType) + '</span>' : '') + '</div>';
+    matches.forEach(m => {
+      html += '<div class="match">' + side(m.a, m.winner) + '<div class="vs">vs</div>' + side(m.b, m.winner) + '</div>';
+    });
+    html += '</div>';
+  });
+  el.innerHTML = html;
+}
+
+// ---- factions ----
+function renderFactions() {
+  const factions = STATE.factions || {};
+  const keys = Object.keys(factions).filter(k => (factions[k] || []).length)
+    .sort((a, b) => (parseInt(a.replace(/\D/g, '')) || 0) - (parseInt(b.replace(/\D/g, '')) || 0));
+  const total = new Set();
+  keys.forEach(k => factions[k].forEach(n => total.add(n)));
+  document.getElementById('facSub').textContent = total.size + ' MEMBERS ACROSS ' + keys.length + ' SQUADS';
+  document.getElementById('facGrid').innerHTML = keys.map(k => {
+    const mem = factions[k] || [];
+    const full = mem.length >= 5;
+    return '<div class="faction' + (full ? ' full' : '') + '"><h3><span>' + esc(k) + '</span><span>' + mem.length + ' / 5</span></h3><ul>'
+      + mem.map(n => { const b = brandOf(n); return '<li>' + esc(n) + (b ? '<span class="brand">' + esc(b) + '</span>' : '') + '</li>'; }).join('')
+      + '</ul></div>';
+  }).join('') || '<div class="err">No factions set.</div>';
+}
+
+// ---- roster ----
+function renderRoster() {
+  const all = (STATE.kept || []).slice().sort((a, b) => a.localeCompare(b));
+  const ps = new Set((STATE.playerStreamer || []).map(normName));
+  const q = (document.getElementById('rosterSearch').value || '').toLowerCase().trim();
+  const list = q ? all.filter(n => n.toLowerCase().includes(q)) : all;
+  document.getElementById('rosterCount').textContent = list.length + ' / ' + all.length + ' competitors';
+  document.getElementById('rosterGrid').innerHTML = list.map(n => {
+    const b = brandOf(n), eop = isEOP(n), isPS = ps.has(normName(n));
+    const tags = (eop ? '<span class="tag-eop">&#9876;EOP</span> ' : '') + (isPS ? '<span class="tag-ps">&#9733;P/S</span>' : '');
+    return '<div class="rcard' + (eop ? ' eop' : '') + '"><span class="rn">' + esc(n) + '</span>'
+      + '<span class="rb">' + (tags ? '<span class="tags">' + tags + '</span> ' : '') + esc(b) + '</span></div>';
+  }).join('') || '<div class="err">No matches.</div>';
+}
+
+// ---- boot ----
+async function boot() {
+  buildNav();
+  goto('cover');
+  try {
+    [STATE, TOUR, SEASON] = await Promise.all([
+      loadJSON('data/reviewer_state.json'),
+      loadJSON('data/tournament_data.json'),
+      loadJSON('data/season_data.json'),
+    ]);
+  } catch (e) {
+    document.querySelectorAll('.loading').forEach(el => { el.outerHTML = '<div class="err">Could not load book data: ' + esc(e.message) + '</div>'; });
+    return;
+  }
+  // brand map from the custom roster
+  (SEASON.customRoster || []).forEach(r => { if (r && r.name) BRAND[r.name] = r.brand || ''; });
+  // EOP set = membership list + everyone assigned to a squad
+  const names = [].concat(STATE.empireOfPain || [], ...Object.values(STATE.factions || {}));
+  EOP_SET = new Set(names.map(normName).filter(Boolean));
+  // default selected tournament = current, else first
+  const titles = Object.keys(TOUR.tournaments || {});
+  selTour = (TOUR.currentTitle && TOUR.tournaments[TOUR.currentTitle]) ? TOUR.currentTitle : (titles[0] || null);
+  document.getElementById('coverUpdated').textContent = 'Season ' + (SEASON.currentSeason || 1);
+  renderChampions();
+  renderTourList(); renderBracket();
+  renderFactions();
+  renderRoster();
+}
+boot();
+</script>
+</body>
+</html>
