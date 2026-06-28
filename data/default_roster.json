@@ -1,15 +1,35 @@
 [
   {
+    "name": "Abe Lincoln",
+    "brand": "Government"
+  },
+  {
     "name": "Abyss",
     "brand": "Legend"
+  },
+  {
+    "name": "Adam Park",
+    "brand": "Superhero/Villain"
   },
   {
     "name": "Adam Pearce '12",
     "brand": "Legend"
   },
   {
+    "name": "Adapt",
+    "brand": "Internet Television"
+  },
+  {
+    "name": "Adin Ross",
+    "brand": "Internet Television"
+  },
+  {
     "name": "Afa",
     "brand": "Legend"
+  },
+  {
+    "name": "Aisha Campbell",
+    "brand": "Superhero/Villain"
   },
   {
     "name": "AJ Lee",
@@ -29,7 +49,7 @@
   },
   {
     "name": "Akira Tozawa",
-    "brand": "High Flyers"
+    "brand": "Cruiserweight"
   },
   {
     "name": "Alba Fyre",
@@ -37,7 +57,7 @@
   },
   {
     "name": "Aleister Black",
-    "brand": "High Flyers"
+    "brand": "Cruiserweight"
   },
   {
     "name": "Alex Shelley",
@@ -56,6 +76,10 @@
     "brand": "Legend"
   },
   {
+    "name": "Amouranth",
+    "brand": "Internet Television"
+  },
+  {
     "name": "Andre Chase",
     "brand": "Roster"
   },
@@ -72,20 +96,52 @@
     "brand": "Roster"
   },
   {
+    "name": "Anna",
+    "brand": "Princess"
+  },
+  {
+    "name": "Annabelle",
+    "brand": "Horror"
+  },
+  {
     "name": "Apollo Crews",
     "brand": "Roster"
+  },
+  {
+    "name": "April O'Neil",
+    "brand": "DSEPW"
+  },
+  {
+    "name": "Aquaman",
+    "brand": "Superhero/Villain"
+  },
+  {
+    "name": "Ariel",
+    "brand": "Princess"
+  },
+  {
+    "name": "Art The Clown",
+    "brand": "Horror"
   },
   {
     "name": "Asuka",
     "brand": "Roster"
   },
   {
+    "name": "Aurora",
+    "brand": "Princess"
+  },
+  {
     "name": "Austin Theory",
     "brand": "Roster"
   },
   {
+    "name": "Ax",
+    "brand": "Legend"
+  },
+  {
     "name": "Axiom",
-    "brand": "High Flyers"
+    "brand": "Cruiserweight"
   },
   {
     "name": "B-Fab",
@@ -96,16 +152,60 @@
     "brand": "Legend"
   },
   {
+    "name": "Bamm Bamm Rubble",
+    "brand": "Cartoons"
+  },
+  {
+    "name": "Barack Obama",
+    "brand": "Government"
+  },
+  {
+    "name": "Barney Rubble",
+    "brand": "Cartoons"
+  },
+  {
+    "name": "Batgirl",
+    "brand": "Superhero/Villain"
+  },
+  {
     "name": "Batista",
     "brand": "Legend"
+  },
+  {
+    "name": "Batman",
+    "brand": "Superhero/Villain"
   },
   {
     "name": "Bayley",
     "brand": "Roster"
   },
   {
+    "name": "Bebop",
+    "brand": "Superhero/Villain"
+  },
+  {
     "name": "Becky Lynch",
     "brand": "Roster"
+  },
+  {
+    "name": "Belle",
+    "brand": "Princess"
+  },
+  {
+    "name": "Bernie Sanders",
+    "brand": "Government"
+  },
+  {
+    "name": "Bert",
+    "brand": "Martial Arts"
+  },
+  {
+    "name": "Berto",
+    "brand": "Roster"
+  },
+  {
+    "name": "Beta",
+    "brand": "Horror"
   },
   {
     "name": "Bianca Belair",
@@ -116,16 +216,40 @@
     "brand": "Legend"
   },
   {
+    "name": "Bill Clinton",
+    "brand": "DSEPW"
+  },
+  {
+    "name": "Billy Cranston",
+    "brand": "Superhero/Villain"
+  },
+  {
+    "name": "Billy The Puppet",
+    "brand": "Horror"
+  },
+  {
+    "name": "Black Cat",
+    "brand": "Superhero/Villain"
+  },
+  {
+    "name": "Black Panther",
+    "brand": "Superhero/Villain"
+  },
+  {
+    "name": "Black Widow",
+    "brand": "Superhero/Villain"
+  },
+  {
+    "name": "Blade",
+    "brand": "Superhero/Villain"
+  },
+  {
     "name": "Blake Monroe",
     "brand": "Roster"
   },
   {
-    "name": "Bobby Newton (Lock)",
+    "name": "Bobby Newton",
     "brand": "Roster"
-  },
-  {
-    "name": "Ax (Lock)",
-    "brand": "Legend"
   },
   {
     "name": "Boogeyman",
@@ -137,10 +261,14 @@
   },
   {
     "name": "Bray Wyatt",
-    "brand": "Giants"
+    "brand": "Super Heavyweight"
   },
   {
     "name": "Bret Hit Man Hart",
+    "brand": "Legend"
+  },
+  {
+    "name": "Brian Pillman",
     "brand": "Legend"
   },
   {
@@ -157,23 +285,27 @@
   },
   {
     "name": "Bron Breaker",
-    "brand": "High Flyers"
+    "brand": "Super Heavyweight"
   },
   {
     "name": "Bronson Reed",
-    "brand": "Giants"
+    "brand": "Super Heavyweight"
   },
   {
-    "name": "Bronze Breakker (Lock)",
-    "brand": "High Flyers"
+    "name": "Bronze Breakker",
+    "brand": "Super Heavyweight"
   },
   {
     "name": "Brooks Jensen",
     "brand": "Roster"
   },
   {
+    "name": "Bruce Lee",
+    "brand": "Martial Arts"
+  },
+  {
     "name": "Brutus Creed",
-    "brand": "Giants"
+    "brand": "Super Heavyweight"
   },
   {
     "name": "Bubba Ray Dudley",
@@ -185,7 +317,11 @@
   },
   {
     "name": "Buzz",
-    "brand": "Giants"
+    "brand": "Super Heavyweight"
+  },
+  {
+    "name": "Buzz Lightyear",
+    "brand": "Cartoons"
   },
   {
     "name": "Cactus Jack",
@@ -196,8 +332,24 @@
     "brand": "Roster"
   },
   {
+    "name": "Cappuccino Jones",
+    "brand": "DSEPW"
+  },
+  {
+    "name": "Captain America",
+    "brand": "Superhero/Villain"
+  },
+  {
+    "name": "Captain Marvel",
+    "brand": "Superhero/Villain"
+  },
+  {
     "name": "Captain, The",
     "brand": "Roster"
+  },
+  {
+    "name": "Carl Grimes",
+    "brand": "Horror"
   },
   {
     "name": "Carly Prime",
@@ -206,6 +358,18 @@
   {
     "name": "Carmelo Hayes",
     "brand": "Roster"
+  },
+  {
+    "name": "Case Oh",
+    "brand": "Internet Television"
+  },
+  {
+    "name": "Casey Jones",
+    "brand": "Superhero/Villain"
+  },
+  {
+    "name": "Catwoman",
+    "brand": "Superhero/Villain"
   },
   {
     "name": "Chad Gable",
@@ -228,6 +392,10 @@
     "brand": "Roster"
   },
   {
+    "name": "Cheetah",
+    "brand": "Superhero/Villain"
+  },
+  {
     "name": "Chelsea Green",
     "brand": "Roster"
   },
@@ -240,12 +408,36 @@
     "brand": "Roster"
   },
   {
+    "name": "Chuck Norris",
+    "brand": "Martial Arts"
+  },
+  {
+    "name": "Chucky",
+    "brand": "Horror"
+  },
+  {
+    "name": "Chun Li",
+    "brand": "Mortal Kombat"
+  },
+  {
     "name": "Chyna",
     "brand": "Legend"
   },
   {
     "name": "Chyna '97",
     "brand": "Legend"
+  },
+  {
+    "name": "Cinderella",
+    "brand": "Princess"
+  },
+  {
+    "name": "Cinnabrit",
+    "brand": "Internet Television"
+  },
+  {
+    "name": "Cleopatra",
+    "brand": "Government"
   },
   {
     "name": "CM Hart",
@@ -296,12 +488,12 @@
     "brand": "Roster"
   },
   {
-    "name": "Crush (Lock)",
+    "name": "Crush",
     "brand": "Legend"
   },
   {
     "name": "Cruz Del Toro",
-    "brand": "High Flyers"
+    "brand": "Cruiserweight"
   },
   {
     "name": "D Lo Brown",
@@ -312,16 +504,32 @@
     "brand": "Legend"
   },
   {
-    "name": "Dahlia Hex (Lock)",
+    "name": "Dahlia Hex",
     "brand": "Roster"
   },
   {
     "name": "Damien Priest",
-    "brand": "Giants"
+    "brand": "Super Heavyweight"
+  },
+  {
+    "name": "Daniel Larusso",
+    "brand": "Martial Arts"
+  },
+  {
+    "name": "Danny Lopez",
+    "brand": "DSEPW"
+  },
+  {
+    "name": "Daphne Blake",
+    "brand": "Cartoons"
   },
   {
     "name": "Dark Horse, The",
     "brand": "Roster"
+  },
+  {
+    "name": "Daryl Dixon",
+    "brand": "Horror"
   },
   {
     "name": "DDP",
@@ -332,12 +540,16 @@
     "brand": "Legend"
   },
   {
-    "name": "Delilah Hex (Lock)",
+    "name": "Deadpool",
+    "brand": "Superhero/Villain"
+  },
+  {
+    "name": "Delilah Hex",
     "brand": "Roster"
   },
   {
     "name": "Demon Finn Balor",
-    "brand": "High Flyers"
+    "brand": "Cruiserweight"
   },
   {
     "name": "Dexter Lumis",
@@ -349,19 +561,31 @@
   },
   {
     "name": "Dirty Dominik Mysterio",
-    "brand": "High Flyers"
+    "brand": "Cruiserweight"
   },
   {
     "name": "Doink The Clown",
     "brand": "Legend"
   },
   {
+    "name": "Donald Trump",
+    "brand": "Government"
+  },
+  {
+    "name": "Donatello",
+    "brand": "Superhero/Villain"
+  },
+  {
+    "name": "Dr. Doom",
+    "brand": "DSEPW"
+  },
+  {
     "name": "Dragon Lee",
-    "brand": "High Flyers"
+    "brand": "Cruiserweight"
   },
   {
     "name": "Drew Mcintyre",
-    "brand": "Giants"
+    "brand": "Super Heavyweight"
   },
   {
     "name": "Dude Love",
@@ -385,11 +609,11 @@
   },
   {
     "name": "El Grande Americano",
-    "brand": "High Flyers"
+    "brand": "Cruiserweight"
   },
   {
     "name": "El Hijo Del Vikingo",
-    "brand": "High Flyers"
+    "brand": "Cruiserweight"
   },
   {
     "name": "El Mago Jr",
@@ -409,15 +633,15 @@
   },
   {
     "name": "Erick Rowan",
-    "brand": "Giants"
+    "brand": "Super Heavyweight"
   },
   {
     "name": "Erik",
-    "brand": "Giants"
+    "brand": "Super Heavyweight"
   },
   {
     "name": "Ethan Page",
-    "brand": "Giants"
+    "brand": "Super Heavyweight"
   },
   {
     "name": "Eve Torres",
@@ -432,10 +656,6 @@
     "brand": "Roster"
   },
   {
-    "name": "Fiend Bray Wyatt, The",
-    "brand": "Legend"
-  },
-  {
     "name": "Fiend Bray Wyatt '23, The",
     "brand": "Legend"
   },
@@ -444,12 +664,36 @@
     "brand": "Legend"
   },
   {
+    "name": "Fiend Bray Wyatt, The",
+    "brand": "Legend"
+  },
+  {
     "name": "Finn Balor",
-    "brand": "High Flyers"
+    "brand": "Cruiserweight"
   },
   {
     "name": "Flammer",
-    "brand": "High Flyers"
+    "brand": "Cruiserweight"
+  },
+  {
+    "name": "Fred Flintstone",
+    "brand": "DSEPW"
+  },
+  {
+    "name": "Fred Jones",
+    "brand": "Cartoons"
+  },
+  {
+    "name": "Freddy Krueger",
+    "brand": "Horror"
+  },
+  {
+    "name": "Frost",
+    "brand": "Mortal Kombat"
+  },
+  {
+    "name": "Frozen Elsa",
+    "brand": "Princess"
   },
   {
     "name": "Gabriel Slade",
@@ -460,12 +704,28 @@
     "brand": "Roster"
   },
   {
+    "name": "George W. Bush",
+    "brand": "DSEPW"
+  },
+  {
+    "name": "Ghostface",
+    "brand": "Horror"
+  },
+  {
     "name": "Giulia",
     "brand": "Roster"
   },
   {
+    "name": "Goldar",
+    "brand": "Superhero/Villain"
+  },
+  {
     "name": "Goldberg",
     "brand": "Legend"
+  },
+  {
+    "name": "Governor, The",
+    "brand": "Horror"
   },
   {
     "name": "Grayson Waller",
@@ -480,16 +740,32 @@
     "brand": "Legend"
   },
   {
+    "name": "Green Arrow",
+    "brand": "Superhero/Villain"
+  },
+  {
+    "name": "Green Goblin",
+    "brand": "Superhero/Villain"
+  },
+  {
     "name": "Gunther",
-    "brand": "Giants"
+    "brand": "Super Heavyweight"
   },
   {
     "name": "Haku",
-    "brand": "Giants"
+    "brand": "Super Heavyweight"
   },
   {
     "name": "Hank Walker",
-    "brand": "Giants"
+    "brand": "Super Heavyweight"
+  },
+  {
+    "name": "Harley Quinn",
+    "brand": "Superhero/Villain"
+  },
+  {
+    "name": "Hawk",
+    "brand": "Martial Arts"
   },
   {
     "name": "Hector Flores",
@@ -500,12 +776,24 @@
     "brand": "Roster"
   },
   {
+    "name": "Hela",
+    "brand": "Superhero/Villain"
+  },
+  {
+    "name": "Hillary Clinton",
+    "brand": "DSEPW"
+  },
+  {
     "name": "Hollywood Hogan",
     "brand": "Legend"
   },
   {
     "name": "Honky Tonk Man, The",
     "brand": "Legend"
+  },
+  {
+    "name": "Hulk",
+    "brand": "Superhero/Villain"
   },
   {
     "name": "Hulk Hogan",
@@ -520,6 +808,10 @@
     "brand": "Legend"
   },
   {
+    "name": "Hunter Rhyn Trax",
+    "brand": "DSEPW"
+  },
+  {
     "name": "Hurricane, The",
     "brand": "Legend"
   },
@@ -528,12 +820,28 @@
     "brand": "Roster"
   },
   {
+    "name": "Invisible Woman",
+    "brand": "Superhero/Villain"
+  },
+  {
     "name": "Iron Sheik, The",
     "brand": "Legend"
   },
   {
+    "name": "Ironman",
+    "brand": "Superhero/Villain"
+  },
+  {
+    "name": "Ironmouse",
+    "brand": "Internet Television"
+  },
+  {
+    "name": "Ishowspeed",
+    "brand": "Internet Television"
+  },
+  {
     "name": "Ivar",
-    "brand": "Giants"
+    "brand": "Super Heavyweight"
   },
   {
     "name": "Ivy Nile",
@@ -541,31 +849,59 @@
   },
   {
     "name": "IYO SKY",
-    "brand": "High Flyers"
+    "brand": "Cruiserweight"
   },
   {
     "name": "Izzi Dame",
     "brand": "Roster"
   },
   {
+    "name": "Jack Talos",
+    "brand": "DSEPW"
+  },
+  {
+    "name": "Jackie Chan",
+    "brand": "Martial Arts"
+  },
+  {
     "name": "Jacob Fatu",
-    "brand": "Giants"
+    "brand": "Super Heavyweight"
   },
   {
     "name": "Jacy Jayne",
     "brand": "Roster"
   },
   {
+    "name": "Jade",
+    "brand": "Mortal Kombat"
+  },
+  {
     "name": "Jade Cargill",
-    "brand": "Giants"
+    "brand": "Super Heavyweight"
   },
   {
     "name": "Jaida Parker",
-    "brand": "Giants"
+    "brand": "Super Heavyweight"
+  },
+  {
+    "name": "Jake Paul",
+    "brand": "Internet Television"
   },
   {
     "name": "Jamal",
     "brand": "Legend"
+  },
+  {
+    "name": "Jane Jetson",
+    "brand": "Cartoons"
+  },
+  {
+    "name": "Jasmine",
+    "brand": "Princess"
+  },
+  {
+    "name": "Jason Voorhees",
+    "brand": "Horror"
   },
   {
     "name": "Jazmyn Nyx",
@@ -577,7 +913,7 @@
   },
   {
     "name": "JC Mateo",
-    "brand": "Giants"
+    "brand": "Super Heavyweight"
   },
   {
     "name": "JD McDonagh",
@@ -585,7 +921,11 @@
   },
   {
     "name": "Je Von Evans",
-    "brand": "High Flyers"
+    "brand": "Cruiserweight"
+  },
+  {
+    "name": "Jenna Ortega",
+    "brand": "Horror"
   },
   {
     "name": "Jesse The Body Ventura",
@@ -593,7 +933,7 @@
   },
   {
     "name": "Jey Uso",
-    "brand": "High Flyers"
+    "brand": "Cruiserweight"
   },
   {
     "name": "Jim The Anvil Neidhart",
@@ -601,15 +941,19 @@
   },
   {
     "name": "Jimmy Uso",
-    "brand": "High Flyers"
+    "brand": "Cruiserweight"
   },
   {
     "name": "Joaquin Wilde",
-    "brand": "High Flyers"
+    "brand": "Cruiserweight"
+  },
+  {
+    "name": "Joe Biden",
+    "brand": "Government"
   },
   {
     "name": "Joe Gacy",
-    "brand": "Giants"
+    "brand": "Super Heavyweight"
   },
   {
     "name": "Joe Hendry",
@@ -628,28 +972,56 @@
     "brand": "Legend"
   },
   {
+    "name": "John F. Kennedy",
+    "brand": "DSEPW"
+  },
+  {
+    "name": "John Kreese",
+    "brand": "Martial Arts"
+  },
+  {
+    "name": "Johnny Bravo",
+    "brand": "Cartoons"
+  },
+  {
+    "name": "Johnny Cage",
+    "brand": "Mortal Kombat"
+  },
+  {
     "name": "Johnny Gargano",
     "brand": "Roster"
   },
   {
+    "name": "Johnny Lawrence",
+    "brand": "Martial Arts"
+  },
+  {
+    "name": "Joker, The",
+    "brand": "Superhero/Villain"
+  },
+  {
     "name": "Jordynne Grace",
-    "brand": "Giants"
+    "brand": "Super Heavyweight"
   },
   {
     "name": "Josh Briggs",
-    "brand": "Giants"
+    "brand": "Super Heavyweight"
   },
   {
     "name": "Josie Jane",
     "brand": "Roster"
   },
   {
-    "name": "Juggernaut Grace (Lock)",
-    "brand": "Giants"
+    "name": "Judy Jetson",
+    "brand": "Cartoons"
+  },
+  {
+    "name": "Juggernaut Grace",
+    "brand": "Super Heavyweight"
   },
   {
     "name": "Julius Creed",
-    "brand": "Giants"
+    "brand": "Super Heavyweight"
   },
   {
     "name": "Junkyard Dog",
@@ -664,8 +1036,16 @@
     "brand": "Roster"
   },
   {
+    "name": "Jynxzi",
+    "brand": "Internet Television"
+  },
+  {
+    "name": "Kai Cenat",
+    "brand": "Internet Television"
+  },
+  {
     "name": "Kairi Sane",
-    "brand": "High Flyers"
+    "brand": "Cruiserweight"
   },
   {
     "name": "Kane",
@@ -688,7 +1068,7 @@
     "brand": "Roster"
   },
   {
-    "name": "Kelly Kelly (Lock)",
+    "name": "Kelly Kelly",
     "brand": "Legend"
   },
   {
@@ -696,24 +1076,52 @@
     "brand": "Legend"
   },
   {
+    "name": "Kenny Lopez",
+    "brand": "DSEPW"
+  },
+  {
+    "name": "Kenny Payne",
+    "brand": "Martial Arts"
+  },
+  {
     "name": "Kevin Nash",
     "brand": "Legend"
   },
   {
     "name": "Kevin Owens",
-    "brand": "Giants"
+    "brand": "Super Heavyweight"
   },
   {
     "name": "Kiana James",
     "brand": "Roster"
   },
   {
+    "name": "Kim Possible",
+    "brand": "Cartoons"
+  },
+  {
+    "name": "Kimberly Hart",
+    "brand": "Superhero/Villain"
+  },
+  {
+    "name": "Kingpin",
+    "brand": "Superhero/Villain"
+  },
+  {
     "name": "Kit Wilson",
     "brand": "Roster"
   },
   {
+    "name": "Kitana",
+    "brand": "Mortal Kombat"
+  },
+  {
     "name": "Kofi Kingston",
-    "brand": "Giants"
+    "brand": "Super Heavyweight"
+  },
+  {
+    "name": "Ksi",
+    "brand": "Internet Television"
   },
   {
     "name": "Kurt Angle",
@@ -725,19 +1133,47 @@
   },
   {
     "name": "La Cangrejita Loca",
-    "brand": "High Flyers"
+    "brand": "Cruiserweight"
   },
   {
     "name": "LA Knight",
     "brand": "Roster"
   },
   {
+    "name": "LA Parka",
+    "brand": "Legend"
+  },
+  {
+    "name": "Lara Croft",
+    "brand": "Superhero/Villain"
+  },
+  {
     "name": "Lash Legend",
-    "brand": "Giants"
+    "brand": "Super Heavyweight"
+  },
+  {
+    "name": "Laura Bush",
+    "brand": "DSEPW"
+  },
+  {
+    "name": "Laurie Strode",
+    "brand": "Horror"
+  },
+  {
+    "name": "Leatherface",
+    "brand": "Horror"
+  },
+  {
+    "name": "Lenneth Valkyrie",
+    "brand": "Cartoons"
+  },
+  {
+    "name": "Leonardo",
+    "brand": "Superhero/Villain"
   },
   {
     "name": "Lex Luger",
-    "brand": "Giants"
+    "brand": "Super Heavyweight"
   },
   {
     "name": "Lexis King",
@@ -768,12 +1204,24 @@
     "brand": "Roster"
   },
   {
+    "name": "Lord Zedd",
+    "brand": "DSEPW"
+  },
+  {
     "name": "Ludwig Kaiser",
-    "brand": "Giants"
+    "brand": "Super Heavyweight"
+  },
+  {
+    "name": "Luigi",
+    "brand": "Cartoons"
   },
   {
     "name": "Lyra Valkyria",
-    "brand": "High Flyers"
+    "brand": "Cruiserweight"
+  },
+  {
+    "name": "M3GAN",
+    "brand": "Horror"
   },
   {
     "name": "Macho Man Randy Savage",
@@ -784,8 +1232,20 @@
     "brand": "Legend"
   },
   {
+    "name": "Maggie Rhee",
+    "brand": "Horror"
+  },
+  {
+    "name": "Mai Shiranui",
+    "brand": "Mortal Kombat"
+  },
+  {
     "name": "Main Event R-Truth",
     "brand": "Roster"
+  },
+  {
+    "name": "Malachi The Mad",
+    "brand": "DSEPW"
   },
   {
     "name": "Mankind",
@@ -796,27 +1256,79 @@
     "brand": "Legend"
   },
   {
-    "name": "Marshall Thompson (Lock)",
+    "name": "Markiplier",
+    "brand": "Internet Television"
+  },
+  {
+    "name": "Marlon",
+    "brand": "Internet Television"
+  },
+  {
+    "name": "Marshall Thompson",
     "brand": "Roster"
+  },
+  {
+    "name": "Marshall Thompson",
+    "brand": "Base"
+  },
+  {
+    "name": "Mary Jane",
+    "brand": "Superhero/Villain"
   },
   {
     "name": "Maryse",
     "brand": "Roster"
   },
   {
+    "name": "Mask, The",
+    "brand": "Superhero/Villain"
+  },
+  {
+    "name": "matt cardona",
+    "brand": "Base"
+  },
+  {
     "name": "Maxxine Dupri",
     "brand": "Roster"
   },
   {
-    "name": "Meilee Fanny Fan (Lock)",
+    "name": "Meilee Fanny Fan",
     "brand": "Roster"
+  },
+  {
+    "name": "Melania Trump",
+    "brand": "DSEPW"
+  },
+  {
+    "name": "Michael Myers",
+    "brand": "Horror"
+  },
+  {
+    "name": "Michelangelo",
+    "brand": "Superhero/Villain"
   },
   {
     "name": "Michelle Mccool",
     "brand": "Legend"
   },
   {
+    "name": "Michelle Obama",
+    "brand": "DSEPW"
+  },
+  {
     "name": "Michin",
+    "brand": "Roster"
+  },
+  {
+    "name": "Miguel Diaz",
+    "brand": "Martial Arts"
+  },
+  {
+    "name": "Mileena",
+    "brand": "Mortal Kombat"
+  },
+  {
+    "name": "Miz '17, The",
     "brand": "Roster"
   },
   {
@@ -824,8 +1336,8 @@
     "brand": "Roster"
   },
   {
-    "name": "Miz '17, The",
-    "brand": "Roster"
+    "name": "Moana",
+    "brand": "Princess"
   },
   {
     "name": "Molly Holly",
@@ -836,7 +1348,7 @@
     "brand": "Roster"
   },
   {
-    "name": "Moreno (Lock)",
+    "name": "Moreno",
     "brand": "Roster"
   },
   {
@@ -844,8 +1356,16 @@
     "brand": "Legend"
   },
   {
+    "name": "Mr. Chicken",
+    "brand": "DSEPW"
+  },
+  {
     "name": "Mr. Iguana",
     "brand": "Roster"
+  },
+  {
+    "name": "Mr. Miyagi",
+    "brand": "DSEPW"
   },
   {
     "name": "Mr. Perfect",
@@ -854,6 +1374,22 @@
   {
     "name": "Mr. Wonderful Paul Orndorff",
     "brand": "Legend"
+  },
+  {
+    "name": "MrBeast",
+    "brand": "DSEPW"
+  },
+  {
+    "name": "Mrs Incredible",
+    "brand": "DSEPW"
+  },
+  {
+    "name": "Ms. Marvel",
+    "brand": "DSEPW"
+  },
+  {
+    "name": "Mulan",
+    "brand": "Princess"
   },
   {
     "name": "Myles Borne",
@@ -868,8 +1404,20 @@
     "brand": "Roster"
   },
   {
+    "name": "Mysterio",
+    "brand": "Superhero/Villain"
+  },
+  {
+    "name": "Mystique",
+    "brand": "Superhero/Villain"
+  },
+  {
     "name": "Naomi",
     "brand": "Roster"
+  },
+  {
+    "name": "Nashoba",
+    "brand": "DSEPW"
   },
   {
     "name": "Natalya",
@@ -877,7 +1425,11 @@
   },
   {
     "name": "Nathan Frazer",
-    "brand": "High Flyers"
+    "brand": "Cruiserweight"
+  },
+  {
+    "name": "Negan",
+    "brand": "Horror"
   },
   {
     "name": "New Jack",
@@ -885,7 +1437,7 @@
   },
   {
     "name": "Nia Jax",
-    "brand": "Giants"
+    "brand": "Super Heavyweight"
   },
   {
     "name": "Nick Aldis '23",
@@ -901,7 +1453,15 @@
   },
   {
     "name": "Nikkita Lyons",
-    "brand": "Giants"
+    "brand": "Super Heavyweight"
+  },
+  {
+    "name": "Ninja",
+    "brand": "Internet Television"
+  },
+  {
+    "name": "Nitara Marshall",
+    "brand": "Mortal Kombat"
   },
   {
     "name": "Noam Dar",
@@ -909,10 +1469,10 @@
   },
   {
     "name": "Oba Femi",
-    "brand": "Giants"
+    "brand": "Super Heavyweight"
   },
   {
-    "name": "Odette Beaumont (Lock)",
+    "name": "Odette Beaumont",
     "brand": "Roster"
   },
   {
@@ -921,15 +1481,19 @@
   },
   {
     "name": "Omos",
-    "brand": "Giants"
+    "brand": "Super Heavyweight"
   },
   {
     "name": "Original El Grande Americano",
-    "brand": "High Flyers"
+    "brand": "Cruiserweight"
   },
   {
     "name": "Otis",
-    "brand": "Giants"
+    "brand": "Super Heavyweight"
+  },
+  {
+    "name": "Pamela Voorhees",
+    "brand": "Horror"
   },
   {
     "name": "Paragon Jay Pierce",
@@ -940,16 +1504,60 @@
     "brand": "Roster"
   },
   {
+    "name": "Paul Walter Hauser",
+    "brand": "Martial Arts"
+  },
+  {
+    "name": "Pebbles Flintstone",
+    "brand": "DSEPW"
+  },
+  {
+    "name": "Pennywise",
+    "brand": "Horror"
+  },
+  {
+    "name": "penta",
+    "brand": "Base"
+  },
+  {
     "name": "Pete Dunne",
     "brand": "Roster"
   },
   {
+    "name": "Phoenix",
+    "brand": "Superhero/Villain"
+  },
+  {
     "name": "Piper Niven",
-    "brand": "Giants"
+    "brand": "Super Heavyweight"
+  },
+  {
+    "name": "Pocahontas",
+    "brand": "Princess"
+  },
+  {
+    "name": "Pokimane",
+    "brand": "Internet Television"
+  },
+  {
+    "name": "Princess Daisy",
+    "brand": "Princess"
+  },
+  {
+    "name": "Princess Peach",
+    "brand": "Princess"
+  },
+  {
+    "name": "Princess Victoria",
+    "brand": "Legend"
+  },
+  {
+    "name": "Princess Zelda",
+    "brand": "Princess"
   },
   {
     "name": "Psycho Clown",
-    "brand": "High Flyers"
+    "brand": "Cruiserweight"
   },
   {
     "name": "Psycho Sally",
@@ -960,8 +1568,16 @@
     "brand": "Superhero/Villain"
   },
   {
+    "name": "Punisher, The",
+    "brand": "Superhero/Villain"
+  },
+  {
     "name": "R-Truth",
     "brand": "Roster"
+  },
+  {
+    "name": "Rain",
+    "brand": "Mortal Kombat"
   },
   {
     "name": "Randy Orton",
@@ -976,8 +1592,16 @@
     "brand": "Legend"
   },
   {
+    "name": "Raphael",
+    "brand": "Superhero/Villain"
+  },
+  {
+    "name": "Rapunzel",
+    "brand": "Princess"
+  },
+  {
     "name": "Raquel Rodriguez",
-    "brand": "Giants"
+    "brand": "Super Heavyweight"
   },
   {
     "name": "Ravishing Rick Rude",
@@ -988,8 +1612,16 @@
     "brand": "Legend"
   },
   {
+    "name": "red",
+    "brand": "Base"
+  },
+  {
+    "name": "Reptile",
+    "brand": "Mortal Kombat"
+  },
+  {
     "name": "Rey Fenix",
-    "brand": "High Flyers"
+    "brand": "Cruiserweight"
   },
   {
     "name": "Rey Mysterio",
@@ -1001,7 +1633,11 @@
   },
   {
     "name": "Rhea Ripley",
-    "brand": "Giants"
+    "brand": "Super Heavyweight"
+  },
+  {
+    "name": "Rick Grimes",
+    "brand": "Horror"
   },
   {
     "name": "Rick Steiner",
@@ -1013,7 +1649,7 @@
   },
   {
     "name": "Ridge Holland",
-    "brand": "Giants"
+    "brand": "Super Heavyweight"
   },
   {
     "name": "Rikishi",
@@ -1032,8 +1668,12 @@
     "brand": "Legend"
   },
   {
-    "name": "Rock, The",
-    "brand": "Legend"
+    "name": "Robby Keen",
+    "brand": "Martial Arts"
+  },
+  {
+    "name": "Robin",
+    "brand": "Superhero/Villain"
   },
   {
     "name": "Rock '01, The",
@@ -1048,12 +1688,28 @@
     "brand": "Legend"
   },
   {
+    "name": "Rock, The",
+    "brand": "Legend"
+  },
+  {
+    "name": "Rocksteady",
+    "brand": "Superhero/Villain"
+  },
+  {
+    "name": "Rocky Desantos",
+    "brand": "Superhero/Villain"
+  },
+  {
     "name": "Rocky Maivia",
     "brand": "Legend"
   },
   {
+    "name": "Rogue",
+    "brand": "Superhero/Villain"
+  },
+  {
     "name": "Roman Reigns",
-    "brand": "Giants"
+    "brand": "Super Heavyweight"
   },
   {
     "name": "Rosey",
@@ -1072,8 +1728,20 @@
     "brand": "Roster"
   },
   {
+    "name": "Rug",
+    "brand": "Internet Television"
+  },
+  {
     "name": "Rusev",
-    "brand": "Giants"
+    "brand": "Super Heavyweight"
+  },
+  {
+    "name": "Sam Larusso",
+    "brand": "Martial Arts"
+  },
+  {
+    "name": "Samara",
+    "brand": "Horror"
   },
   {
     "name": "Sami Zayn",
@@ -1084,8 +1752,28 @@
     "brand": "Legend"
   },
   {
+    "name": "Sandra Lopez",
+    "brand": "DSEPW"
+  },
+  {
     "name": "Santos Escobar",
     "brand": "Roster"
+  },
+  {
+    "name": "Scarlet",
+    "brand": "DSEPW"
+  },
+  {
+    "name": "Scooby Doo",
+    "brand": "Cartoons"
+  },
+  {
+    "name": "Scorpina",
+    "brand": "Superhero/Villain"
+  },
+  {
+    "name": "Scorpion",
+    "brand": "Mortal Kombat"
   },
   {
     "name": "Scott Hall",
@@ -1104,6 +1792,10 @@
     "brand": "Legend"
   },
   {
+    "name": "Sensei Wolf",
+    "brand": "Martial Arts"
+  },
+  {
     "name": "Seth Freakin Rollins",
     "brand": "Roster"
   },
@@ -1114,6 +1806,14 @@
   {
     "name": "Seth Rollins WM41",
     "brand": "Roster"
+  },
+  {
+    "name": "Shaggy Rogers",
+    "brand": "Cartoons"
+  },
+  {
+    "name": "Shane Walsh",
+    "brand": "Horror"
   },
   {
     "name": "Shawn Michaels",
@@ -1140,36 +1840,80 @@
     "brand": "Roster"
   },
   {
+    "name": "She-Hulk",
+    "brand": "DSEPW"
+  },
+  {
     "name": "Sheamus",
-    "brand": "Giants"
+    "brand": "Super Heavyweight"
+  },
+  {
+    "name": "Sheeva",
+    "brand": "Mortal Kombat"
+  },
+  {
+    "name": "Shego",
+    "brand": "Superhero/Villain"
   },
   {
     "name": "Shinsuke Nakamura",
-    "brand": "Giants"
+    "brand": "Super Heavyweight"
+  },
+  {
+    "name": "Shredder, The",
+    "brand": "Superhero/Villain"
+  },
+  {
+    "name": "Sid",
+    "brand": "Cartoons"
   },
   {
     "name": "Sid Justice",
-    "brand": "Giants"
+    "brand": "Super Heavyweight"
+  },
+  {
+    "name": "Sidney Prescott",
+    "brand": "Horror"
   },
   {
     "name": "Sika",
-    "brand": "Giants"
+    "brand": "Super Heavyweight"
+  },
+  {
+    "name": "Sindel",
+    "brand": "Mortal Kombat"
+  },
+  {
+    "name": "Sketch",
+    "brand": "Internet Television"
   },
   {
     "name": "Slade",
     "brand": "Roster"
   },
   {
-    "name": "Smash (Lock)",
+    "name": "Smash",
     "brand": "Legend"
   },
   {
     "name": "Sol Ruca",
-    "brand": "High Flyers"
+    "brand": "Cruiserweight"
   },
   {
     "name": "Solo Sikoa",
-    "brand": "Giants"
+    "brand": "Super Heavyweight"
+  },
+  {
+    "name": "Sonya Blade",
+    "brand": "Mortal Kombat"
+  },
+  {
+    "name": "Spider-Gwen",
+    "brand": "DSEPW"
+  },
+  {
+    "name": "Spider-Man",
+    "brand": "DSEPW"
   },
   {
     "name": "Stacy Keibler",
@@ -1192,6 +1936,30 @@
     "brand": "Legend"
   },
   {
+    "name": "Storm",
+    "brand": "Superhero/Villain"
+  },
+  {
+    "name": "Strauss Zelnick",
+    "brand": "Roster"
+  },
+  {
+    "name": "Sub Zero",
+    "brand": "Mortal Kombat"
+  },
+  {
+    "name": "Super Mario",
+    "brand": "DSEPW"
+  },
+  {
+    "name": "Supergirl",
+    "brand": "Superhero/Villain"
+  },
+  {
+    "name": "Superman",
+    "brand": "Superhero/Villain"
+  },
+  {
     "name": "Superstar Billy Graham",
     "brand": "Legend"
   },
@@ -1201,15 +1969,15 @@
   },
   {
     "name": "Talla Tonga",
-    "brand": "Giants"
+    "brand": "Super Heavyweight"
   },
   {
     "name": "Tama",
-    "brand": "Giants"
+    "brand": "Super Heavyweight"
   },
   {
     "name": "Tama Tonga",
-    "brand": "Giants"
+    "brand": "Super Heavyweight"
   },
   {
     "name": "Tank Bryson",
@@ -1217,11 +1985,15 @@
   },
   {
     "name": "Tank Ledger",
-    "brand": "Giants"
+    "brand": "Super Heavyweight"
+  },
+  {
+    "name": "Tanya",
+    "brand": "Mortal Kombat"
   },
   {
     "name": "Tatum Paxley",
-    "brand": "High Flyers"
+    "brand": "Cruiserweight"
   },
   {
     "name": "Tavion Heights",
@@ -1236,12 +2008,20 @@
     "brand": "Legend"
   },
   {
+    "name": "Terry Silver",
+    "brand": "Martial Arts"
+  },
+  {
     "name": "Thea Hail",
     "brand": "Roster"
   },
   {
     "name": "Thrasher",
     "brand": "Legend"
+  },
+  {
+    "name": "Tiana",
+    "brand": "Princess"
   },
   {
     "name": "Tiffany Stratton",
@@ -1252,6 +2032,10 @@
     "brand": "Horror"
   },
   {
+    "name": "Tinkerbell",
+    "brand": "Princess"
+  },
+  {
     "name": "Tito Santana",
     "brand": "Roster"
   },
@@ -1260,12 +2044,24 @@
     "brand": "Roster"
   },
   {
+    "name": "Tommy Oliver",
+    "brand": "Superhero/Villain"
+  },
+  {
     "name": "Tonga Loa",
-    "brand": "Giants"
+    "brand": "Super Heavyweight"
   },
   {
     "name": "Tony D Angelo",
     "brand": "Roster"
+  },
+  {
+    "name": "Tory Nichols",
+    "brand": "Martial Arts"
+  },
+  {
+    "name": "tory wilson",
+    "brand": "Base"
   },
   {
     "name": "Tre",
@@ -1316,6 +2112,10 @@
     "brand": "Roster"
   },
   {
+    "name": "Uncle Jesse Katsopolis",
+    "brand": "DSEPW"
+  },
+  {
     "name": "Undertaker",
     "brand": "Legend"
   },
@@ -1336,12 +2136,20 @@
     "brand": "Legend"
   },
   {
+    "name": "Velma Dinkley",
+    "brand": "Cartoons"
+  },
+  {
+    "name": "Velvet Mcintyre",
+    "brand": "Legend"
+  },
+  {
     "name": "Victoria",
     "brand": "Roster"
   },
   {
     "name": "Wade Barrett",
-    "brand": "Giants"
+    "brand": "Super Heavyweight"
   },
   {
     "name": "Wendy Choo",
@@ -1349,798 +2157,6 @@
   },
   {
     "name": "William Regal",
-    "brand": "Legend"
-  },
-  {
-    "name": "Wren Sinclair",
-    "brand": "Roster"
-  },
-  {
-    "name": "X-Pac",
-    "brand": "Legend"
-  },
-  {
-    "name": "Xavier Woods",
-    "brand": "Roster"
-  },
-  {
-    "name": "Yokozuna",
-    "brand": "Legend"
-  },
-  {
-    "name": "Yoshiki Inamura",
-    "brand": "Giants"
-  },
-  {
-    "name": "Zaria",
-    "brand": "Roster"
-  },
-  {
-    "name": "Zelina Vega",
-    "brand": "Roster"
-  },
-  {
-    "name": "Zoey Stark",
-    "brand": "Roster"
-  },
-  {
-    "name": "Abe Lincoln",
-    "brand": "Government"
-  },
-  {
-    "name": "Adam Park",
-    "brand": "Superhero/Villain"
-  },
-  {
-    "name": "Adapt",
-    "brand": "Streamer/YouTuber"
-  },
-  {
-    "name": "Adin Ross",
-    "brand": "Streamer/YouTuber"
-  },
-  {
-    "name": "Aisha Campbell",
-    "brand": "Superhero/Villain"
-  },
-  {
-    "name": "Amouranth",
-    "brand": "Streamer/YouTuber"
-  },
-  {
-    "name": "Anna",
-    "brand": "Princess"
-  },
-  {
-    "name": "Annabelle",
-    "brand": "Horror"
-  },
-  {
-    "name": "April O'Neil",
-    "brand": "DSEPW"
-  },
-  {
-    "name": "Aquaman",
-    "brand": "Superhero/Villain"
-  },
-  {
-    "name": "Ariel",
-    "brand": "Princess"
-  },
-  {
-    "name": "Art The Clown",
-    "brand": "Horror"
-  },
-  {
-    "name": "Aurora",
-    "brand": "Princess"
-  },
-  {
-    "name": "Bamm Bamm Rubble",
-    "brand": "Cartoons"
-  },
-  {
-    "name": "Barack Obama",
-    "brand": "Government"
-  },
-  {
-    "name": "Barney Rubble",
-    "brand": "Cartoons"
-  },
-  {
-    "name": "Batgirl",
-    "brand": "Superhero/Villain"
-  },
-  {
-    "name": "Batman",
-    "brand": "Superhero/Villain"
-  },
-  {
-    "name": "Bebop",
-    "brand": "Superhero/Villain"
-  },
-  {
-    "name": "Belle",
-    "brand": "Princess"
-  },
-  {
-    "name": "Bernie Sanders",
-    "brand": "Government"
-  },
-  {
-    "name": "Bert",
-    "brand": "Martial Arts"
-  },
-  {
-    "name": "Beta",
-    "brand": "Horror"
-  },
-  {
-    "name": "Bill Clinton",
-    "brand": "DSEPW"
-  },
-  {
-    "name": "Billy Cranston",
-    "brand": "Superhero/Villain"
-  },
-  {
-    "name": "Billy The Puppet",
-    "brand": "Horror"
-  },
-  {
-    "name": "Black Cat",
-    "brand": "Superhero/Villain"
-  },
-  {
-    "name": "Black Panther",
-    "brand": "Superhero/Villain"
-  },
-  {
-    "name": "Black Widow",
-    "brand": "Superhero/Villain"
-  },
-  {
-    "name": "Blade",
-    "brand": "Superhero/Villain"
-  },
-  {
-    "name": "Bruce Lee",
-    "brand": "Martial Arts"
-  },
-  {
-    "name": "Buzz Lightyear",
-    "brand": "Cartoons"
-  },
-  {
-    "name": "Cappuccino Jones",
-    "brand": "DSEPW"
-  },
-  {
-    "name": "Captain America",
-    "brand": "Superhero/Villain"
-  },
-  {
-    "name": "Captain Marvel",
-    "brand": "Superhero/Villain"
-  },
-  {
-    "name": "Carl Grimes",
-    "brand": "Horror"
-  },
-  {
-    "name": "Case Oh",
-    "brand": "Streamer/YouTuber"
-  },
-  {
-    "name": "Casey Jones",
-    "brand": "Superhero/Villain"
-  },
-  {
-    "name": "Catwoman",
-    "brand": "Superhero/Villain"
-  },
-  {
-    "name": "Cheetah",
-    "brand": "Superhero/Villain"
-  },
-  {
-    "name": "Chuck Norris",
-    "brand": "Martial Arts"
-  },
-  {
-    "name": "Chucky",
-    "brand": "Horror"
-  },
-  {
-    "name": "Chun Li",
-    "brand": "Mortal Kombat"
-  },
-  {
-    "name": "Cinderella",
-    "brand": "Princess"
-  },
-  {
-    "name": "Cinnabrit",
-    "brand": "Streamer/YouTuber"
-  },
-  {
-    "name": "Cleopatra",
-    "brand": "Government"
-  },
-  {
-    "name": "Daniel Larusso",
-    "brand": "Martial Arts"
-  },
-  {
-    "name": "Danny Lopez",
-    "brand": "DSEPW"
-  },
-  {
-    "name": "Daphne Blake",
-    "brand": "Cartoons"
-  },
-  {
-    "name": "Daryl Dixon",
-    "brand": "Horror"
-  },
-  {
-    "name": "Deadpool",
-    "brand": "Superhero/Villain"
-  },
-  {
-    "name": "Donald Trump",
-    "brand": "Government"
-  },
-  {
-    "name": "Donatello",
-    "brand": "Superhero/Villain"
-  },
-  {
-    "name": "Dr. Doom",
-    "brand": "DSEPW"
-  },
-  {
-    "name": "Fred Flintstone",
-    "brand": "DSEPW"
-  },
-  {
-    "name": "Fred Jones",
-    "brand": "Cartoons"
-  },
-  {
-    "name": "Freddy Krueger",
-    "brand": "Horror"
-  },
-  {
-    "name": "Frost",
-    "brand": "Mortal Kombat"
-  },
-  {
-    "name": "Frozen Elsa",
-    "brand": "Princess"
-  },
-  {
-    "name": "George W. Bush",
-    "brand": "DSEPW"
-  },
-  {
-    "name": "Ghostface",
-    "brand": "Horror"
-  },
-  {
-    "name": "Goldar",
-    "brand": "Superhero/Villain"
-  },
-  {
-    "name": "Governor, The",
-    "brand": "Horror"
-  },
-  {
-    "name": "Green Arrow",
-    "brand": "Superhero/Villain"
-  },
-  {
-    "name": "Green Goblin",
-    "brand": "Superhero/Villain"
-  },
-  {
-    "name": "Harley Quinn",
-    "brand": "Superhero/Villain"
-  },
-  {
-    "name": "Hawk",
-    "brand": "Martial Arts"
-  },
-  {
-    "name": "Hela",
-    "brand": "Superhero/Villain"
-  },
-  {
-    "name": "Hillary Clinton",
-    "brand": "DSEPW"
-  },
-  {
-    "name": "Hulk",
-    "brand": "Superhero/Villain"
-  },
-  {
-    "name": "Hunter Rhyn Trax",
-    "brand": "DSEPW"
-  },
-  {
-    "name": "Invisible Woman",
-    "brand": "Superhero/Villain"
-  },
-  {
-    "name": "Ironman",
-    "brand": "Superhero/Villain"
-  },
-  {
-    "name": "Ironmouse",
-    "brand": "Streamer/YouTuber"
-  },
-  {
-    "name": "Ishowspeed",
-    "brand": "Streamer/YouTuber"
-  },
-  {
-    "name": "Jack Talos",
-    "brand": "DSEPW"
-  },
-  {
-    "name": "Jackie Chan",
-    "brand": "Martial Arts"
-  },
-  {
-    "name": "Jade",
-    "brand": "Mortal Kombat"
-  },
-  {
-    "name": "Jake Paul",
-    "brand": "Streamer/YouTuber"
-  },
-  {
-    "name": "Jane Jetson",
-    "brand": "Cartoons"
-  },
-  {
-    "name": "Jasmine",
-    "brand": "Princess"
-  },
-  {
-    "name": "Jason Voorhees",
-    "brand": "Horror"
-  },
-  {
-    "name": "Jenna Ortega",
-    "brand": "Horror"
-  },
-  {
-    "name": "Johnny Lawrence",
-    "brand": "Martial Arts"
-  },
-  {
-    "name": "Joe Biden",
-    "brand": "Government"
-  },
-  {
-    "name": "John F. Kennedy",
-    "brand": "DSEPW"
-  },
-  {
-    "name": "John Kreese",
-    "brand": "Martial Arts"
-  },
-  {
-    "name": "Johnny Bravo",
-    "brand": "Cartoons"
-  },
-  {
-    "name": "Johnny Cage",
-    "brand": "Mortal Kombat"
-  },
-  {
-    "name": "Joker, The",
-    "brand": "Superhero/Villain"
-  },
-  {
-    "name": "Judy Jetson",
-    "brand": "Cartoons"
-  },
-  {
-    "name": "Jynxzi",
-    "brand": "Streamer/YouTuber"
-  },
-  {
-    "name": "Kai Cenat",
-    "brand": "Streamer/YouTuber"
-  },
-  {
-    "name": "Kenny Payne",
-    "brand": "Martial Arts"
-  },
-  {
-    "name": "Kim Possible",
-    "brand": "Cartoons"
-  },
-  {
-    "name": "Kimberly Hart",
-    "brand": "Superhero/Villain"
-  },
-  {
-    "name": "Kingpin",
-    "brand": "Superhero/Villain"
-  },
-  {
-    "name": "Kitana",
-    "brand": "Mortal Kombat"
-  },
-  {
-    "name": "Ksi",
-    "brand": "Streamer/YouTuber"
-  },
-  {
-    "name": "Lara Croft",
-    "brand": "Superhero/Villain"
-  },
-  {
-    "name": "Laurie Strode",
-    "brand": "Horror"
-  },
-  {
-    "name": "Leatherface",
-    "brand": "Horror"
-  },
-  {
-    "name": "Lenneth Valkyrie",
-    "brand": "Cartoons"
-  },
-  {
-    "name": "Leonardo",
-    "brand": "Superhero/Villain"
-  },
-  {
-    "name": "Lord Zedd",
-    "brand": "DSEPW"
-  },
-  {
-    "name": "Luigi",
-    "brand": "Cartoons"
-  },
-  {
-    "name": "Laura Bush",
-    "brand": "DSEPW"
-  },
-  {
-    "name": "M3GAN",
-    "brand": "Horror"
-  },
-  {
-    "name": "Maggie Rhee",
-    "brand": "Horror"
-  },
-  {
-    "name": "Mai Shiranui",
-    "brand": "Mortal Kombat"
-  },
-  {
-    "name": "Malachi The Mad",
-    "brand": "DSEPW"
-  },
-  {
-    "name": "Melania Trump",
-    "brand": "DSEPW"
-  },
-  {
-    "name": "Markiplier",
-    "brand": "Streamer/YouTuber"
-  },
-  {
-    "name": "Marlon",
-    "brand": "Streamer/YouTuber"
-  },
-  {
-    "name": "Mary Jane",
-    "brand": "Superhero/Villain"
-  },
-  {
-    "name": "Michelle Obama",
-    "brand": "DSEPW"
-  },
-  {
-    "name": "Mask, The",
-    "brand": "Superhero/Villain"
-  },
-  {
-    "name": "Michael Myers",
-    "brand": "Horror"
-  },
-  {
-    "name": "Michelangelo",
-    "brand": "Superhero/Villain"
-  },
-  {
-    "name": "Miguel Diaz",
-    "brand": "Martial Arts"
-  },
-  {
-    "name": "Mileena",
-    "brand": "Mortal Kombat"
-  },
-  {
-    "name": "Moana",
-    "brand": "Princess"
-  },
-  {
-    "name": "Mr. Miyagi",
-    "brand": "DSEPW"
-  },
-  {
-    "name": "Mr. Chicken",
-    "brand": "DSEPW"
-  },
-  {
-    "name": "MrBeast",
-    "brand": "DSEPW"
-  },
-  {
-    "name": "Mrs Incredible",
-    "brand": "DSEPW"
-  },
-  {
-    "name": "Ms. Marvel",
-    "brand": "DSEPW"
-  },
-  {
-    "name": "Mulan",
-    "brand": "Princess"
-  },
-  {
-    "name": "Mysterio",
-    "brand": "Superhero/Villain"
-  },
-  {
-    "name": "Mystique",
-    "brand": "Superhero/Villain"
-  },
-  {
-    "name": "Nashoba",
-    "brand": "DSEPW"
-  },
-  {
-    "name": "Negan",
-    "brand": "Horror"
-  },
-  {
-    "name": "Ninja",
-    "brand": "Streamer/YouTuber"
-  },
-  {
-    "name": "Nitara Marshall",
-    "brand": "Mortal Kombat"
-  },
-  {
-    "name": "Pamela Voorhees",
-    "brand": "Horror"
-  },
-  {
-    "name": "Paul Walter Hauser",
-    "brand": "Martial Arts"
-  },
-  {
-    "name": "Pebbles Flintstone",
-    "brand": "DSEPW"
-  },
-  {
-    "name": "Pennywise",
-    "brand": "Horror"
-  },
-  {
-    "name": "Phoenix",
-    "brand": "Superhero/Villain"
-  },
-  {
-    "name": "Pocahontas",
-    "brand": "Princess"
-  },
-  {
-    "name": "Pokimane",
-    "brand": "Streamer/YouTuber"
-  },
-  {
-    "name": "Princess Daisy",
-    "brand": "Princess"
-  },
-  {
-    "name": "Princess Peach",
-    "brand": "Princess"
-  },
-  {
-    "name": "Princess Victoria",
-    "brand": "Legend"
-  },
-  {
-    "name": "Princess Zelda",
-    "brand": "Princess"
-  },
-  {
-    "name": "Punisher, The",
-    "brand": "Superhero/Villain"
-  },
-  {
-    "name": "Rain",
-    "brand": "Mortal Kombat"
-  },
-  {
-    "name": "Raphael",
-    "brand": "Superhero/Villain"
-  },
-  {
-    "name": "Rapunzel",
-    "brand": "Princess"
-  },
-  {
-    "name": "Reptile",
-    "brand": "Mortal Kombat"
-  },
-  {
-    "name": "Rick Grimes",
-    "brand": "Horror"
-  },
-  {
-    "name": "Robby Keen",
-    "brand": "Martial Arts"
-  },
-  {
-    "name": "Robin",
-    "brand": "Superhero/Villain"
-  },
-  {
-    "name": "Rocksteady",
-    "brand": "Superhero/Villain"
-  },
-  {
-    "name": "Rocky Desantos",
-    "brand": "Superhero/Villain"
-  },
-  {
-    "name": "Rogue",
-    "brand": "Superhero/Villain"
-  },
-  {
-    "name": "Rug",
-    "brand": "Streamer/YouTuber"
-  },
-  {
-    "name": "Sam Larusso",
-    "brand": "Martial Arts"
-  },
-  {
-    "name": "Samara",
-    "brand": "Horror"
-  },
-  {
-    "name": "Scooby Doo",
-    "brand": "Cartoons"
-  },
-  {
-    "name": "Scorpina",
-    "brand": "Superhero/Villain"
-  },
-  {
-    "name": "Scorpion",
-    "brand": "Mortal Kombat"
-  },
-  {
-    "name": "Sensei Wolf",
-    "brand": "Martial Arts"
-  },
-  {
-    "name": "Shaggy Rogers",
-    "brand": "Cartoons"
-  },
-  {
-    "name": "Shane Walsh",
-    "brand": "Horror"
-  },
-  {
-    "name": "She-Hulk",
-    "brand": "DSEPW"
-  },
-  {
-    "name": "Sheeva",
-    "brand": "Mortal Kombat"
-  },
-  {
-    "name": "Shego",
-    "brand": "Superhero/Villain"
-  },
-  {
-    "name": "Shredder, The",
-    "brand": "Superhero/Villain"
-  },
-  {
-    "name": "Sid",
-    "brand": "Cartoons"
-  },
-  {
-    "name": "Sidney Prescott",
-    "brand": "Horror"
-  },
-  {
-    "name": "Sindel",
-    "brand": "Mortal Kombat"
-  },
-  {
-    "name": "Scarlet",
-    "brand": "DSEPW"
-  },
-  {
-    "name": "Sketch",
-    "brand": "Streamer/YouTuber"
-  },
-  {
-    "name": "Sonya Blade",
-    "brand": "Mortal Kombat"
-  },
-  {
-    "name": "Spider-Gwen",
-    "brand": "DSEPW"
-  },
-  {
-    "name": "Spider-Man",
-    "brand": "DSEPW"
-  },
-  {
-    "name": "Storm",
-    "brand": "Superhero/Villain"
-  },
-  {
-    "name": "Sub Zero",
-    "brand": "Mortal Kombat"
-  },
-  {
-    "name": "Super Mario",
-    "brand": "DSEPW"
-  },
-  {
-    "name": "Supergirl",
-    "brand": "Superhero/Villain"
-  },
-  {
-    "name": "Superman",
-    "brand": "Superhero/Villain"
-  },
-  {
-    "name": "Tanya",
-    "brand": "Mortal Kombat"
-  },
-  {
-    "name": "Terry Silver",
-    "brand": "Martial Arts"
-  },
-  {
-    "name": "Tiana",
-    "brand": "Princess"
-  },
-  {
-    "name": "Tinkerbell",
-    "brand": "Princess"
-  },
-  {
-    "name": "Tommy Oliver",
-    "brand": "Superhero/Villain"
-  },
-  {
-    "name": "Tory Nichols",
-    "brand": "Martial Arts"
-  },
-  {
-    "name": "Velma Dinkley",
-    "brand": "Cartoons"
-  },
-  {
-    "name": "Velvet Mcintyre",
     "brand": "Legend"
   },
   {
@@ -2160,23 +2176,43 @@
     "brand": "Cartoons"
   },
   {
+    "name": "Wren Sinclair",
+    "brand": "Roster"
+  },
+  {
+    "name": "X-Pac",
+    "brand": "Legend"
+  },
+  {
+    "name": "Xavier Woods",
+    "brand": "Roster"
+  },
+  {
     "name": "Xena",
     "brand": "Superhero/Villain"
+  },
+  {
+    "name": "Yokozuna",
+    "brand": "Legend"
+  },
+  {
+    "name": "Yoshiki Inamura",
+    "brand": "Super Heavyweight"
   },
   {
     "name": "Zara",
     "brand": "Martial Arts"
   },
   {
-    "name": "Kenny Lopez",
-    "brand": "DSEPW"
+    "name": "Zaria",
+    "brand": "Roster"
   },
   {
-    "name": "Sandra Lopez",
-    "brand": "DSEPW"
+    "name": "Zelina Vega",
+    "brand": "Roster"
   },
   {
-    "name": "Uncle Jesse Katsopolis",
-    "brand": "DSEPW"
+    "name": "Zoey Stark",
+    "brand": "Roster"
   }
 ]

@@ -417,7 +417,7 @@
             {
               "a": "Naomi",
               "b": "Rey Mysterio",
-              "winner": null
+              "winner": "Rey Mysterio"
             }
           ],
           "byes": []
@@ -427,18 +427,18 @@
           "matchType": "Tables Ladders & Chairs Match",
           "matches": [
             {
-              "a": null,
-              "b": null,
-              "winner": null
+              "a": "Ethan Page",
+              "b": "Rey Mysterio",
+              "winner": "Ethan Page"
             }
           ],
           "byes": []
         }
       ],
-      "champion": null,
-      "completed": false
+      "champion": "Ethan Page",
+      "completed": true
     },
-    "Streamer/YouTuber Championship": {
+    "Internet Television Championship": {
       "size": 8,
       "wrestlers": [
         "Marlon",
@@ -458,22 +458,22 @@
             {
               "a": "Marlon",
               "b": "Ishowspeed",
-              "winner": null
+              "winner": "Ishowspeed"
             },
             {
               "a": "Ksi",
               "b": "Kai Cenat",
-              "winner": null
+              "winner": "Ksi"
             },
             {
               "a": "Ironmouse",
               "b": "Rug",
-              "winner": null
+              "winner": "Rug"
             },
             {
               "a": "Markiplier",
               "b": "Adin Ross",
-              "winner": null
+              "winner": "Markiplier"
             }
           ],
           "byes": []
@@ -483,14 +483,14 @@
           "matchType": "Special Guest Referee 1-on-1 Normal",
           "matches": [
             {
-              "a": null,
-              "b": null,
-              "winner": null
+              "a": "Ishowspeed",
+              "b": "Ksi",
+              "winner": "Ksi"
             },
             {
-              "a": null,
-              "b": null,
-              "winner": null
+              "a": "Rug",
+              "b": "Markiplier",
+              "winner": "Markiplier"
             }
           ],
           "byes": []
@@ -500,16 +500,16 @@
           "matchType": "Tables Ladders & Chairs Match",
           "matches": [
             {
-              "a": null,
-              "b": null,
-              "winner": null
+              "a": "Ksi",
+              "b": "Markiplier",
+              "winner": "Markiplier"
             }
           ],
           "byes": []
         }
       ],
-      "champion": null,
-      "completed": false
+      "champion": "Markiplier",
+      "completed": true
     },
     "WWE United States Championship": {
       "size": 8,
@@ -531,22 +531,22 @@
             {
               "a": "Jey Uso",
               "b": "Batman",
-              "winner": null
+              "winner": "Jey Uso"
             },
             {
               "a": "Tank Ledger",
               "b": "Charlie Dempsey",
-              "winner": null
+              "winner": "Tank Ledger"
             },
             {
               "a": "Batgirl",
               "b": "Erick Rowan",
-              "winner": null
+              "winner": "Batgirl"
             },
             {
               "a": "Harley Quinn",
               "b": "Annabelle",
-              "winner": null
+              "winner": "Harley Quinn"
             }
           ],
           "byes": []
@@ -556,14 +556,14 @@
           "matchType": "Special Guest Referee 1-on-1 Normal",
           "matches": [
             {
-              "a": null,
-              "b": null,
-              "winner": null
+              "a": "Jey Uso",
+              "b": "Tank Ledger",
+              "winner": "Jey Uso"
             },
             {
-              "a": null,
-              "b": null,
-              "winner": null
+              "a": "Batgirl",
+              "b": "Harley Quinn",
+              "winner": "Harley Quinn"
             }
           ],
           "byes": []
@@ -573,16 +573,16 @@
           "matchType": "Tables Ladders & Chairs Match",
           "matches": [
             {
-              "a": null,
-              "b": null,
-              "winner": null
+              "a": "Jey Uso",
+              "b": "Harley Quinn",
+              "winner": "Harley Quinn"
             }
           ],
           "byes": []
         }
       ],
-      "champion": null,
-      "completed": false
+      "champion": "Harley Quinn",
+      "completed": true
     },
     "Legends Championship": {
       "size": 8,
@@ -604,22 +604,22 @@
             {
               "a": "Stacy Keibler",
               "b": "William Regal",
-              "winner": null
+              "winner": "William Regal"
             },
             {
               "a": "Dusty Rhodes",
               "b": "Hollywood Hogan",
-              "winner": null
+              "winner": "Hollywood Hogan"
             },
             {
               "a": "DDP",
               "b": "Undertaker '98",
-              "winner": null
+              "winner": "Undertaker '98"
             },
             {
               "a": "Thrasher",
               "b": "Tito Santana",
-              "winner": null
+              "winner": "Tito Santana"
             }
           ],
           "byes": []
@@ -629,14 +629,14 @@
           "matchType": "Special Guest Referee 1-on-1 Normal",
           "matches": [
             {
-              "a": null,
-              "b": null,
-              "winner": null
+              "a": "William Regal",
+              "b": "Hollywood Hogan",
+              "winner": "Hollywood Hogan"
             },
             {
-              "a": null,
-              "b": null,
-              "winner": null
+              "a": "Undertaker '98",
+              "b": "Tito Santana",
+              "winner": "Undertaker '98"
             }
           ],
           "byes": []
@@ -646,16 +646,16 @@
           "matchType": "Tables Ladders & Chairs Match",
           "matches": [
             {
-              "a": null,
-              "b": null,
-              "winner": null
+              "a": "Hollywood Hogan",
+              "b": "Undertaker '98",
+              "winner": "Hollywood Hogan"
             }
           ],
           "byes": []
         }
       ],
-      "champion": null,
-      "completed": false
+      "champion": "Hollywood Hogan",
+      "completed": true
     },
     "Undisputed WWE Championship": {
       "size": 8,
@@ -677,22 +677,22 @@
             {
               "a": "Adapt",
               "b": "Dude Love",
-              "winner": null
+              "winner": "Adapt"
             },
             {
               "a": "Superstar Billy Graham",
               "b": "Dirty Dominik Mysterio",
-              "winner": null
+              "winner": "Dirty Dominik Mysterio"
             },
             {
               "a": "Blade",
               "b": "Johnny Bravo",
-              "winner": null
+              "winner": "Johnny Bravo"
             },
             {
               "a": "Chuck Norris",
               "b": "Andre The Giant",
-              "winner": null
+              "winner": "Chuck Norris"
             }
           ],
           "byes": []
@@ -702,14 +702,14 @@
           "matchType": "Special Guest Referee 1-on-1 Normal",
           "matches": [
             {
-              "a": null,
-              "b": null,
-              "winner": null
+              "a": "Adapt",
+              "b": "Dirty Dominik Mysterio",
+              "winner": "Adapt"
             },
             {
-              "a": null,
-              "b": null,
-              "winner": null
+              "a": "Johnny Bravo",
+              "b": "Chuck Norris",
+              "winner": "Johnny Bravo"
             }
           ],
           "byes": []
@@ -719,16 +719,16 @@
           "matchType": "Tables Ladders & Chairs Match",
           "matches": [
             {
-              "a": null,
-              "b": null,
-              "winner": null
+              "a": "Adapt",
+              "b": "Johnny Bravo",
+              "winner": "Johnny Bravo"
             }
           ],
           "byes": []
         }
       ],
-      "champion": null,
-      "completed": false
+      "champion": "Johnny Bravo",
+      "completed": true
     },
     "WWE Intercontinental Championship": {
       "size": 8,
@@ -750,22 +750,22 @@
             {
               "a": "Barney Rubble",
               "b": "Barack Obama",
-              "winner": null
+              "winner": "Barack Obama"
             },
             {
               "a": "Scott Steiner '03",
               "b": "Zara",
-              "winner": null
+              "winner": "Zara"
             },
             {
               "a": "Shawn Spears",
               "b": "Wonder Woman",
-              "winner": null
+              "winner": "Wonder Woman"
             },
             {
               "a": "Bayley",
               "b": "Rikishi",
-              "winner": null
+              "winner": "Bayley"
             }
           ],
           "byes": []
@@ -775,14 +775,15 @@
           "matchType": "Special Guest Referee 1-on-1 Normal",
           "matches": [
             {
-              "a": null,
-              "b": null,
-              "winner": null
+              "a": "Barack Obama",
+              "b": "Zara",
+              "winner": "Barack Obama",
+              "draw": false
             },
             {
-              "a": null,
-              "b": null,
-              "winner": null
+              "a": "Wonder Woman",
+              "b": "Bayley",
+              "winner": "Wonder Woman"
             }
           ],
           "byes": []
@@ -792,23 +793,24 @@
           "matchType": "Tables Ladders & Chairs Match",
           "matches": [
             {
-              "a": null,
-              "b": null,
-              "winner": null
+              "a": "Barack Obama",
+              "b": "Wonder Woman",
+              "winner": "Wonder Woman",
+              "draw": false
             }
           ],
           "byes": []
         }
       ],
-      "champion": null,
-      "completed": false
+      "champion": "Wonder Woman",
+      "completed": true
     },
     "WWE Tag Team Championship": {
       "size": 8,
       "wrestlers": [
         "Hart Foundation, The (Bret Hit Man Hart & Jim The Anvil Neidhart)",
         "Usos, The (Jey Uso & Jimmy Uso)",
-        "Judgement Day, The (Damien Priest & JD McDonagh)",
+        "Judgement Day, The (Finn Balor & JD McDonagh)",
         "No Quarter Catch Crew (Charlie Dempsey & Myles Borne)",
         "Rhiyo (Rhea Ripley & IYO SKY)",
         "3 Minute Warning (Jamal & Rosey)",
@@ -823,29 +825,62 @@
             {
               "a": "Hart Foundation, The (Bret Hit Man Hart & Jim The Anvil Neidhart)",
               "b": "Usos, The (Jey Uso & Jimmy Uso)",
-              "winner": null
+              "winner": "Usos, The (Jey Uso & Jimmy Uso)"
             },
             {
-              "a": "Judgement Day, The (Damien Priest & JD McDonagh)",
+              "a": "Judgement Day, The (Finn Balor & JD McDonagh)",
               "b": "No Quarter Catch Crew (Charlie Dempsey & Myles Borne)",
-              "winner": null
+              "winner": "Judgement Day, The (Finn Balor & JD McDonagh)"
             },
             {
               "a": "Rhiyo (Rhea Ripley & IYO SKY)",
               "b": "3 Minute Warning (Jamal & Rosey)",
-              "winner": null
+              "winner": "Rhiyo (Rhea Ripley & IYO SKY)"
             },
             {
               "a": "Culling, The (Lexis King & Lola Vice)",
               "b": "American Made (Julius Creed & Brutus Creed)",
-              "winner": null
+              "winner": "American Made (Julius Creed & Brutus Creed)",
+              "draw": false
+            }
+          ],
+          "byes": []
+        },
+        {
+          "name": "Semi-Finals",
+          "matchType": "Special Guest Referee 1-on-1 Normal",
+          "matches": [
+            {
+              "a": "Usos, The (Jey Uso & Jimmy Uso)",
+              "b": "Judgement Day, The (Finn Balor & JD McDonagh)",
+              "winner": "Judgement Day, The (Finn Balor & JD McDonagh)",
+              "draw": false
+            },
+            {
+              "a": "Rhiyo (Rhea Ripley & IYO SKY)",
+              "b": "American Made (Julius Creed & Brutus Creed)",
+              "winner": "Rhiyo (Rhea Ripley & IYO SKY)",
+              "draw": false
+            }
+          ],
+          "byes": []
+        },
+        {
+          "name": "Finale",
+          "matchType": "Tables Ladders & Chairs Match",
+          "matches": [
+            {
+              "a": "Judgement Day, The (Finn Balor & JD McDonagh)",
+              "b": "Rhiyo (Rhea Ripley & IYO SKY)",
+              "winner": "Rhiyo (Rhea Ripley & IYO SKY)",
+              "draw": false
             }
           ],
           "byes": []
         }
       ],
-      "champion": null,
-      "completed": false
+      "champion": "Rhiyo (Rhea Ripley & IYO SKY)",
+      "completed": true
     },
     "Government Championship": {
       "size": 6,
@@ -907,8 +942,15 @@
           "byes": []
         }
       ],
-      "champion": null,
-      "completed": false
+      "champion": "Donald Trump",
+      "completed": true,
+      "eliminated": [
+        "Abe Lincoln",
+        "Barack Obama",
+        "Bernie Sanders",
+        "Joe Biden",
+        "Cleopatra"
+      ]
     },
     "Superhero/Villain Championship": {
       "size": 8,
@@ -930,22 +972,26 @@
             {
               "a": "Punisher, The",
               "b": "Invisible Woman",
-              "winner": null
+              "winner": null,
+              "draw": true
             },
             {
               "a": "Casey Jones",
               "b": "Mary Jane",
-              "winner": null
+              "winner": "Mary Jane",
+              "draw": false
             },
             {
               "a": "Kingpin",
               "b": "Cheetah",
-              "winner": null
+              "winner": "Cheetah",
+              "draw": false
             },
             {
               "a": "Mrs. Incredible",
               "b": "Shredder, The",
-              "winner": null
+              "winner": "Mrs. Incredible",
+              "draw": false
             }
           ],
           "byes": []
@@ -955,35 +1001,34 @@
           "matchType": "Special Guest Referee 1-on-1 Normal",
           "matches": [
             {
-              "a": null,
-              "b": null,
-              "winner": null
-            },
-            {
-              "a": null,
-              "b": null,
-              "winner": null
+              "a": "Cheetah",
+              "b": "Mrs. Incredible",
+              "winner": "Cheetah",
+              "draw": false
             }
           ],
-          "byes": []
+          "byes": [
+            "Mary Jane"
+          ]
         },
         {
           "name": "Finale",
           "matchType": "Tables Ladders & Chairs Match",
           "matches": [
             {
-              "a": null,
-              "b": null,
-              "winner": null
+              "a": "Mary Jane",
+              "b": "Cheetah",
+              "winner": "Cheetah",
+              "draw": false
             }
           ],
           "byes": []
         }
       ],
-      "champion": null,
-      "completed": false
+      "champion": "Cheetah",
+      "completed": true
     },
-    "High Flyers Championship": {
+    "Cruiserweight Championship": {
       "size": 8,
       "wrestlers": [
         "Joaquin Wilde",
@@ -1003,22 +1048,26 @@
             {
               "a": "Joaquin Wilde",
               "b": "Je'Von Evans (Player/Streamer)",
-              "winner": null
+              "winner": "Je'Von Evans (Player/Streamer)",
+              "draw": false
             },
             {
               "a": "Sol Ruca",
               "b": "Dragon Lee",
-              "winner": null
+              "winner": "Dragon Lee",
+              "draw": false
             },
             {
               "a": "Eddie Guerrero",
               "b": "Lita",
-              "winner": null
+              "winner": "Eddie Guerrero",
+              "draw": false
             },
             {
               "a": "Psycho Clown",
               "b": "Jey Uso",
-              "winner": null
+              "winner": "Jey Uso",
+              "draw": false
             }
           ],
           "byes": []
@@ -1028,14 +1077,16 @@
           "matchType": "Special Guest Referee 1-on-1 Normal",
           "matches": [
             {
-              "a": null,
-              "b": null,
-              "winner": null
+              "a": "Je'Von Evans (Player/Streamer)",
+              "b": "Dragon Lee",
+              "winner": "Je'Von Evans (Player/Streamer)",
+              "draw": false
             },
             {
-              "a": null,
-              "b": null,
-              "winner": null
+              "a": "Eddie Guerrero",
+              "b": "Jey Uso",
+              "winner": "Jey Uso",
+              "draw": false
             }
           ],
           "byes": []
@@ -1045,16 +1096,17 @@
           "matchType": "Tables Ladders & Chairs Match",
           "matches": [
             {
-              "a": null,
-              "b": null,
-              "winner": null
+              "a": "Je'Von Evans (Player/Streamer)",
+              "b": "Jey Uso",
+              "winner": "Je'Von Evans (Player/Streamer)",
+              "draw": false
             }
           ],
           "byes": []
         }
       ],
-      "champion": null,
-      "completed": false
+      "champion": "Je'Von Evans (Player/Streamer)",
+      "completed": true
     },
     "Princess Championship": {
       "size": 8,
@@ -1129,7 +1181,7 @@
       "champion": null,
       "completed": false
     },
-    "Giants Championship": {
+    "Super Heavyweight Championship": {
       "size": 8,
       "wrestlers": [
         "Nia Jax",
@@ -1348,7 +1400,17 @@
     "Horror Championship",
     "Cartoons Championship",
     "Million Dollar Championship",
-    "Mortal Kombat Championship"
+    "Mortal Kombat Championship",
+    "WWE Hardcore Championship",
+    "Internet Television Championship",
+    "WWE United States Championship",
+    "Legends Championship",
+    "Undisputed WWE Championship",
+    "WWE Tag Team Championship",
+    "Government Championship",
+    "Superhero/Villain Championship",
+    "WWE Intercontinental Championship",
+    "Cruiserweight Championship"
   ],
-  "currentTitle": "WWE Hardcore Championship"
+  "currentTitle": "Princess Championship"
 }

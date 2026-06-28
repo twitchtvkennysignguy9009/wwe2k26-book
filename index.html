@@ -126,7 +126,7 @@ table.tbl tr:hover td { background: #0c0c18; }
       <div style="color:#ff3333;font-size:18px;letter-spacing:5px;margin-bottom:14px">THE PLAYBOOK</div>
       <div class="chapters">
         Champions &middot; Tournaments<br>
-        Empire of Pain &middot; Tag Teams<br>
+        Empire of Pain<br>
         Divisions &middot; Master Roster<br>
         Custom Roster
       </div>
@@ -153,12 +153,6 @@ table.tbl tr:hover td { background: #0c0c18; }
     <h1 class="page-title">&#9876; Empire of Pain</h1>
     <div class="page-sub" id="facSub">THE FACTIONS</div>
     <div class="fac-grid" id="facGrid"><div class="loading">Loading&hellip;</div></div>
-  </section>
-
-  <section id="teams">
-    <h1 class="page-title">Tag Teams</h1>
-    <div class="page-sub" id="teamSub">EVERY DUO &amp; PARTNERSHIP</div>
-    <div id="teamList"><div class="loading">Loading&hellip;</div></div>
   </section>
 
   <section id="divisions">
@@ -217,7 +211,6 @@ const PAGES = [
   { id: 'season', label: 'Season Log' },
   { id: 'stats', label: 'Records & Stats' },
   { id: 'factions', label: 'Empire of Pain' },
-  { id: 'teams', label: 'Tag Teams' },
   { id: 'divisions', label: 'Divisions' },
   { id: 'roster', label: 'Master Roster' },
   { id: 'customs', label: 'Custom Roster' },
@@ -524,7 +517,6 @@ async function boot() {
   renderChampions();
   renderTourList(); renderBracket();
   renderFactions();
-  renderTeams();
   renderDivisions();
   renderRoster();
   renderCustoms();

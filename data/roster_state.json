@@ -24,16 +24,14 @@
     "status": "have"
   },
   "Art the Clown": {
-    "gender": "M",
-    "status": "have"
+    "gender": "M"
   },
   "Aurora": {
     "gender": "F",
     "status": "have"
   },
   "Bamm-Bamm Rubble": {
-    "gender": "M",
-    "status": "have"
+    "gender": "M"
   },
   "Barack Obama": {
     "gender": "M",
@@ -76,8 +74,7 @@
     "status": "have"
   },
   "Billy the Puppet": {
-    "gender": "M",
-    "status": "have"
+    "gender": "M"
   },
   "Black Cat": {
     "gender": "F",
@@ -309,7 +306,7 @@
   },
   "Mai Shiranui": {
     "gender": "F",
-    "status": "have"
+    "status": "donthave"
   },
   "Malachi The Mad": {
     "gender": "M",
@@ -341,10 +338,6 @@
   },
   "Moana": {
     "gender": "F",
-    "status": "have"
-  },
-  "Mr. Chicken": {
-    "gender": "M",
     "status": "have"
   },
   "Mrs Incredible": {
@@ -420,12 +413,10 @@
     "status": "have"
   },
   "Rocky DeSantos": {
-    "gender": "M",
-    "status": "have"
+    "gender": "M"
   },
   "Scooby-Doo": {
-    "gender": "M",
-    "status": "have"
+    "gender": "M"
   },
   "Scorpina": {
     "gender": "F",
@@ -480,8 +471,7 @@
     "status": "have"
   },
   "Sub-Zero": {
-    "gender": "M",
-    "status": "have"
+    "gender": "M"
   },
   "Super Mario": {
     "gender": "M",
@@ -536,16 +526,14 @@
     "status": "have"
   },
   "IShowSpeed": {
-    "gender": "M",
-    "status": "have"
+    "gender": "M"
   },
   "Adapt": {
     "gender": "M",
     "status": "have"
   },
   "KSI": {
-    "gender": "M",
-    "status": "have"
+    "gender": "M"
   },
   "Kai Cenat": {
     "gender": "M",
@@ -592,8 +580,7 @@
     "status": "have"
   },
   "Daniel LaRusso": {
-    "gender": "M",
-    "status": "have"
+    "gender": "M"
   },
   "Hawk": {
     "gender": "M",
@@ -620,8 +607,7 @@
     "status": "have"
   },
   "Sam LaRusso": {
-    "gender": "F",
-    "status": "have"
+    "gender": "F"
   },
   "Sensei Wolf": {
     "gender": "M",
@@ -648,8 +634,7 @@
     "status": "have"
   },
   "Chun-Li": {
-    "gender": "F",
-    "status": "have"
+    "gender": "F"
   },
   "Aquaman": {
     "gender": "M",
@@ -736,8 +721,7 @@
     "status": "have"
   },
   "Velvet McIntyre": {
-    "gender": "F",
-    "status": "have"
+    "gender": "F"
   },
   "Bruce Lee": {
     "gender": "M",
@@ -749,49 +733,1165 @@
   },
   "Sandra Lopez": {
     "gender": "F",
-    "status": ""
+    "status": "have"
   },
   "sid": {
-    "gender": "M",
-    "status": ""
+    "gender": "M"
   },
   "Art The Clown": {
-    "gender": "M"
+    "gender": "M",
+    "status": "have"
   },
   "Bamm Bamm Rubble": {
-    "gender": "M"
+    "gender": "M",
+    "status": "have"
   },
   "Billy The Puppet": {
-    "gender": "M"
+    "gender": "M",
+    "status": "have"
   },
   "Rocky Desantos": {
-    "gender": "M"
+    "gender": "M",
+    "status": "have"
   },
   "Scooby Doo": {
-    "gender": "M"
+    "gender": "M",
+    "status": "have"
   },
   "Sub Zero": {
-    "gender": "M"
+    "gender": "M",
+    "status": "have"
   },
   "Ishowspeed": {
-    "gender": "M"
+    "gender": "M",
+    "status": "have"
   },
   "Ksi": {
-    "gender": "M"
+    "gender": "M",
+    "status": "have"
   },
   "Daniel Larusso": {
-    "gender": "M"
+    "gender": "M",
+    "status": "have"
   },
   "Sam Larusso": {
-    "gender": "M"
+    "gender": "M",
+    "status": "have"
   },
   "Chun Li": {
-    "gender": "M"
+    "gender": "M",
+    "status": "have"
   },
   "Velvet Mcintyre": {
-    "gender": "M"
+    "gender": "M",
+    "status": "have"
   },
   "Tank Bryson": {
-    "gender": "M"
+    "gender": "M",
+    "status": "have"
+  },
+  "Adam Pearce '12": {
+    "status": "have"
+  },
+  "Cinnabrit": {
+    "status": "have"
+  },
+  "Samara": {
+    "status": "have"
+  },
+  "Sid": {
+    "status": "have"
+  },
+  "Mrs. Incredible": {
+    "status": "have"
+  },
+  "Jesse The Body Ventura": {
+    "status": "have"
+  },
+  "Ivar": {
+    "status": "have"
+  },
+  "Fallon Henley": {
+    "status": "have"
+  },
+  "Alba Fyre": {
+    "status": "have"
+  },
+  "Shinsuke Nakamura": {
+    "status": "have"
+  },
+  "Nitara Marshall": {
+    "status": "have"
+  },
+  "Ethan Page": {
+    "status": "have"
+  },
+  "Zaria": {
+    "status": "have"
+  },
+  "Naomi": {
+    "status": "have"
+  },
+  "Rey Mysterio": {
+    "status": "have"
+  },
+  "Jey Uso": {
+    "status": "have"
+  },
+  "Tank Ledger": {
+    "status": "have"
+  },
+  "Charlie Dempsey": {
+    "status": "have"
+  },
+  "Erick Rowan": {
+    "status": "have"
+  },
+  "Stacy Keibler": {
+    "status": "have"
+  },
+  "William Regal": {
+    "status": "have"
+  },
+  "Dusty Rhodes": {
+    "status": "have"
+  },
+  "Hollywood Hogan": {
+    "status": "have"
+  },
+  "DDP": {
+    "status": "have"
+  },
+  "Undertaker '98": {
+    "status": "have"
+  },
+  "Thrasher": {
+    "status": "have"
+  },
+  "Tito Santana": {
+    "status": "have"
+  },
+  "Dude Love": {
+    "status": "have"
+  },
+  "Superstar Billy Graham": {
+    "status": "have"
+  },
+  "Dirty Dominik Mysterio": {
+    "status": "have"
+  },
+  "Andre The Giant": {
+    "status": "have"
+  },
+  "Scott Steiner '03": {
+    "status": "have"
+  },
+  "Zara": {
+    "status": "have"
+  },
+  "Shawn Spears": {
+    "status": "have"
+  },
+  "Bayley": {
+    "status": "have"
+  },
+  "Rikishi": {
+    "status": "have"
+  },
+  "Hart Foundation, The (Bret Hit Man Hart & Jim The Anvil Neidhart)": {},
+  "Usos, The (Jey Uso & Jimmy Uso)": {},
+  "Judgement Day, The (Damien Priest & JD McDonagh)": {},
+  "No Quarter Catch Crew (Charlie Dempsey & Myles Borne)": {},
+  "Rhiyo (Rhea Ripley & IYO SKY)": {},
+  "3 Minute Warning (Jamal & Rosey)": {},
+  "Culling, The (Lexis King & Lola Vice)": {},
+  "American Made (Julius Creed & Brutus Creed)": {},
+  "Abe Lincoln": {
+    "status": "have"
+  },
+  "Joaquin Wilde": {
+    "status": "have"
+  },
+  "Je'Von Evans": {
+    "status": "have"
+  },
+  "Sol Ruca": {
+    "status": "have"
+  },
+  "Dragon Lee": {
+    "status": "have"
+  },
+  "Eddie Guerrero": {
+    "status": "have"
+  },
+  "Lita": {
+    "status": "have"
+  },
+  "Psycho Clown": {
+    "status": "have"
+  },
+  "Nia Jax": {
+    "status": "have"
+  },
+  "Kevin Nash": {
+    "status": "have"
+  },
+  "Hank Walker": {
+    "status": "have"
+  },
+  "Rusev": {
+    "status": "have"
+  },
+  "Otis": {
+    "status": "have"
+  },
+  "Kane": {
+    "status": "have"
+  },
+  "Mark Henry": {
+    "status": "have"
+  },
+  "Elite Jacob Fatu": {
+    "status": "have"
+  },
+  "Elite Rhea Ripley": {
+    "status": "have"
+  },
+  "Bret Hit Man Hart": {
+    "status": "have"
+  },
+  "Jim The Anvil Neidhart": {
+    "status": "have"
+  },
+  "Jimmy Uso": {
+    "status": "have"
+  },
+  "Damien Priest": {
+    "status": "have"
+  },
+  "JD McDonagh": {
+    "status": "have"
+  },
+  "Myles Borne": {
+    "status": "have"
+  },
+  "Rhea Ripley": {
+    "status": "have"
+  },
+  "IYO SKY": {
+    "status": "have"
+  },
+  "Jamal": {
+    "status": "have"
+  },
+  "Rosey": {
+    "status": "have"
+  },
+  "Lexis King": {
+    "status": "have"
+  },
+  "Lola Vice": {
+    "status": "have"
+  },
+  "Julius Creed": {
+    "status": "have"
+  },
+  "Brutus Creed": {
+    "status": "have"
+  },
+  "Abyss": {
+    "status": "have"
+  },
+  "Afa": {
+    "status": "have"
+  },
+  "AJ Lee": {
+    "status": "have"
+  },
+  "AJ Lee '15": {
+    "status": "have"
+  },
+  "AJ Styles": {
+    "status": "have"
+  },
+  "AJ Styles '16": {
+    "status": "have"
+  },
+  "Akira Tozawa": {
+    "status": "have"
+  },
+  "Aleister Black": {
+    "status": "have"
+  },
+  "Alex Shelley": {
+    "status": "have"
+  },
+  "Alexa Bliss": {
+    "status": "have"
+  },
+  "Alundra Blayze": {
+    "status": "have"
+  },
+  "Alundra Blayze '94": {
+    "status": "have"
+  },
+  "Andre Chase": {
+    "status": "have"
+  },
+  "Angel": {
+    "status": "have"
+  },
+  "Angelo Dawkins": {
+    "status": "have"
+  },
+  "Apollo Crews": {
+    "status": "have"
+  },
+  "Asuka": {
+    "status": "have"
+  },
+  "Austin Theory": {
+    "status": "have"
+  },
+  "Axiom": {
+    "status": "have"
+  },
+  "B-Fab": {
+    "status": "have"
+  },
+  "Badd Ass Billy Gunn": {
+    "status": "have"
+  },
+  "Batista": {
+    "status": "have"
+  },
+  "Becky Lynch": {
+    "status": "have"
+  },
+  "Ax": {
+    "status": "have"
+  },
+  "berto": {
+    "status": "have"
+  },
+  "Bianca Belair": {
+    "status": "have"
+  },
+  "Big E": {
+    "status": "have"
+  },
+  "Blake Monroe": {
+    "status": "have"
+  },
+  "Bobby Newton": {
+    "status": "have"
+  },
+  "Boogeyman": {
+    "status": "have"
+  },
+  "Booker T": {
+    "status": "have"
+  },
+  "Bray Wyatt": {
+    "status": "have"
+  },
+  "British Bulldog": {
+    "status": "have"
+  },
+  "brian pillman": {
+    "status": "have"
+  },
+  "Brock Lesnar": {
+    "status": "have"
+  },
+  "Brock Lesnar '13": {
+    "status": "have"
+  },
+  "Bron Breaker": {
+    "status": "have"
+  },
+  "Bronson Reed": {
+    "status": "have"
+  },
+  "Bronze Breakker": {
+    "status": "have"
+  },
+  "Brooks Jensen": {
+    "status": "have"
+  },
+  "Bubba Ray Dudley": {
+    "status": "have"
+  },
+  "Bull Nakano": {
+    "status": "have"
+  },
+  "Buzz": {
+    "status": "have"
+  },
+  "Cactus Jack": {
+    "status": "have"
+  },
+  "Candice Lerae": {
+    "status": "have"
+  },
+  "Captain, The": {
+    "status": "have"
+  },
+  "Carly Prime": {
+    "status": "have"
+  },
+  "Carmelo Hayes": {
+    "status": "have"
+  },
+  "Case Oh": {
+    "status": "have"
+  },
+  "Chad Gable": {
+    "status": "have"
+  },
+  "Channing Stacks Lorenzo": {
+    "status": "have"
+  },
+  "Charlotte Flair": {
+    "status": "have"
+  },
+  "Chase": {
+    "status": "have"
+  },
+  "Chelsea Green": {
+    "status": "have"
+  },
+  "Chosen": {
+    "status": "have"
+  },
+  "Chris Sabin": {
+    "status": "have"
+  },
+  "Chyna": {
+    "status": "have"
+  },
+  "Chyna '97": {
+    "status": "have"
+  },
+  "CM Hart": {
+    "status": "have"
+  },
+  "CM Punk": {
+    "status": "have"
+  },
+  "CM Punk '11": {
+    "status": "have"
+  },
+  "CM Punk '13": {
+    "status": "have"
+  },
+  "CM Punk Armageddon '08": {
+    "status": "have"
+  },
+  "CM Punk Elim. Chamber '13": {
+    "status": "have"
+  },
+  "CM Punk Retro": {
+    "status": "have"
+  },
+  "CM Punk Summerslam '08": {
+    "status": "have"
+  },
+  "CM Punk Summerslam '13": {
+    "status": "have"
+  },
+  "CM Punk WM29": {
+    "status": "have"
+  },
+  "Cody Rhodes (Player/Streamer)": {
+    "status": "have"
+  },
+  "Cole Quinn": {
+    "status": "have"
+  },
+  "Crush": {
+    "status": "have"
+  },
+  "Cruz Del Toro": {
+    "status": "have"
+  },
+  "D Lo Brown": {
+    "status": "have"
+  },
+  "D Von Dudley": {
+    "status": "have"
+  },
+  "Dahlia Hex": {
+    "status": "have"
+  },
+  "Dark Horse, The": {
+    "status": "have"
+  },
+  "DDP '98": {
+    "status": "have"
+  },
+  "Delilah Hex": {
+    "status": "have"
+  },
+  "Demon Finn Balor": {
+    "status": "have"
+  },
+  "Dexter Lumis": {
+    "status": "have"
+  },
+  "Diesel": {
+    "status": "have"
+  },
+  "Doink The Clown": {
+    "status": "have"
+  },
+  "Drew Mcintyre": {
+    "status": "have"
+  },
+  "Dusty Rhodes '89": {
+    "status": "have"
+  },
+  "Eddie Guerrero '97": {
+    "status": "have"
+  },
+  "El Grande Americano": {
+    "status": "have"
+  },
+  "El Hijo Del Vikingo": {
+    "status": "have"
+  },
+  "El Mago Jr": {
+    "status": "have"
+  },
+  "El Ordinario": {
+    "status": "have"
+  },
+  "Elton Prince": {
+    "status": "have"
+  },
+  "Eric Bischoff": {
+    "status": "have"
+  },
+  "Erik": {
+    "status": "have"
+  },
+  "Eve Torres": {
+    "status": "have"
+  },
+  "Faarooq": {
+    "status": "have"
+  },
+  "Fiend Bray Wyatt '23, The": {
+    "status": "have"
+  },
+  "Fiend Bray Wyatt (Burned), The": {
+    "status": "have"
+  },
+  "Finn Balor": {
+    "status": "have"
+  },
+  "Flammer": {
+    "status": "have"
+  },
+  "Gabriel Slade": {
+    "status": "have"
+  },
+  "Geneva Rose": {
+    "status": "have"
+  },
+  "Giulia": {
+    "status": "have"
+  },
+  "Goldberg": {
+    "status": "have"
+  },
+  "Grayson Waller": {
+    "status": "have"
+  },
+  "Great Khali, The": {
+    "status": "have"
+  },
+  "Great Muta, The": {
+    "status": "have"
+  },
+  "Gunther": {
+    "status": "have"
+  },
+  "Haku": {
+    "status": "have"
+  },
+  "Hector Flores (Wyatt Sicks)": {
+    "status": "have"
+  },
+  "Honky Tonk Man, The": {
+    "status": "have"
+  },
+  "Hulk Hogan": {
+    "status": "have"
+  },
+  "Hulk Hogan '02": {
+    "status": "have"
+  },
+  "Hunter Hearst Helmsley": {
+    "status": "have"
+  },
+  "Hurricane, The": {
+    "status": "have"
+  },
+  "Ilja Dragunov": {
+    "status": "have"
+  },
+  "Iron Sheik, The": {
+    "status": "have"
+  },
+  "Ironman": {
+    "status": "have"
+  },
+  "Ivy Nile": {
+    "status": "have"
+  },
+  "Izzi Dame": {
+    "status": "have"
+  },
+  "Jacob Fatu": {
+    "status": "have"
+  },
+  "Jacy Jayne": {
+    "status": "have"
+  },
+  "Jade Cargill": {
+    "status": "have"
+  },
+  "Jaida Parker": {
+    "status": "have"
+  },
+  "Jazmyn Nyx": {
+    "status": "have"
+  },
+  "JBL": {
+    "status": "have"
+  },
+  "JC Mateo": {
+    "status": "have"
+  },
+  "Joe Gacy": {
+    "status": "have"
+  },
+  "Joe Hendry": {
+    "status": "have"
+  },
+  "John Cena": {
+    "status": "have"
+  },
+  "John Cena '13": {
+    "status": "have"
+  },
+  "John Cena '15": {
+    "status": "have"
+  },
+  "Johnny Gargano": {
+    "status": "have"
+  },
+  "Jordynne Grace": {
+    "status": "have"
+  },
+  "Josh Briggs": {
+    "status": "have"
+  },
+  "Josie Jane": {
+    "status": "have"
+  },
+  "Juggernaut Grace": {
+    "status": "have"
+  },
+  "Junkyard Dog": {
+    "status": "have"
+  },
+  "Justine": {
+    "status": "have"
+  },
+  "Justine '99": {
+    "status": "have"
+  },
+  "Jynxzi": {
+    "status": "have"
+  },
+  "Kairi Sane": {
+    "status": "have"
+  },
+  "Kane '08": {
+    "status": "have"
+  },
+  "Kane '98": {
+    "status": "have"
+  },
+  "Karmen Petrovic": {
+    "status": "have"
+  },
+  "Kelani Jordan": {
+    "status": "have"
+  },
+  "Kelly Kelly": {
+    "status": "have"
+  },
+  "Ken Shamrock": {
+    "status": "have"
+  },
+  "Kevin Owens": {
+    "status": "have"
+  },
+  "Kiana James": {
+    "status": "have"
+  },
+  "Kit Wilson": {
+    "status": "have"
+  },
+  "Kofi Kingston": {
+    "status": "have"
+  },
+  "Kurt Angle": {
+    "status": "have"
+  },
+  "Kurt Angle '19": {
+    "status": "have"
+  },
+  "La Cangrejita Loca": {
+    "status": "have"
+  },
+  "LA Knight": {
+    "status": "have"
+  },
+  "LA Parka": {
+    "status": "have"
+  },
+  "Lash Legend": {
+    "status": "have"
+  },
+  "Lex Luger": {
+    "status": "have"
+  },
+  "Liv Morgan": {
+    "status": "have"
+  },
+  "LJ": {
+    "status": "have"
+  },
+  "Lock, The": {
+    "status": "have"
+  },
+  "Logan Paul": {
+    "status": "have"
+  },
+  "Ludwig Kaiser": {
+    "status": "have"
+  },
+  "Lyra Valkyria": {
+    "status": "have"
+  },
+  "Macho Man Randy Savage": {
+    "status": "have"
+  },
+  "Macho Man Randy Savage '98": {
+    "status": "have"
+  },
+  "Main Event R-Truth": {
+    "status": "have"
+  },
+  "Mankind": {
+    "status": "have"
+  },
+  "Marshall Thompson": {
+    "status": "have"
+  },
+  "Maryse": {
+    "status": "have"
+  },
+  "Maxxine Dupri": {
+    "status": "have"
+  },
+  "Meilee Fanny Fan": {
+    "status": "have"
+  },
+  "matt cardona": {
+    "status": "have"
+  },
+  "Michelle Mccool": {
+    "status": "have"
+  },
+  "Michin": {
+    "status": "have"
+  },
+  "Miz '17, The": {
+    "status": "have"
+  },
+  "Miz, The": {
+    "status": "have"
+  },
+  "Molly Holly": {
+    "status": "have"
+  },
+  "Montez Ford": {
+    "status": "have"
+  },
+  "Moreno": {
+    "status": "have"
+  },
+  "Mosh": {
+    "status": "have"
+  },
+  "Mr. Iguana": {
+    "status": "have"
+  },
+  "Mr. Perfect": {
+    "status": "have"
+  },
+  "Mr. Wonderful Paul Orndorff": {
+    "status": "have"
+  },
+  "Myrise 2k22 Female Player": {
+    "status": "have"
+  },
+  "Myrise 2k22 Male Player": {
+    "status": "have"
+  },
+  "Natalya": {
+    "status": "have"
+  },
+  "Nathan Frazer": {
+    "status": "have"
+  },
+  "New Jack": {
+    "status": "have"
+  },
+  "Nick Aldis '23": {
+    "status": "have"
+  },
+  "Nikki Bella": {
+    "status": "have"
+  },
+  "Nikki Cross": {
+    "status": "have"
+  },
+  "Nikkita Lyons": {
+    "status": "have"
+  },
+  "Noam Dar": {
+    "status": "have"
+  },
+  "Oba Femi": {
+    "status": "have"
+  },
+  "Odette Beaumont": {
+    "status": "have"
+  },
+  "Odyssey Rift": {
+    "status": "have"
+  },
+  "Omos": {
+    "status": "have"
+  },
+  "Original El Grande Americano": {
+    "status": "have"
+  },
+  "Paragon Jay Pierce": {
+    "status": "have"
+  },
+  "Pat Mcafee": {
+    "status": "have"
+  },
+  "Paul Walter Hauser": {
+    "status": "have"
+  },
+  "Pete Dunne": {
+    "status": "have"
+  },
+  "penta": {
+    "status": "have"
+  },
+  "Piper Niven": {
+    "status": "have"
+  },
+  "Psycho Sally": {
+    "status": "have"
+  },
+  "R-Truth": {
+    "status": "have"
+  },
+  "Randy Orton": {
+    "status": "have"
+  },
+  "Randy Orton '11": {
+    "status": "have"
+  },
+  "Randy Orton '14": {
+    "status": "have"
+  },
+  "Raquel Rodriguez": {
+    "status": "have"
+  },
+  "Ravishing Rick Rude": {
+    "status": "have"
+  },
+  "Razor Ramon": {
+    "status": "have"
+  },
+  "red": {
+    "status": "have"
+  },
+  "Rey Fenix": {
+    "status": "have"
+  },
+  "Rey Mysterio '08": {
+    "status": "have"
+  },
+  "Rick Steiner": {
+    "status": "have"
+  },
+  "Ricky Saints": {
+    "status": "have"
+  },
+  "Ridge Holland": {
+    "status": "have"
+  },
+  "Road Dogg": {
+    "status": "have"
+  },
+  "Road Dogg Jesse James": {
+    "status": "have"
+  },
+  "Rob Van Dam": {
+    "status": "have"
+  },
+  "Robby Keen": {
+    "status": "have"
+  },
+  "Rock '01, The": {
+    "status": "have"
+  },
+  "Rock, The": {
+    "status": "have"
+  },
+  "Rock '13, The": {
+    "status": "have"
+  },
+  "Rock '99, The": {
+    "status": "have"
+  },
+  "Rocky Maivia": {
+    "status": "have"
+  },
+  "Roman Reigns": {
+    "status": "have"
+  },
+  "Rowdy Roddy Piper": {
+    "status": "have"
+  },
+  "Rowdy Roddy Piper '98": {
+    "status": "have"
+  },
+  "Roxanne Perez": {
+    "status": "have"
+  },
+  "Sami Zayn": {
+    "status": "have"
+  },
+  "Sandman, The": {
+    "status": "have"
+  },
+  "Santos Escobar": {
+    "status": "have"
+  },
+  "Scarlet": {
+    "status": "have"
+  },
+  "Scott Hall": {
+    "status": "have"
+  },
+  "Scott Steiner '93": {
+    "status": "have"
+  },
+  "Sensational Sherri": {
+    "status": "have"
+  },
+  "Seth Rollins '25": {
+    "status": "have"
+  },
+  "Seth Freakin Rollins": {
+    "status": "have"
+  },
+  "Seth Rollins WM41": {
+    "status": "have"
+  },
+  "Shawn Michaels": {
+    "status": "have"
+  },
+  "Shawn Michaels '05": {
+    "status": "have"
+  },
+  "Shawn Michaels '94": {
+    "status": "have"
+  },
+  "Shawn Michaels '97": {
+    "status": "have"
+  },
+  "Shawn Michaels Dx": {
+    "status": "have"
+  },
+  "Sheamus": {
+    "status": "have"
+  },
+  "Sid Justice": {
+    "status": "have"
+  },
+  "Sika": {
+    "status": "have"
+  },
+  "Slade": {
+    "status": "have"
+  },
+  "Smash": {
+    "status": "have"
+  },
+  "Solo Sikoa": {
+    "status": "have"
+  },
+  "Stephanie Mcmahon": {
+    "status": "have"
+  },
+  "Stephanie Mcmahon Helmsley": {
+    "status": "have"
+  },
+  "Stephanie Vaquer": {
+    "status": "have"
+  },
+  "Stone Cold Steve Austin": {
+    "status": "have"
+  },
+  "strauss zelnick": {
+    "status": "have"
+  },
+  "Syxx": {
+    "status": "have"
+  },
+  "Talla Tonga": {
+    "status": "have"
+  },
+  "Tama": {
+    "status": "have"
+  },
+  "Tama Tonga": {
+    "status": "have"
+  },
+  "Tatum Paxley": {
+    "status": "have"
+  },
+  "Tavion Heights": {
+    "status": "have"
+  },
+  "Tavish": {
+    "status": "have"
+  },
+  "Terry Funk": {
+    "status": "have"
+  },
+  "Thea Hail": {
+    "status": "have"
+  },
+  "Tiffany Stratton": {
+    "status": "have"
+  },
+  "Tommaso Ciampa": {
+    "status": "have"
+  },
+  "Tonga Loa": {
+    "status": "have"
+  },
+  "Tony D Angelo": {
+    "status": "have"
+  },
+  "tory wilson": {
+    "status": "have",
+    "gender": "F"
+  },
+  "Tre": {
+    "status": "have"
+  },
+  "Trick Williams": {
+    "status": "have"
+  },
+  "Triple H": {
+    "status": "have"
+  },
+  "Triple H '08": {
+    "status": "have"
+  },
+  "Triple H '14": {
+    "status": "have"
+  },
+  "Triple H '98": {
+    "status": "have"
+  },
+  "Trish Stratus": {
+    "status": "have"
+  },
+  "Tyler Bate": {
+    "status": "have"
+  },
+  "Tyler Breeze": {
+    "status": "have"
+  },
+  "Ultimate Warrior": {
+    "status": "have"
+  },
+  "Umaga": {
+    "status": "have"
+  },
+  "Uncle Howdy": {
+    "status": "have"
+  },
+  "Uncle Jesse Katsopolis": {
+    "status": "have"
+  },
+  "Undertaker": {
+    "status": "have"
+  },
+  "Undertaker '03": {
+    "status": "have"
+  },
+  "Undertaker '13": {
+    "status": "have"
+  },
+  "Vader": {
+    "status": "have"
+  },
+  "Victoria": {
+    "status": "have"
+  },
+  "Wade Barrett": {
+    "status": "have"
+  },
+  "Wendy Choo": {
+    "status": "have"
+  },
+  "Wren Sinclair": {
+    "status": "have"
+  },
+  "X-Pac": {
+    "status": "have"
+  },
+  "Xavier Woods": {
+    "status": "have"
+  },
+  "Yokozuna": {
+    "status": "have"
+  },
+  "Yoshiki Inamura": {
+    "status": "have"
+  },
+  "Zelina Vega": {
+    "status": "have"
+  },
+  "Zoey Stark": {
+    "status": "have"
   }
 }

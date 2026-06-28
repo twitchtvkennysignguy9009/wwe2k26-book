@@ -28,6 +28,56 @@
           "holder": "Sub Zero (Player/Streamer)",
           "wonDate": "2026-06-16",
           "defenses": 0
+        },
+        "WWE Hardcore Championship": {
+          "holder": "Ethan Page",
+          "wonDate": "2026-06-20",
+          "defenses": 0
+        },
+        "Internet Television Championship": {
+          "holder": "Markiplier",
+          "wonDate": "2026-06-22",
+          "defenses": 0
+        },
+        "WWE United States Championship": {
+          "holder": "Harley Quinn",
+          "wonDate": "2026-06-23",
+          "defenses": 0
+        },
+        "Legends Championship": {
+          "holder": "Hollywood Hogan",
+          "wonDate": "2026-06-24",
+          "defenses": 0
+        },
+        "Undisputed WWE Championship": {
+          "holder": "Johnny Bravo",
+          "wonDate": "2026-06-24",
+          "defenses": 0
+        },
+        "WWE Tag Team Championship": {
+          "holder": "Rhiyo (Rhea Ripley & IYO SKY)",
+          "wonDate": "2026-06-25",
+          "defenses": 0
+        },
+        "Government Championship": {
+          "holder": "Donald Trump",
+          "wonDate": "2026-06-25",
+          "defenses": 0
+        },
+        "Superhero/Villain Championship": {
+          "holder": "Cheetah",
+          "wonDate": "2026-06-27",
+          "defenses": 0
+        },
+        "WWE Intercontinental Championship": {
+          "holder": "Wonder Woman",
+          "wonDate": "2026-06-24",
+          "defenses": 0
+        },
+        "Cruiserweight Championship": {
+          "holder": "Je'Von Evans (Player/Streamer)",
+          "wonDate": "2026-06-28",
+          "defenses": 0
         }
       },
       "eliminated": {},
@@ -48,11 +98,11 @@
     },
     {
       "name": "Adapt",
-      "brand": "Streamer/YouTuber"
+      "brand": "Internet Television"
     },
     {
       "name": "Adin Ross",
-      "brand": "Streamer/YouTuber"
+      "brand": "Internet Television"
     },
     {
       "name": "Aisha Campbell",
@@ -60,7 +110,7 @@
     },
     {
       "name": "Amouranth",
-      "brand": "Streamer/YouTuber"
+      "brand": "Internet Television"
     },
     {
       "name": "Anna",
@@ -184,7 +234,7 @@
     },
     {
       "name": "Case Oh",
-      "brand": "Streamer/YouTuber"
+      "brand": "Internet Television"
     },
     {
       "name": "Casey Jones",
@@ -216,7 +266,7 @@
     },
     {
       "name": "Cinnabrit",
-      "brand": "Streamer/YouTuber"
+      "brand": "Internet Television"
     },
     {
       "name": "Cleopatra",
@@ -253,6 +303,14 @@
     {
       "name": "Dr. Doom",
       "brand": "DSEPW"
+    },
+    {
+      "name": "Elite Jacob Fatu",
+      "brand": "Elite"
+    },
+    {
+      "name": "Elite Rhea Ripley",
+      "brand": "Elite"
     },
     {
       "name": "Fred Flintstone",
@@ -332,11 +390,11 @@
     },
     {
       "name": "Ironmouse",
-      "brand": "Streamer/YouTuber"
+      "brand": "Internet Television"
     },
     {
       "name": "Ishowspeed",
-      "brand": "Streamer/YouTuber"
+      "brand": "Internet Television"
     },
     {
       "name": "Jack Talos",
@@ -352,7 +410,7 @@
     },
     {
       "name": "Jake Paul",
-      "brand": "Streamer/YouTuber"
+      "brand": "Internet Television"
     },
     {
       "name": "Jane Jetson",
@@ -369,10 +427,6 @@
     {
       "name": "Jenna Ortega",
       "brand": "Horror"
-    },
-    {
-      "name": "Johnny Lawrence",
-      "brand": "Martial Arts"
     },
     {
       "name": "Joe Biden",
@@ -395,6 +449,10 @@
       "brand": "Mortal Kombat"
     },
     {
+      "name": "Johnny Lawrence",
+      "brand": "Martial Arts"
+    },
+    {
       "name": "Joker, The",
       "brand": "Superhero/Villain"
     },
@@ -404,11 +462,15 @@
     },
     {
       "name": "Jynxzi",
-      "brand": "Streamer/YouTuber"
+      "brand": "Internet Television"
     },
     {
       "name": "Kai Cenat",
-      "brand": "Streamer/YouTuber"
+      "brand": "Internet Television"
+    },
+    {
+      "name": "Kenny Lopez",
+      "brand": "DSEPW"
     },
     {
       "name": "Kenny Payne",
@@ -432,11 +494,15 @@
     },
     {
       "name": "Ksi",
-      "brand": "Streamer/YouTuber"
+      "brand": "Internet Television"
     },
     {
       "name": "Lara Croft",
       "brand": "Superhero/Villain"
+    },
+    {
+      "name": "Laura Bush",
+      "brand": "DSEPW"
     },
     {
       "name": "Laurie Strode",
@@ -463,10 +529,6 @@
       "brand": "Cartoons"
     },
     {
-      "name": "Laura Bush",
-      "brand": "DSEPW"
-    },
-    {
       "name": "M3GAN",
       "brand": "Horror"
     },
@@ -483,28 +545,24 @@
       "brand": "DSEPW"
     },
     {
-      "name": "Melania Trump",
-      "brand": "DSEPW"
-    },
-    {
       "name": "Markiplier",
-      "brand": "Streamer/YouTuber"
+      "brand": "Internet Television"
     },
     {
       "name": "Marlon",
-      "brand": "Streamer/YouTuber"
+      "brand": "Internet Television"
     },
     {
       "name": "Mary Jane",
       "brand": "Superhero/Villain"
     },
     {
-      "name": "Michelle Obama",
-      "brand": "DSEPW"
-    },
-    {
       "name": "Mask, The",
       "brand": "Superhero/Villain"
+    },
+    {
+      "name": "Melania Trump",
+      "brand": "DSEPW"
     },
     {
       "name": "Michael Myers",
@@ -513,6 +571,10 @@
     {
       "name": "Michelangelo",
       "brand": "Superhero/Villain"
+    },
+    {
+      "name": "Michelle Obama",
+      "brand": "DSEPW"
     },
     {
       "name": "Miguel Diaz",
@@ -531,16 +593,16 @@
       "brand": "DSEPW"
     },
     {
-      "name": "Mr. Chicken",
-      "brand": "DSEPW"
-    },
-    {
       "name": "MrBeast",
       "brand": "DSEPW"
     },
     {
       "name": "Mrs Incredible",
       "brand": "DSEPW"
+    },
+    {
+      "name": "Mrs. Incredible",
+      "brand": "Superhero/Villain"
     },
     {
       "name": "Ms. Marvel",
@@ -568,7 +630,7 @@
     },
     {
       "name": "Ninja",
-      "brand": "Streamer/YouTuber"
+      "brand": "Internet Television"
     },
     {
       "name": "Nitara Marshall",
@@ -600,7 +662,7 @@
     },
     {
       "name": "Pokimane",
-      "brand": "Streamer/YouTuber"
+      "brand": "Internet Television"
     },
     {
       "name": "Princess Daisy",
@@ -609,10 +671,6 @@
     {
       "name": "Princess Peach",
       "brand": "Princess"
-    },
-    {
-      "name": "Princess Victoria",
-      "brand": "Legend"
     },
     {
       "name": "Princess Zelda",
@@ -668,7 +726,7 @@
     },
     {
       "name": "Rug",
-      "brand": "Streamer/YouTuber"
+      "brand": "Internet Television"
     },
     {
       "name": "Sam Larusso",
@@ -677,6 +735,14 @@
     {
       "name": "Samara",
       "brand": "Horror"
+    },
+    {
+      "name": "Sandra Lopez",
+      "brand": "DSEPW"
+    },
+    {
+      "name": "Scarlet",
+      "brand": "DSEPW"
     },
     {
       "name": "Scooby Doo",
@@ -731,12 +797,8 @@
       "brand": "Mortal Kombat"
     },
     {
-      "name": "Scarlet",
-      "brand": "DSEPW"
-    },
-    {
       "name": "Sketch",
-      "brand": "Streamer/YouTuber"
+      "brand": "Internet Television"
     },
     {
       "name": "Sonya Blade",
@@ -807,10 +869,6 @@
       "brand": "Cartoons"
     },
     {
-      "name": "Velvet Mcintyre",
-      "brand": "Legend"
-    },
-    {
       "name": "Wilma Flintstone",
       "brand": "DSEPW"
     },
@@ -833,37 +891,30 @@
     {
       "name": "Zara",
       "brand": "Martial Arts"
-    },
-    {
-      "name": "Kenny Lopez",
-      "brand": "DSEPW"
-    },
-    {
-      "name": "Sandra Lopez",
-      "brand": "DSEPW"
-    },
-    {
-      "name": "Mrs. Incredible",
-      "brand": "Superhero/Villain"
-    },
-    {
-      "name": "Je'Von Evans",
-      "brand": "Roster"
-    },
-    {
-      "name": "Elite Jacob Fatu",
-      "brand": "Elite"
-    },
-    {
-      "name": "Elite Rhea Ripley",
-      "brand": "Elite"
     }
   ],
   "customMatchTypes": [],
   "customChampionships": [],
-  "removedRoster": [],
+  "removedRoster": [
+    "Mr. Chicken"
+  ],
   "removedMatchTypes": [],
   "removedChampionships": [],
   "testMode": false,
-  "version": 1
+  "version": 1,
+  "lockedRoster": [
+    "Ax",
+    "Bronze Breakker",
+    "Crush",
+    "Dahlia Hex",
+    "Delilah Hex",
+    "Juggernaut Grace",
+    "Marshall Thompson",
+    "Meilee Fanny Fan",
+    "Moreno",
+    "Odette Beaumont",
+    "Bobby Newton",
+    "Captain, The",
+    "Mary Jane"
+  ]
 }

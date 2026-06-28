@@ -85,13 +85,19 @@
   },
   {
     "name": "Chelsea Green and The Secret Hervice",
-    "members": []
+    "members": [
+      "Chelsea Green",
+      "Piper Niven",
+      "Alba Fyre"
+    ],
+    "subs": [],
+    "category": "WWE"
   },
   {
     "name": "Culling, The",
     "members": [
-      "Shawn Spears",
       "Lexis King",
+      "Shawn Spears",
       "Lola Vice"
     ],
     "subs": [],
@@ -189,11 +195,11 @@
   {
     "name": "Judgement Day, The",
     "members": [
-      "Damien Priest",
       "Finn Balor",
       "JD McDonagh",
       "Dirty Dominik Mysterio",
-      "Raquel Rodriguez"
+      "Raquel Rodriguez",
+      "Liv Morgan"
     ],
     "subs": [],
     "category": "WWE"
@@ -243,7 +249,12 @@
   },
   {
     "name": "Miz, The and Maryse",
-    "members": []
+    "members": [
+      "Miz, The",
+      "Maryse"
+    ],
+    "subs": [],
+    "category": "WWE"
   },
   {
     "name": "Motor City Machine Guns",
@@ -381,5 +392,424 @@
     ],
     "subs": [],
     "category": "WWE"
+  },
+  {
+    "name": "Visions, The",
+    "members": [
+      "Logan Paul",
+      "Austin Theory",
+      "Jake Paul",
+      "IShowSpeed"
+    ],
+    "subs": [],
+    "category": "WWE"
+  },
+  {
+    "name": "The CIA",
+    "members": [
+      "Aquaman",
+      "Black Panther",
+      "Batman",
+      "Robin",
+      "Green Arrow"
+    ],
+    "subs": [],
+    "category": "CUSTOM"
+  },
+  {
+    "name": "The Crew",
+    "members": [
+      "Green Ranger",
+      "Black Ranger",
+      "Blue Ranger",
+      "Red Ranger"
+    ],
+    "subs": [],
+    "category": "CUSTOM"
+  },
+  {
+    "name": "The Dangerous Alliance",
+    "members": [
+      "Catwoman",
+      "Death",
+      "Hela",
+      "Poison Ivy"
+    ],
+    "subs": [],
+    "category": "CUSTOM"
+  },
+  {
+    "name": "The Queens",
+    "members": [
+      "Sleeping Beauty",
+      "Snow White",
+      "Tangled Rapunzel",
+      "Tinkerbell"
+    ],
+    "subs": [],
+    "category": "CUSTOM"
+  },
+  {
+    "name": "The Mega Powers",
+    "members": [
+      "Kimberly Hart",
+      "Rocky DeSantos",
+      "Tommy Oliver"
+    ],
+    "subs": [],
+    "category": "WWE"
+  },
+  {
+    "name": "The Rangers",
+    "members": [
+      "Adam Park",
+      "Aisha Campbell",
+      "Billy Cranston"
+    ],
+    "subs": [],
+    "category": "WWE"
+  },
+  {
+    "name": "Power and Glory",
+    "members": [
+      "Goldar",
+      "Lord Zedd",
+      "Scorpina"
+    ],
+    "subs": [],
+    "category": "WWE"
+  },
+  {
+    "name": "The Undead",
+    "members": [
+      "Carl Grimes",
+      "Daryl Dixon",
+      "Negan"
+    ],
+    "subs": [],
+    "category": "WWE"
+  },
+  {
+    "name": "The Acolytes",
+    "members": [
+      "Rick Grimes",
+      "Shane Walsh",
+      "Governor, The"
+    ],
+    "subs": [],
+    "category": "WWE"
+  },
+  {
+    "name": "The Agents",
+    "members": [
+      "Maggie Rhee",
+      "Beta"
+    ],
+    "subs": [],
+    "category": "WWE"
+  },
+  {
+    "name": "New Catch Republic",
+    "members": [
+      "Abraham Lincoln",
+      "Barack Obama",
+      "Bill Clinton"
+    ],
+    "subs": [],
+    "category": "WWE"
+  },
+  {
+    "name": "The Republic",
+    "members": [
+      "Bernie Sanders",
+      "Cleopatra",
+      "Donald Trump"
+    ],
+    "subs": [],
+    "category": "WWE"
+  },
+  {
+    "name": "The Corporation",
+    "members": [
+      "George W. Bush",
+      "Hillary Clinton",
+      "Jill Biden"
+    ],
+    "subs": [],
+    "category": "WWE"
+  },
+  {
+    "name": "The Patriots",
+    "members": [
+      "Joe Biden",
+      "John F. Kennedy",
+      "Laura Bush"
+    ],
+    "subs": [],
+    "category": "WWE"
+  },
+  {
+    "name": "The Fatal Influence",
+    "members": [
+      "Ninja",
+      "Pokimane",
+      "Sketch"
+    ],
+    "subs": [],
+    "category": "WWE"
+  },
+  {
+    "name": "The Job Squad",
+    "members": [
+      "FaZe Adapt",
+      "Ironmouse",
+      "Jynxi"
+    ],
+    "subs": [],
+    "category": "WWE"
+  },
+  {
+    "name": "The Boom Squad",
+    "members": [
+      "Adin Ross",
+      "Amouranth",
+      "Caseoh"
+    ],
+    "subs": [],
+    "category": "WWE"
+  },
+  {
+    "name": "The Hit Squad",
+    "members": [
+      "Cinna",
+      "Emiru",
+      "Faze Rug"
+    ],
+    "subs": [],
+    "category": "WWE"
+  },
+  {
+    "name": "The Athlete (Attack)",
+    "members": [
+      "Ghostface",
+      "Sidney Prescott"
+    ],
+    "subs": [],
+    "category": "WWE"
+  },
+  {
+    "name": "3MB",
+    "members": [
+      "Donatello",
+      "Leonardo",
+      "Michelangelo"
+    ],
+    "subs": [],
+    "category": "WWE"
+  },
+  {
+    "name": "A-Town Down Under",
+    "members": [
+      "Raphael",
+      "April O'Neil",
+      "Casey Jones"
+    ],
+    "subs": [],
+    "category": "WWE"
+  },
+  {
+    "name": "Absolution",
+    "members": [
+      "Bebop",
+      "Rocksteady",
+      "Shredder, The"
+    ],
+    "subs": [],
+    "category": "WWE"
+  },
+  {
+    "name": "Air Boom",
+    "members": [
+      "Fred Flintstone",
+      "Wilma Flintstone",
+      "Barney Rubble"
+    ],
+    "subs": [],
+    "category": "WWE"
+  },
+  {
+    "name": "The Alliance",
+    "members": [
+      "Pebbles Flintstone",
+      "Bamm-Bamm Rubble"
+    ],
+    "subs": [],
+    "category": "WWE"
+  },
+  {
+    "name": "The United Kingdom",
+    "members": [
+      "Super Mario",
+      "Luigi"
+    ],
+    "subs": [],
+    "category": "WWE"
+  },
+  {
+    "name": "The Good Girls",
+    "members": [
+      "Anna",
+      "Ariel",
+      "Aurora"
+    ],
+    "subs": [],
+    "category": "WWE"
+  },
+  {
+    "name": "The Naughty Girls",
+    "members": [
+      "Belle",
+      "Cinderella",
+      "Frozen Elsa"
+    ],
+    "subs": [],
+    "category": "WWE"
+  },
+  {
+    "name": "The Spitfire Warriors",
+    "members": [
+      "Kitana",
+      "Mileena",
+      "Nitara"
+    ],
+    "subs": [],
+    "category": "WWE"
+  },
+  {
+    "name": "The Anarchists",
+    "members": [
+      "Fred Jones",
+      "Velma Dinkley"
+    ],
+    "subs": [],
+    "category": "WWE"
+  },
+  {
+    "name": "The Empire of Pain 1",
+    "members": [
+      "Abyss",
+      "Dusty Rhodes",
+      "Brock Lesnar",
+      "Cody Rhodes",
+      "Doink The Clown"
+    ],
+    "subs": [],
+    "category": "CUSTOM"
+  },
+  {
+    "name": "The Empire of Pain 2",
+    "members": [
+      "Kenny Lopez",
+      "Rey Mysterio",
+      "Lita",
+      "Adapt",
+      "Rug"
+    ],
+    "subs": [],
+    "category": "CUSTOM"
+  },
+  {
+    "name": "The Empire of Pain 3",
+    "members": [
+      "Malachi The Mad",
+      "Hunter Rhyn Trax",
+      "Princess Victoria",
+      "Velvet Mcintyre",
+      "Tank Bryson"
+    ],
+    "subs": [],
+    "category": "CUSTOM"
+  },
+  {
+    "name": "The Empire of Pain 4",
+    "members": [
+      "Woody",
+      "Buzz Lightyear",
+      "Sandman, The",
+      "Superman",
+      "Supergirl"
+    ],
+    "subs": [],
+    "category": "CUSTOM"
+  },
+  {
+    "name": "The Empire of Pain 5",
+    "members": [
+      "Zelina Vega (Player/Streamer)",
+      "Sandra Lopez (Player/Streamer)",
+      "Undertaker '03",
+      "Jack Talos",
+      "John Cena"
+    ],
+    "subs": [],
+    "category": "CUSTOM"
+  },
+  {
+    "name": "The Empire of Pain 6",
+    "members": [
+      "Bron Breaker",
+      "Bronson Reed",
+      "Trish Stratus",
+      "Rob Van Dam",
+      "Mark Henry"
+    ],
+    "subs": [],
+    "category": "CUSTOM"
+  },
+  {
+    "name": "The Empire of Pain 7",
+    "members": [
+      "Moana",
+      "Mulan",
+      "Kurt Angle",
+      "Scorpion",
+      "Sub Zero"
+    ],
+    "subs": [],
+    "category": "CUSTOM"
+  },
+  {
+    "name": "The Empire of Pain 8",
+    "members": [
+      "Chuck Norris",
+      "Sam Larusso",
+      "Daniel Larusso",
+      "Robby Keen",
+      "Miguel Diaz"
+    ],
+    "subs": [],
+    "category": "CUSTOM"
+  },
+  {
+    "name": "The Empire of Pain 9",
+    "members": [
+      "Freddy Krueger",
+      "Je Von Evans",
+      "Chucky",
+      "Tiffany Valentine",
+      "Ghostface"
+    ],
+    "subs": [],
+    "category": "CUSTOM"
+  },
+  {
+    "name": "The Empire of Pain 10",
+    "members": [
+      "Batista",
+      "Cappuccino Jones",
+      "Danny Lopez"
+    ],
+    "subs": [],
+    "category": "CUSTOM"
   }
 ]
