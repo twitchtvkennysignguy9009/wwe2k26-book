@@ -1128,22 +1128,26 @@
             {
               "a": "Princess Zelda",
               "b": "Jasmine",
-              "winner": null
+              "winner": "Princess Zelda",
+              "draw": false
             },
             {
               "a": "Anna",
               "b": "Belle",
-              "winner": null
+              "winner": "Belle",
+              "draw": false
             },
             {
               "a": "Princess Daisy",
               "b": "Princess Peach",
-              "winner": null
+              "winner": "Princess Daisy",
+              "draw": false
             },
             {
               "a": "Frozen Elsa",
               "b": "Rapunzel",
-              "winner": null
+              "winner": "Frozen Elsa",
+              "draw": false
             }
           ],
           "byes": []
@@ -1153,14 +1157,16 @@
           "matchType": "Special Guest Referee 1-on-1 Normal",
           "matches": [
             {
-              "a": null,
-              "b": null,
-              "winner": null
+              "a": "Princess Zelda",
+              "b": "Belle",
+              "winner": "Belle",
+              "draw": false
             },
             {
-              "a": null,
-              "b": null,
-              "winner": null
+              "a": "Princess Daisy",
+              "b": "Frozen Elsa",
+              "winner": "Princess Daisy",
+              "draw": false
             }
           ],
           "byes": []
@@ -1170,16 +1176,17 @@
           "matchType": "Tables Ladders & Chairs Match",
           "matches": [
             {
-              "a": null,
-              "b": null,
-              "winner": null
+              "a": "Belle",
+              "b": "Princess Daisy",
+              "winner": "Princess Daisy",
+              "draw": false
             }
           ],
           "byes": []
         }
       ],
-      "champion": null,
-      "completed": false
+      "champion": "Princess Daisy",
+      "completed": true
     },
     "Super Heavyweight Championship": {
       "size": 8,
@@ -1201,22 +1208,26 @@
             {
               "a": "Nia Jax",
               "b": "Ivar",
-              "winner": null
+              "winner": "Ivar",
+              "draw": false
             },
             {
               "a": "Kevin Nash",
               "b": "Hank Walker",
-              "winner": null
+              "winner": "Hank Walker",
+              "draw": false
             },
             {
               "a": "Rusev",
               "b": "Otis",
-              "winner": null
+              "winner": "Rusev",
+              "draw": false
             },
             {
               "a": "Kane",
               "b": "Mark Henry (Player/Streamer)",
-              "winner": null
+              "winner": "Mark Henry (Player/Streamer)",
+              "draw": false
             }
           ],
           "byes": []
@@ -1226,13 +1237,13 @@
           "matchType": "Special Guest Referee 1-on-1 Normal",
           "matches": [
             {
-              "a": null,
-              "b": null,
+              "a": "Ivar",
+              "b": "Hank Walker",
               "winner": null
             },
             {
-              "a": null,
-              "b": null,
+              "a": "Rusev",
+              "b": "Mark Henry (Player/Streamer)",
               "winner": null
             }
           ],
@@ -1410,7 +1421,8 @@
     "Government Championship",
     "Superhero/Villain Championship",
     "WWE Intercontinental Championship",
-    "Cruiserweight Championship"
+    "Cruiserweight Championship",
+    "Princess Championship"
   ],
-  "currentTitle": "Princess Championship"
+  "currentTitle": "Super Heavyweight Championship"
 }
