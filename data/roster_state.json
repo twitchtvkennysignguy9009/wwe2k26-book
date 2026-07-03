@@ -1107,7 +1107,7 @@
   "Brock Lesnar '13": {
     "status": "have"
   },
-  "Bron Breaker": {
+  "Bron Breakker": {
     "status": "have"
   },
   "Bronson Reed": {
@@ -1849,9 +1849,6 @@
   "Uncle Howdy": {
     "status": "have"
   },
-  "Uncle Jesse Katsopolis": {
-    "status": "have"
-  },
   "Undertaker": {
     "status": "have"
   },
@@ -1892,6 +1889,86 @@
     "status": "have"
   },
   "Zoey Stark": {
+    "status": "have"
+  },
+  "Becky Lynch \"Lilith\"": {
+    "gender": "F",
+    "status": "have"
+  },
+  "CM Punk \"Ripper\"": {
+    "gender": "M",
+    "status": "have"
+  },
+  "Donatello '87": {
+    "gender": "M",
+    "status": "have"
+  },
+  "Elite The Rock": {
+    "gender": "M",
+    "status": "have"
+  },
+  "Fiend Bray Wyatt, The": {
+    "gender": "M",
+    "status": "have"
+  },
+  "Goldar (MMPR)": {
+    "gender": "M",
+    "status": "have"
+  },
+  "Hector Flores": {
+    "gender": "M",
+    "status": "have"
+  },
+  "Jey Uso WM41": {
+    "gender": "M",
+    "status": "have"
+  },
+  "Kenny Payne S4 S5": {
+    "gender": "M",
+    "status": "have"
+  },
+  "Leonardo '87": {
+    "gender": "M",
+    "status": "have"
+  },
+  "Michelangelo '87": {
+    "gender": "M",
+    "status": "have"
+  },
+  "Raphael '87": {
+    "gender": "M",
+    "status": "have"
+  },
+  "Rey Mysterio '01": {
+    "gender": "M",
+    "status": "have"
+  },
+  "Rhea Ripley \"Ripper Queen\"": {
+    "gender": "F",
+    "status": "have"
+  },
+  "Robby Cobra Kai": {
+    "gender": "M",
+    "status": "have"
+  },
+  "Samara (The Ring)": {
+    "gender": "F",
+    "status": "have"
+  },
+  "Scorpina (MMPR)": {
+    "gender": "F",
+    "status": "have"
+  },
+  "Skarlet": {
+    "gender": "F",
+    "status": "have"
+  },
+  "Solo Sikoa '22": {
+    "gender": "M",
+    "status": "have"
+  },
+  "Tyrese Haliburton": {
+    "gender": "M",
     "status": "have"
   }
 }

@@ -83,6 +83,16 @@
           "holder": "Princess Daisy",
           "wonDate": "2026-06-29",
           "defenses": 0
+        },
+        "EOP Undisputed Ultraviolent Championship": {
+          "holder": "Nashoba (Player/Streamer)",
+          "wonDate": "2026-06-30",
+          "defenses": 0
+        },
+        "Super Heavyweight Championship": {
+          "holder": "Mark Henry (Player/Streamer)",
+          "wonDate": "2026-07-02",
+          "defenses": 0
         }
       },
       "eliminated": {},
@@ -315,6 +325,10 @@
     },
     {
       "name": "Elite Rhea Ripley",
+      "brand": "Elite"
+    },
+    {
+      "name": "Elite The Rock",
       "brand": "Elite"
     },
     {
@@ -908,18 +922,12 @@
   "testMode": false,
   "version": 1,
   "lockedRoster": [
-    "Ax",
     "Bronze Breakker",
-    "Crush",
-    "Dahlia Hex",
-    "Delilah Hex",
+    "Captain, The",
     "Juggernaut Grace",
     "Marshall Thompson",
     "Meilee Fanny Fan",
     "Moreno",
-    "Odette Beaumont",
-    "Bobby Newton",
-    "Captain, The",
-    "Mary Jane"
+    "Robby Cobra Kai"
   ]
 }

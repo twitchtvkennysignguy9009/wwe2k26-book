@@ -70,7 +70,7 @@
     "British Bulldog",
     "Brock Lesnar",
     "Brock Lesnar '13",
-    "Bron Breaker",
+    "Bron Breakker",
     "Bronson Reed",
     "Bronze Breakker",
     "Brooks Jensen",
@@ -575,10 +575,10 @@
     "Zelina Vega"
   ],
   "empireOfPain": [
-    "Abyss",
+    "Elite The Rock",
     "Adapt",
     "Brock Lesnar",
-    "Bron Breaker",
+    "Bron Breakker",
     "Bronson Reed",
     "Buzz Lightyear",
     "Chuck Norris",
@@ -622,38 +622,41 @@
     "Danny Lopez (Player/Streamer)",
     "Je'Von Evans (Player/Streamer)",
     "Nashoba",
-    "tank bryson"
+    "tank bryson",
+    "Bronze Breakker",
+    "Doink The Clown",
+    "\"elite\" the rock"
   ],
   "topList": [],
   "hidden": [],
   "topTarget": 50,
   "factions": {
     "EOP 1": [
-      "Abyss",
       "Dusty Rhodes",
       "Brock Lesnar",
-      "Bron Breaker",
-      "Cody Rhodes"
+      "Cody Rhodes (Player/Streamer)",
+      "Doink The Clown",
+      "Elite The Rock"
     ],
     "EOP 2": [
-      "Kenny Lopez",
-      "Rey Mysterio",
+      "Kenny Lopez (Player/Streamer)",
+      "Rey Mysterio (Player/Streamer)",
       "Lita",
-      "Adapt",
+      "Adapt (Player/Streamer)",
       "Rug"
     ],
     "EOP 3": [
-      "Malachi The Mad",
+      "Malachi The Mad (Player/Streamer)",
       "Hunter Rhyn Trax",
       "Princess Victoria",
       "Velvet Mcintyre",
       "tank bryson"
     ],
     "EOP 4": [
-      "Woody",
+      "Woody (Player/Streamer)",
       "Buzz Lightyear",
       "Sandman, The",
-      "Superman",
+      "Superman (Player/Streamer)",
       "Supergirl"
     ],
     "EOP 5": [
@@ -664,21 +667,21 @@
       "Oba Femi (Player/Streamer)"
     ],
     "EOP 6": [
-      "Bron Breaker",
       "Bronson Reed",
       "Trish Stratus",
-      "Rob Van Dam",
-      "Mark Henry"
+      "Rob Van Dam (Player/Streamer)",
+      "Mark Henry (Player/Streamer)",
+      "Bron Breakker"
     ],
     "EOP 7": [
-      "Moana",
+      "Moana (Player/Streamer)",
       "Mulan",
       "Scorpion",
-      "Sub Zero",
-      "Undertaker '03"
+      "Sub Zero (Player/Streamer)",
+      "Undertaker '03 (Player/Streamer)"
     ],
     "EOP 8": [
-      "Chuck Norris",
+      "Chuck Norris (Player/Streamer)",
       "Sam Larusso",
       "Daniel Larusso",
       "Robby Keen",
@@ -686,14 +689,14 @@
     ],
     "EOP 9": [
       "Freddy Krueger",
-      "Je Von Evans",
+      "Je Von Evans (Player/Streamer)",
       "Chucky",
       "Tiffany Valentine",
-      "Ghostface"
+      "Ghostface (Player/Streamer)"
     ],
     "EOP 10": [
       "Batista",
-      "Danny Lopez",
+      "Danny Lopez (Player/Streamer)",
       "John Cena",
       "Nashoba (Player/Streamer)",
       "Jack Talos"

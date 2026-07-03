@@ -1239,12 +1239,14 @@
             {
               "a": "Ivar",
               "b": "Hank Walker",
-              "winner": null
+              "winner": "Ivar",
+              "draw": false
             },
             {
               "a": "Rusev",
               "b": "Mark Henry (Player/Streamer)",
-              "winner": null
+              "winner": "Mark Henry (Player/Streamer)",
+              "draw": false
             }
           ],
           "byes": []
@@ -1254,76 +1256,89 @@
           "matchType": "Tables Ladders & Chairs Match",
           "matches": [
             {
-              "a": null,
-              "b": null,
-              "winner": null
+              "a": "Ivar",
+              "b": "Mark Henry (Player/Streamer)",
+              "winner": "Mark Henry (Player/Streamer)",
+              "draw": false
             }
           ],
           "byes": []
         }
       ],
-      "champion": null,
-      "completed": false
+      "champion": "Mark Henry (Player/Streamer)",
+      "completed": true
     },
     "Elite Championship": {
-      "size": 2,
+      "size": 3,
       "wrestlers": [
         "Elite Jacob Fatu",
-        "Elite Rhea Ripley"
+        "Elite Rhea Ripley",
+        "Elite The Rock (Player/Streamer)"
       ],
       "rounds": [
         {
           "name": "Elite Series",
-          "matchType": "Best of 7 — Match 7 is the Title Match",
+          "matchType": "Triple Threat — Best of 7 — First to 4 Wins",
           "matches": [
             {
               "a": "Elite Jacob Fatu",
               "b": "Elite Rhea Ripley",
-              "winner": null,
-              "stip": "SGR · Extreme Rules 1-on-1",
-              "titleMatch": false
+              "winner": "Elite The Rock (Player/Streamer)",
+              "stip": "Extreme Rules Triple Threat",
+              "titleMatch": false,
+              "c": "Elite The Rock (Player/Streamer)",
+              "draw": false
+            },
+            {
+              "a": "Elite Jacob Fatu",
+              "b": "Elite Rhea Ripley",
+              "winner": "Elite Jacob Fatu",
+              "stip": "Hell in a Cell Triple Threat",
+              "titleMatch": false,
+              "c": "Elite The Rock (Player/Streamer)",
+              "draw": false
+            },
+            {
+              "a": "Elite Jacob Fatu",
+              "b": "Elite Rhea Ripley",
+              "winner": "Elite The Rock (Player/Streamer)",
+              "stip": "Falls Count Anywhere Triple Threat",
+              "titleMatch": false,
+              "c": "Elite The Rock (Player/Streamer)",
+              "draw": false
+            },
+            {
+              "a": "Elite Jacob Fatu",
+              "b": "Elite Rhea Ripley",
+              "winner": "Elite The Rock (Player/Streamer)",
+              "stip": "Steel Cage Triple Threat",
+              "titleMatch": false,
+              "c": "Elite The Rock (Player/Streamer)",
+              "draw": false
             },
             {
               "a": "Elite Jacob Fatu",
               "b": "Elite Rhea Ripley",
               "winner": null,
-              "stip": "SGR · Hell in a Cell 1-on-1",
-              "titleMatch": false
+              "stip": "Submission Triple Threat",
+              "titleMatch": false,
+              "c": "Elite The Rock (Player/Streamer)"
             },
             {
               "a": "Elite Jacob Fatu",
               "b": "Elite Rhea Ripley",
               "winner": null,
-              "stip": "SGR · Falls Count Anywhere 1-on-1",
-              "titleMatch": false
+              "stip": "Normal Triple Threat",
+              "titleMatch": false,
+              "c": "Elite The Rock (Player/Streamer)"
             },
             {
               "a": "Elite Jacob Fatu",
               "b": "Elite Rhea Ripley",
               "winner": null,
-              "stip": "SGR · No Holds Barred 1-on-1",
-              "titleMatch": false
-            },
-            {
-              "a": "Elite Jacob Fatu",
-              "b": "Elite Rhea Ripley",
-              "winner": null,
-              "stip": "SGR · Submission 1-on-1",
-              "titleMatch": false
-            },
-            {
-              "a": "Elite Jacob Fatu",
-              "b": "Elite Rhea Ripley",
-              "winner": null,
-              "stip": "SGR · Normal 1-on-1",
-              "titleMatch": false
-            },
-            {
-              "a": "Elite Jacob Fatu",
-              "b": "Elite Rhea Ripley",
-              "winner": null,
-              "stip": "SGR · Iron Man 5 Minutes 1-on-1",
-              "titleMatch": true
+              "stip": "Iron Man 5 Minutes Triple Threat",
+              "titleMatch": false,
+              "c": "Elite The Rock (Player/Streamer)"
             }
           ],
           "byes": []
@@ -1404,6 +1419,196 @@
       ],
       "champion": null,
       "completed": false
+    },
+    "EOP Undisputed Ultraviolent Championship": {
+      "size": 50,
+      "eop": true,
+      "wrestlers": [
+        "Rey Mysterio",
+        "Bron Breakker",
+        "Daniel Larusso",
+        "Elite The Rock",
+        "Bronson Reed",
+        "Buzz Lightyear",
+        "Trish Stratus",
+        "Ghostface",
+        "Kurt Angle",
+        "Zelina Vega",
+        "John Cena",
+        "Adapt",
+        "Batista",
+        "Scorpion",
+        "Chucky",
+        "Sam Larusso",
+        "Lita",
+        "Doink The Clown",
+        "Cappuccino Jones",
+        "Undertaker '03",
+        "Moana",
+        "Woody",
+        "Superman",
+        "Danny Lopez",
+        "Velvet Mcintyre",
+        "Nashoba (Player/Streamer)",
+        "Chuck Norris",
+        "Oba Femi",
+        "tank bryson",
+        "Mulan",
+        "Cody Rhodes",
+        "Brock Lesnar",
+        "Mark Henry",
+        "Princess Victoria",
+        "Freddy Krueger",
+        "Dusty Rhodes",
+        "Malachi The Mad",
+        "Sandman, The",
+        "Hunter Rhyn Trax",
+        "Supergirl",
+        "Sub Zero",
+        "Jack Talos",
+        "Kenny Lopez",
+        "Tiffany Valentine",
+        "Robby Keen",
+        "Rug",
+        "Je Von Evans",
+        "Sandra Lopez",
+        "Miguel Diaz",
+        "Rob Van Dam"
+      ],
+      "rounds": [
+        {
+          "name": "Round 1",
+          "matchType": "Special Guest Referee 5-Man Elimination",
+          "matches": [
+            {
+              "players": [
+                "Rey Mysterio",
+                "Bron Breakker",
+                "Daniel Larusso",
+                "Elite The Rock",
+                "Bronson Reed"
+              ],
+              "eliminated": [],
+              "winner": null
+            },
+            {
+              "players": [
+                "Buzz Lightyear",
+                "Trish Stratus",
+                "Ghostface",
+                "Kurt Angle",
+                "Zelina Vega"
+              ],
+              "eliminated": [],
+              "winner": null
+            },
+            {
+              "players": [
+                "John Cena",
+                "Adapt",
+                "Batista",
+                "Scorpion",
+                "Chucky"
+              ],
+              "eliminated": [],
+              "winner": null
+            },
+            {
+              "players": [
+                "Sam Larusso",
+                "Lita",
+                "Doink The Clown",
+                "Cappuccino Jones",
+                "Undertaker '03"
+              ],
+              "eliminated": [],
+              "winner": null
+            },
+            {
+              "players": [
+                "Moana",
+                "Woody",
+                "Superman",
+                "Danny Lopez",
+                "Velvet Mcintyre"
+              ],
+              "eliminated": [],
+              "winner": null
+            },
+            {
+              "players": [
+                "Nashoba (Player/Streamer)",
+                "Chuck Norris",
+                "Oba Femi",
+                "tank bryson",
+                "Mulan"
+              ],
+              "eliminated": [],
+              "winner": null
+            },
+            {
+              "players": [
+                "Cody Rhodes",
+                "Brock Lesnar",
+                "Mark Henry",
+                "Princess Victoria",
+                "Freddy Krueger"
+              ],
+              "eliminated": [],
+              "winner": null
+            },
+            {
+              "players": [
+                "Dusty Rhodes",
+                "Malachi The Mad",
+                "Sandman, The",
+                "Hunter Rhyn Trax",
+                "Supergirl"
+              ],
+              "eliminated": [],
+              "winner": null
+            },
+            {
+              "players": [
+                "Sub Zero",
+                "Jack Talos",
+                "Kenny Lopez",
+                "Tiffany Valentine",
+                "Robby Keen"
+              ],
+              "eliminated": [],
+              "winner": null
+            },
+            {
+              "players": [
+                "Rug",
+                "Je Von Evans",
+                "Sandra Lopez",
+                "Miguel Diaz",
+                "Rob Van Dam"
+              ],
+              "eliminated": [],
+              "winner": null
+            }
+          ],
+          "byes": []
+        },
+        {
+          "name": "Finale",
+          "matchType": "10 Intergender Royal Rumble",
+          "matches": [
+            {
+              "players": [],
+              "eliminated": [],
+              "winner": null,
+              "entries": {}
+            }
+          ],
+          "byes": []
+        }
+      ],
+      "champion": null,
+      "completed": false
     }
   },
   "completedTitles": [
@@ -1422,7 +1627,8 @@
     "Superhero/Villain Championship",
     "WWE Intercontinental Championship",
     "Cruiserweight Championship",
-    "Princess Championship"
+    "Princess Championship",
+    "Super Heavyweight Championship"
   ],
-  "currentTitle": "Super Heavyweight Championship"
+  "currentTitle": "Elite Championship"
 }
