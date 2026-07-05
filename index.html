@@ -290,24 +290,43 @@ function side(name, winner) {
   const cls = winner ? (winner === name ? ' win' : ' lose') : '';
   return '<div class="side' + cls + '"><span class="nm">' + esc(name) + '</span>' + eopTag(name) + '</div>';
 }
+// One competitor chip for multi-person matches (EOP 5-way eliminations, triple threats, rumble).
+function personChip(name, winner) {
+  if (!name) return '';
+  const cls = winner ? (winner === name ? ' win' : ' lose') : '';
+  return '<div class="side' + cls + '"><span class="nm">' + esc(name) + '</span>' + eopTag(name) + '</div>';
+}
+function hasCompetitor(m) { return !!(m.a || m.b || m.c || (m.players && m.players.length)); }
 function renderBracket() {
   const name = selTour, t = TOUR.tournaments[name], el = document.getElementById('bracket');
   if (!t) { el.innerHTML = '<div class="err">Pick a tournament.</div>'; return; }
   let html = '';
   if (t.completed && t.champion) html += '<div class="champ-banner">&#127942; ' + esc(t.champion) + eopTag(t.champion) + ' &mdash; ' + esc(name) + '</div>';
   const rounds = t.rounds || [];
-  if (!rounds.length || !rounds.some(r => (r.matches || []).length)) {
+  if (!rounds.length || !rounds.some(r => (r.matches || []).some(hasCompetitor))) {
     html += '<div class="err">This tournament hasn\'t started yet. Competitors: ' + (t.wrestlers || []).map(esc).join(', ') + '</div>';
     el.innerHTML = html; return;
   }
   rounds.forEach(r => {
-    const matches = (r.matches || []).filter(m => m.a || m.b);
+    const matches = (r.matches || []).filter(hasCompetitor);
     if (!matches.length) return;
     html += '<div class="round"><div class="round-hdr">' + esc(r.name || 'Round') + (r.matchType ? ' <span class="mt">&middot; ' + esc(r.matchType) + '</span>' : '') + '</div>';
-    matches.forEach(m => { html += '<div class="match">' + side(m.a, m.winner) + '<div class="vs">vs</div>' + side(m.b, m.winner) + '</div>'; });
+    matches.forEach(m => {
+      if (m.players && m.players.length) {                       // EOP 5-person elimination / rumble
+        html += '<div class="match" style="flex-wrap:wrap">' + m.players.map(p => personChip(p, m.winner)).join('') + '</div>';
+      } else if (m.c) {                                          // triple threat (Elite)
+        html += '<div class="match">' + side(m.a, m.winner) + '<div class="vs">vs</div>' + side(m.b, m.winner) + '<div class="vs">vs</div>' + side(m.c, m.winner) + '</div>';
+      } else {                                                   // standard one-on-one
+        html += '<div class="match">' + side(m.a, m.winner) + '<div class="vs">vs</div>' + side(m.b, m.winner) + '</div>';
+      }
+    });
     html += '</div>';
   });
-  el.innerHTML = html;
+  // Battle-royal formats (e.g. six-way) keep the whole field in t.wrestlers with no a/b matches.
+  if (!/class="match"/.test(html) && (t.wrestlers || []).length) {
+    html += '<div class="round"><div class="round-hdr">Competitors</div><div class="match" style="flex-wrap:wrap">' + t.wrestlers.map(w => personChip(w, t.champion)).join('') + '</div></div>';
+  }
+  el.innerHTML = html || '<div class="err">Nothing to show yet.</div>';
 }
 
 function renderFactions() {
