@@ -1319,10 +1319,11 @@
             {
               "a": "Elite Jacob Fatu",
               "b": "Elite Rhea Ripley",
-              "winner": null,
+              "winner": "Elite The Rock (Player/Streamer)",
               "stip": "Submission Triple Threat",
               "titleMatch": false,
-              "c": "Elite The Rock (Player/Streamer)"
+              "c": "Elite The Rock (Player/Streamer)",
+              "draw": false
             },
             {
               "a": "Elite Jacob Fatu",
@@ -1344,8 +1345,8 @@
           "byes": []
         }
       ],
-      "champion": null,
-      "completed": false
+      "champion": "Elite The Rock (Player/Streamer)",
+      "completed": true
     },
     "Martial Arts Championship": {
       "size": 8,
@@ -1367,22 +1368,26 @@
             {
               "a": "Chuck Norris (Player/Streamer)",
               "b": "Daniel Larusso",
-              "winner": null
+              "winner": "Chuck Norris (Player/Streamer)",
+              "draw": false
             },
             {
               "a": "Tory Nichols",
               "b": "Kenny Payne",
-              "winner": null
+              "winner": "Kenny Payne",
+              "draw": false
             },
             {
               "a": "Hawk",
               "b": "Mr. Miyagi",
-              "winner": null
+              "winner": "Hawk",
+              "draw": false
             },
             {
               "a": "Sam Larusso",
               "b": "Bruce Lee",
-              "winner": null
+              "winner": "Sam Larusso",
+              "draw": false
             }
           ],
           "byes": []
@@ -1392,14 +1397,16 @@
           "matchType": "Special Guest Referee 1-on-1 Normal",
           "matches": [
             {
-              "a": null,
-              "b": null,
-              "winner": null
+              "a": "Chuck Norris (Player/Streamer)",
+              "b": "Kenny Payne",
+              "winner": "Chuck Norris (Player/Streamer)",
+              "draw": false
             },
             {
-              "a": null,
-              "b": null,
-              "winner": null
+              "a": "Hawk",
+              "b": "Sam Larusso",
+              "winner": "Sam Larusso",
+              "draw": false
             }
           ],
           "byes": []
@@ -1409,16 +1416,17 @@
           "matchType": "Tables Ladders & Chairs Match",
           "matches": [
             {
-              "a": null,
-              "b": null,
-              "winner": null
+              "a": "Chuck Norris (Player/Streamer)",
+              "b": "Sam Larusso",
+              "winner": "Chuck Norris (Player/Streamer)",
+              "draw": false
             }
           ],
           "byes": []
         }
       ],
-      "champion": null,
-      "completed": false
+      "champion": "Chuck Norris (Player/Streamer)",
+      "completed": true
     },
     "EOP Undisputed Ultraviolent Championship": {
       "size": 50,
@@ -1488,8 +1496,13 @@
                 "Elite The Rock",
                 "Bronson Reed"
               ],
-              "eliminated": [],
-              "winner": null
+              "eliminated": [
+                "Daniel Larusso",
+                "Bron Breakker",
+                "Bronson Reed",
+                "Rey Mysterio"
+              ],
+              "winner": "Elite The Rock"
             },
             {
               "players": [
@@ -1499,8 +1512,13 @@
                 "Kurt Angle",
                 "Zelina Vega"
               ],
-              "eliminated": [],
-              "winner": null
+              "eliminated": [
+                "Buzz Lightyear",
+                "Ghostface",
+                "Kurt Angle",
+                "Zelina Vega"
+              ],
+              "winner": "Trish Stratus"
             },
             {
               "players": [
@@ -1510,8 +1528,13 @@
                 "Scorpion",
                 "Chucky"
               ],
-              "eliminated": [],
-              "winner": null
+              "eliminated": [
+                "Batista",
+                "Scorpion",
+                "John Cena",
+                "Chucky"
+              ],
+              "winner": "Adapt"
             },
             {
               "players": [
@@ -1521,8 +1544,13 @@
                 "Cappuccino Jones",
                 "Undertaker '03"
               ],
-              "eliminated": [],
-              "winner": null
+              "eliminated": [
+                "Undertaker '03",
+                "Cappuccino Jones",
+                "Doink The Clown",
+                "Lita"
+              ],
+              "winner": "Sam Larusso"
             },
             {
               "players": [
@@ -1532,8 +1560,13 @@
                 "Danny Lopez",
                 "Velvet Mcintyre"
               ],
-              "eliminated": [],
-              "winner": null
+              "eliminated": [
+                "Velvet Mcintyre",
+                "Moana",
+                "Danny Lopez",
+                "Woody"
+              ],
+              "winner": "Superman"
             },
             {
               "players": [
@@ -1628,7 +1661,9 @@
     "WWE Intercontinental Championship",
     "Cruiserweight Championship",
     "Princess Championship",
-    "Super Heavyweight Championship"
+    "Super Heavyweight Championship",
+    "Elite Championship",
+    "Martial Arts Championship"
   ],
-  "currentTitle": "Elite Championship"
+  "currentTitle": "EOP Undisputed Ultraviolent Championship"
 }
