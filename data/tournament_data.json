@@ -1497,10 +1497,10 @@
                 "Bronson Reed"
               ],
               "eliminated": [
-                "Daniel Larusso",
+                "Rey Mysterio",
                 "Bron Breakker",
-                "Bronson Reed",
-                "Rey Mysterio"
+                "Daniel Larusso",
+                "Bronson Reed"
               ],
               "winner": "Elite The Rock"
             },
@@ -1529,9 +1529,9 @@
                 "Chucky"
               ],
               "eliminated": [
+                "John Cena",
                 "Batista",
                 "Scorpion",
-                "John Cena",
                 "Chucky"
               ],
               "winner": "Adapt"
@@ -1545,10 +1545,10 @@
                 "Undertaker '03"
               ],
               "eliminated": [
-                "Undertaker '03",
-                "Cappuccino Jones",
+                "Lita",
                 "Doink The Clown",
-                "Lita"
+                "Cappuccino Jones",
+                "Undertaker '03"
               ],
               "winner": "Sam Larusso"
             },
@@ -1561,10 +1561,10 @@
                 "Velvet Mcintyre"
               ],
               "eliminated": [
-                "Velvet Mcintyre",
                 "Moana",
+                "Woody",
                 "Danny Lopez",
-                "Woody"
+                "Velvet Mcintyre"
               ],
               "winner": "Superman"
             },
@@ -1576,8 +1576,13 @@
                 "tank bryson",
                 "Mulan"
               ],
-              "eliminated": [],
-              "winner": null
+              "eliminated": [
+                "Chuck Norris",
+                "Oba Femi",
+                "tank bryson",
+                "Mulan"
+              ],
+              "winner": "Nashoba (Player/Streamer)"
             },
             {
               "players": [
@@ -1587,8 +1592,13 @@
                 "Princess Victoria",
                 "Freddy Krueger"
               ],
-              "eliminated": [],
-              "winner": null
+              "eliminated": [
+                "Cody Rhodes",
+                "Brock Lesnar",
+                "Mark Henry",
+                "Princess Victoria"
+              ],
+              "winner": "Freddy Krueger"
             },
             {
               "players": [
@@ -1598,8 +1608,13 @@
                 "Hunter Rhyn Trax",
                 "Supergirl"
               ],
-              "eliminated": [],
-              "winner": null
+              "eliminated": [
+                "Dusty Rhodes",
+                "Malachi The Mad",
+                "Sandman, The",
+                "Hunter Rhyn Trax"
+              ],
+              "winner": "Supergirl"
             },
             {
               "players": [
@@ -1609,8 +1624,13 @@
                 "Tiffany Valentine",
                 "Robby Keen"
               ],
-              "eliminated": [],
-              "winner": null
+              "eliminated": [
+                "Sub Zero",
+                "Jack Talos",
+                "Kenny Lopez",
+                "Tiffany Valentine"
+              ],
+              "winner": "Robby Keen"
             },
             {
               "players": [
@@ -1620,8 +1640,13 @@
                 "Miguel Diaz",
                 "Rob Van Dam"
               ],
-              "eliminated": [],
-              "winner": null
+              "eliminated": [
+                "Rug",
+                "Je Von Evans",
+                "Sandra Lopez",
+                "Rob Van Dam"
+              ],
+              "winner": "Miguel Diaz"
             }
           ],
           "byes": []
@@ -1631,7 +1656,18 @@
           "matchType": "10 Intergender Royal Rumble",
           "matches": [
             {
-              "players": [],
+              "players": [
+                "Elite The Rock",
+                "Trish Stratus",
+                "Adapt",
+                "Sam Larusso",
+                "Superman",
+                "Nashoba (Player/Streamer)",
+                "Freddy Krueger",
+                "Supergirl",
+                "Robby Keen",
+                "Miguel Diaz"
+              ],
               "eliminated": [],
               "winner": null,
               "entries": {}
