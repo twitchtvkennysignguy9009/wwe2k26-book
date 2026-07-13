@@ -317,7 +317,8 @@
             {
               "a": "Mai Shiranui",
               "b": "Nitara Marshall",
-              "winner": "Nitara Marshall"
+              "winner": "Nitara Marshall",
+              "draw": false
             },
             {
               "a": "Sub Zero (Player/Streamer)",
@@ -339,12 +340,14 @@
             {
               "a": "Mileena",
               "b": "Nitara Marshall",
-              "winner": "Nitara Marshall"
+              "winner": "Nitara Marshall",
+              "draw": false
             },
             {
               "a": "Sub Zero (Player/Streamer)",
               "b": "Sheeva",
-              "winner": "Sub Zero (Player/Streamer)"
+              "winner": "Sub Zero (Player/Streamer)",
+              "draw": false
             }
           ],
           "byes": []
@@ -356,7 +359,8 @@
             {
               "a": "Nitara Marshall",
               "b": "Sub Zero (Player/Streamer)",
-              "winner": "Sub Zero (Player/Streamer)"
+              "winner": "Sub Zero (Player/Streamer)",
+              "draw": false
             }
           ],
           "byes": []
@@ -1668,16 +1672,26 @@
                 "Robby Keen",
                 "Miguel Diaz"
               ],
-              "eliminated": [],
-              "winner": null,
+              "eliminated": [
+                "Superman",
+                "Freddy Krueger",
+                "Nashoba (Player/Streamer)",
+                "Supergirl",
+                "Miguel Diaz",
+                "Trish Stratus",
+                "Elite The Rock",
+                "Adapt",
+                "Robby Keen"
+              ],
+              "winner": "Sam Larusso",
               "entries": {}
             }
           ],
           "byes": []
         }
       ],
-      "champion": null,
-      "completed": false
+      "champion": "Sam Larusso",
+      "completed": true
     }
   },
   "completedTitles": [
@@ -1685,7 +1699,6 @@
     "Horror Championship",
     "Cartoons Championship",
     "Million Dollar Championship",
-    "Mortal Kombat Championship",
     "WWE Hardcore Championship",
     "Internet Television Championship",
     "WWE United States Championship",
@@ -1699,7 +1712,8 @@
     "Princess Championship",
     "Super Heavyweight Championship",
     "Elite Championship",
-    "Martial Arts Championship"
+    "Martial Arts Championship",
+    "Mortal Kombat Championship"
   ],
   "currentTitle": "EOP Undisputed Ultraviolent Championship"
 }

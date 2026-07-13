@@ -24,11 +24,6 @@
           "wonDate": "2026-06-12",
           "defenses": 0
         },
-        "Mortal Kombat Championship": {
-          "holder": "Sub Zero (Player/Streamer)",
-          "wonDate": "2026-06-16",
-          "defenses": 0
-        },
         "WWE Hardcore Championship": {
           "holder": "Ethan Page",
           "wonDate": "2026-06-20",
@@ -84,11 +79,6 @@
           "wonDate": "2026-06-29",
           "defenses": 0
         },
-        "EOP Undisputed Ultraviolent Championship": {
-          "holder": "Nashoba (Player/Streamer)",
-          "wonDate": "2026-06-30",
-          "defenses": 0
-        },
         "Super Heavyweight Championship": {
           "holder": "Mark Henry (Player/Streamer)",
           "wonDate": "2026-07-02",
@@ -102,6 +92,16 @@
         "Martial Arts Championship": {
           "holder": "Chuck Norris (Player/Streamer)",
           "wonDate": "2026-07-04",
+          "defenses": 0
+        },
+        "Mortal Kombat Championship": {
+          "holder": "Sub Zero (Player/Streamer)",
+          "wonDate": "2026-07-10",
+          "defenses": 0
+        },
+        "EOP Undisputed Ultraviolent Championship": {
+          "holder": "Sam Larusso",
+          "wonDate": "2026-07-13",
           "defenses": 0
         }
       },
@@ -939,5 +939,87 @@
     "Meilee Fanny Fan",
     "Moreno",
     "Robby Cobra Kai"
+  ],
+  "championships": [
+    {
+      "name": "Undisputed WWE Championship",
+      "type": "singles"
+    },
+    {
+      "name": "WWE Intercontinental Championship",
+      "type": "singles"
+    },
+    {
+      "name": "WWE United States Championship",
+      "type": "singles"
+    },
+    {
+      "name": "WWE Tag Team Championship",
+      "type": "tag"
+    },
+    {
+      "name": "Million Dollar Championship",
+      "type": "singles"
+    },
+    {
+      "name": "WWE Hardcore Championship",
+      "type": "singles"
+    },
+    {
+      "name": "Legends Championship",
+      "type": "singles"
+    },
+    {
+      "name": "Horror Championship",
+      "type": "singles"
+    },
+    {
+      "name": "Mortal Kombat Championship",
+      "type": "singles"
+    },
+    {
+      "name": "Princess Championship",
+      "type": "singles"
+    },
+    {
+      "name": "Government Championship",
+      "type": "singles"
+    },
+    {
+      "name": "Superhero/Villain Championship",
+      "type": "singles"
+    },
+    {
+      "name": "Cartoons Championship",
+      "type": "singles"
+    },
+    {
+      "name": "DSEPW Championship",
+      "type": "singles"
+    },
+    {
+      "name": "Internet Television Championship",
+      "type": "singles"
+    },
+    {
+      "name": "Super Heavyweight Championship",
+      "type": "singles"
+    },
+    {
+      "name": "Cruiserweight Championship",
+      "type": "singles"
+    },
+    {
+      "name": "Martial Arts Championship",
+      "type": "singles"
+    },
+    {
+      "name": "Elite Championship",
+      "type": "singles"
+    },
+    {
+      "name": "EOP Undisputed Ultraviolent Championship",
+      "type": "singles"
+    }
   ]
 }
