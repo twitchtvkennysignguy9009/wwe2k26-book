@@ -387,7 +387,6 @@
     "Psycho Clown",
     "Psycho Sally",
     "Psylocke",
-    "Punisher, The",
     "R-Truth",
     "Rain",
     "Randy Orton",
@@ -565,7 +564,13 @@
     "Superman",
     "Undertaker '03",
     "Woody",
-    "Zelina Vega"
+    "Zelina Vega",
+    "Kurt Angle",
+    "Je Von Evans",
+    "Nashoba",
+    "Cappuccino Jones",
+    "Oba Femi",
+    "Je'von Evans"
   ],
   "tagTeamPlayer": [
     "Jack Talos",
@@ -575,131 +580,252 @@
     "Zelina Vega"
   ],
   "empireOfPain": [
-    "Elite The Rock",
-    "Adapt",
-    "Brock Lesnar",
-    "Bron Breakker",
-    "Bronson Reed",
-    "Buzz Lightyear",
-    "Chuck Norris",
-    "Chucky",
-    "Cody Rhodes (Player/Streamer)",
-    "Daniel Larusso",
     "Dusty Rhodes",
-    "Freddy Krueger",
-    "Ghostface",
-    "Hunter Rhyn Trax",
-    "Jack Talos",
-    "Je Von Evans",
-    "John Cena",
-    "Kenny Lopez",
-    "Kurt Angle",
-    "Lita",
-    "Malachi The Mad",
-    "Mark Henry",
-    "Miguel Diaz",
-    "Moana",
-    "Mulan",
-    "Oba Femi",
-    "Princess Victoria",
-    "Rey Mysterio",
-    "Rob Van Dam",
-    "Robby Keen",
-    "Rug",
-    "Sam Larusso",
-    "Sandman, The",
-    "Sandra Lopez",
-    "Scorpion",
-    "Sub Zero",
-    "Supergirl",
-    "Superman",
-    "Tiffany Valentine",
-    "Trish Stratus",
-    "Undertaker '03",
-    "Velvet Mcintyre",
-    "Woody",
-    "Zelina Vega",
-    "Danny Lopez (Player/Streamer)",
-    "Je'Von Evans (Player/Streamer)",
-    "Nashoba",
-    "tank bryson",
+    "Brock Lesnar",
+    "Cody Rhodes (Player/Streamer)",
     "Doink The Clown",
-    "\"elite\" the rock"
+    "Elite The Rock",
+    "Kenny Lopez (Player/Streamer)",
+    "Rey Mysterio (Player/Streamer)",
+    "Lita",
+    "Adapt (Player/Streamer)",
+    "Rug",
+    "Malachi The Mad (Player/Streamer)",
+    "Hunter Rhyn Trax",
+    "Princess Victoria",
+    "Velvet Mcintyre",
+    "tank bryson",
+    "Woody (Player/Streamer)",
+    "Buzz Lightyear",
+    "The Sandman",
+    "Superman (Player/Streamer)",
+    "Supergirl",
+    "Zelina Vega (Player/Streamer)",
+    "Sandra Lopez (Player/Streamer)",
+    "Kurt Angle (Player/Streamer)",
+    "Cappuccino Jones (Player/Streamer)",
+    "Oba Femi (Player/Streamer)",
+    "Bronson Reed",
+    "Trish Stratus",
+    "Rob Van Dam (Player/Streamer)",
+    "Mark Henry (Player/Streamer)",
+    "Bron Breakker",
+    "Moana (Player/Streamer)",
+    "Mulan",
+    "Scorpion",
+    "Sub Zero (Player/Streamer)",
+    "Undertaker '03 (Player/Streamer)",
+    "Chuck Norris (Player/Streamer)",
+    "Sam Larusso",
+    "Daniel Larusso",
+    "Robby Keen",
+    "Miguel Diaz",
+    "Freddy Krueger",
+    "Je Von Evans (Player/Streamer)",
+    "Chucky",
+    "Tiffany Valentine",
+    "Ghostface (Player/Streamer)",
+    "Danny Lopez (Player/Streamer)",
+    "John Cena",
+    "Nashoba (Player/Streamer)",
+    "Jack Talos",
+    "Victor Cross",
+    "Adam Park",
+    "Aisha Campbell",
+    "Billy Cranston",
+    "Kimberly Hart",
+    "Tommy Oliver",
+    "Boogeyman",
+    "Rocky DeSantos",
+    "Captain America",
+    "Stone Cold Steve Austin",
+    "R-Truth",
+    "Dude Love",
+    "Cactus Jack",
+    "Mankind",
+    "Carl Grimes",
+    "Wolverine",
+    "Apollo Crews",
+    "Batista",
+    "Aquaman",
+    "Batman",
+    "Black Cat",
+    "Bamm Bamm Rubble",
+    "Barney Rubble",
+    "Fred Flintstone",
+    "Pebbles Flintstone",
+    "Wilma Flintstone",
+    "Rey Fenix",
+    "Psycho Clown",
+    "El Mago Jr",
+    "Original El Grande Americano",
+    "Mr. Iguana",
+    "Spider-Man",
+    "Spider-Gwen",
+    "Deadpool",
+    "Batgirl",
+    "Reptile",
+    "Hulk Hogan",
+    "Macho Man Randy Savage",
+    "Ultimate Warrior",
+    "Andre The Giant",
+    "Rowdy Roddy Piper",
+    "Vader",
+    "Kane '98",
+    "Abyss",
+    "Yokozuna",
+    "Umaga",
+    "Roman Reigns",
+    "Randy Orton",
+    "Seth Freakin Rollins",
+    "Drew Mcintyre",
+    "Gunther"
   ],
   "topList": [],
   "hidden": [],
   "topTarget": 50,
   "factions": {
-    "Empire of Pain": [
+    "Empire of Pain 1": [
       "Dusty Rhodes",
       "Brock Lesnar",
       "Cody Rhodes (Player/Streamer)",
       "Doink The Clown",
       "Elite The Rock"
     ],
-    "Empire of Pain 1": [
+    "Empire of Pain 2": [
       "Kenny Lopez (Player/Streamer)",
       "Rey Mysterio (Player/Streamer)",
       "Lita",
       "Adapt (Player/Streamer)",
       "Rug"
     ],
-    "Empire of Pain 2": [
+    "Empire of Pain 3": [
       "Malachi The Mad (Player/Streamer)",
       "Hunter Rhyn Trax",
       "Princess Victoria",
       "Velvet Mcintyre",
       "tank bryson"
     ],
-    "Empire of Pain 3": [
+    "Empire of Pain 4": [
       "Woody (Player/Streamer)",
       "Buzz Lightyear",
-      "Sandman, The",
+      "The Sandman",
       "Superman (Player/Streamer)",
       "Supergirl"
     ],
-    "Empire of Pain 4": [
+    "Empire of Pain 5": [
       "Zelina Vega (Player/Streamer)",
       "Sandra Lopez (Player/Streamer)",
       "Kurt Angle (Player/Streamer)",
       "Cappuccino Jones (Player/Streamer)",
       "Oba Femi (Player/Streamer)"
     ],
-    "Empire of Pain 5": [
+    "Empire of Pain 6": [
       "Bronson Reed",
       "Trish Stratus",
       "Rob Van Dam (Player/Streamer)",
       "Mark Henry (Player/Streamer)",
       "Bron Breakker"
     ],
-    "Empire of Pain 6": [
+    "Empire of Pain 7": [
       "Moana (Player/Streamer)",
       "Mulan",
       "Scorpion",
       "Sub Zero (Player/Streamer)",
       "Undertaker '03 (Player/Streamer)"
     ],
-    "Empire of Pain 7": [
+    "Empire of Pain 8": [
       "Chuck Norris (Player/Streamer)",
       "Sam Larusso",
       "Daniel Larusso",
       "Robby Keen",
       "Miguel Diaz"
     ],
-    "Empire of Pain 8": [
+    "Empire of Pain 9": [
       "Freddy Krueger",
       "Je Von Evans (Player/Streamer)",
       "Chucky",
       "Tiffany Valentine",
       "Ghostface (Player/Streamer)"
     ],
-    "Empire of Pain 9": [
-      "Batista",
+    "Empire of Pain 10": [
       "Danny Lopez (Player/Streamer)",
       "John Cena",
       "Nashoba (Player/Streamer)",
-      "Jack Talos"
-    ]
+      "Jack Talos",
+      "Victor Cross"
+    ],
+    "Empire of Pain 11": [
+      "Adam Park",
+      "Aisha Campbell",
+      "Billy Cranston",
+      "Kimberly Hart",
+      "Tommy Oliver"
+    ],
+    "Empire of Pain 12": [
+      "Boogeyman",
+      "Rocky DeSantos",
+      "Captain America",
+      "Stone Cold Steve Austin",
+      "R-Truth"
+    ],
+    "Empire of Pain 13": [
+      "Dude Love",
+      "Cactus Jack",
+      "Mankind",
+      "Carl Grimes",
+      "Wolverine"
+    ],
+    "Empire of Pain 14": [
+      "Apollo Crews",
+      "Batista",
+      "Aquaman",
+      "Batman",
+      "Black Cat"
+    ],
+    "Empire of Pain 15": [
+      "Bamm Bamm Rubble",
+      "Barney Rubble",
+      "Fred Flintstone",
+      "Pebbles Flintstone",
+      "Wilma Flintstone"
+    ],
+    "Empire of Pain 16": [
+      "Rey Fenix",
+      "Psycho Clown",
+      "El Mago Jr",
+      "Original El Grande Americano",
+      "Mr. Iguana"
+    ],
+    "Empire of Pain 17": [
+      "Spider-Man",
+      "Spider-Gwen",
+      "Deadpool",
+      "Batgirl",
+      "Reptile"
+    ],
+    "Empire of Pain 18": [
+      "Hulk Hogan",
+      "Macho Man Randy Savage",
+      "Ultimate Warrior",
+      "Andre The Giant",
+      "Rowdy Roddy Piper"
+    ],
+    "Empire of Pain 19": [
+      "Vader",
+      "Kane '98",
+      "Abyss",
+      "Yokozuna",
+      "Umaga"
+    ],
+    "Empire of Pain 20": [
+      "Roman Reigns",
+      "Randy Orton",
+      "Seth Freakin Rollins",
+      "Drew Mcintyre",
+      "Gunther"
+    ],
+    "Empire of Pain 21": []
   },
   "renameHistory": [],
   "titleAssignments": {
@@ -761,6 +887,32 @@
     ],
     "EOP": [
       "Nashoba (Player/Streamer)"
+    ]
+  },
+  "eopTitles": {
+    "Ghostface": [
+      "Horror Championship"
+    ],
+    "Danny Lopez": [
+      "Million Dollar Championship"
+    ],
+    "Sub Zero": [
+      "Mortal Kombat Championship"
+    ],
+    "Mark Henry": [
+      "Super Heavyweight Championship"
+    ],
+    "Elite The Rock": [
+      "Elite Championship"
+    ],
+    "Chuck Norris": [
+      "Martial Arts Championship"
+    ],
+    "Sam Larusso": [
+      "EOP Undisputed Ultraviolent Championship"
+    ],
+    "Je Von Evans": [
+      "Cruiserweight Championship"
     ]
   }
 }
