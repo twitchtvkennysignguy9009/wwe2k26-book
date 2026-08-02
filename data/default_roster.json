@@ -1,5 +1,21 @@
 [
   {
+    "name": "\"Badd Ass\" Billy Gunn",
+    "brand": "Roster"
+  },
+  {
+    "name": "\"Demon\" Finn Bálor",
+    "brand": "Roster"
+  },
+  {
+    "name": "\"Macho Man\" Randy Savage '98",
+    "brand": "Roster"
+  },
+  {
+    "name": "\"Rowdy\" Roddy Piper '98",
+    "brand": "Roster"
+  },
+  {
     "name": "Adam Pearce '12",
     "brand": "Roster"
   },
@@ -8,7 +24,15 @@
     "brand": "Roster"
   },
   {
+    "name": "AJ Lee '15",
+    "brand": "Roster"
+  },
+  {
     "name": "AJ Styles",
+    "brand": "Roster"
+  },
+  {
+    "name": "AJ Styles '16",
     "brand": "Roster"
   },
   {
@@ -29,6 +53,10 @@
   },
   {
     "name": "Alexa Bliss",
+    "brand": "Roster"
+  },
+  {
+    "name": "Alundra Blayze '94",
     "brand": "Roster"
   },
   {
@@ -56,6 +84,10 @@
     "brand": "Roster"
   },
   {
+    "name": "Ax",
+    "brand": "Roster"
+  },
+  {
     "name": "Axiom",
     "brand": "Roster"
   },
@@ -72,11 +104,35 @@
     "brand": "Roster"
   },
   {
+    "name": "Berto",
+    "brand": "Roster"
+  },
+  {
     "name": "Bianca Belair",
     "brand": "Roster"
   },
   {
     "name": "Blake Monroe",
+    "brand": "Roster"
+  },
+  {
+    "name": "Bobby \"The Brain\" Heenan",
+    "brand": "Roster"
+  },
+  {
+    "name": "Bobby Newton",
+    "brand": "Roster"
+  },
+  {
+    "name": "Bret \"Hit Man\" Hart",
+    "brand": "Roster"
+  },
+  {
+    "name": "Brian Pillman",
+    "brand": "Roster"
+  },
+  {
+    "name": "Bron Breakker",
     "brand": "Roster"
   },
   {
@@ -100,6 +156,10 @@
     "brand": "Roster"
   },
   {
+    "name": "Captain Lou Albano",
+    "brand": "Roster"
+  },
+  {
     "name": "Captain, The",
     "brand": "Roster"
   },
@@ -113,6 +173,10 @@
   },
   {
     "name": "Chad Gable",
+    "brand": "Roster"
+  },
+  {
+    "name": "Channing \"Stacks\" Lorenzo",
     "brand": "Roster"
   },
   {
@@ -140,7 +204,51 @@
     "brand": "Roster"
   },
   {
+    "name": "CM Hart",
+    "brand": "Roster"
+  },
+  {
     "name": "CM Punk",
+    "brand": "Roster"
+  },
+  {
+    "name": "CM Punk '11",
+    "brand": "Roster"
+  },
+  {
+    "name": "CM Punk '13",
+    "brand": "Roster"
+  },
+  {
+    "name": "CM Punk \"Ripper\"",
+    "brand": "Roster"
+  },
+  {
+    "name": "CM Punk Armageddon '08",
+    "brand": "Roster"
+  },
+  {
+    "name": "CM Punk Elim. Chamber '13",
+    "brand": "Roster"
+  },
+  {
+    "name": "CM Punk Retro",
+    "brand": "Roster"
+  },
+  {
+    "name": "CM Punk SummerSlam '08",
+    "brand": "Roster"
+  },
+  {
+    "name": "CM Punk SummerSlam '13",
+    "brand": "Roster"
+  },
+  {
+    "name": "CM Punk WM29",
+    "brand": "Roster"
+  },
+  {
+    "name": "Cody Rhodes",
     "brand": "Roster"
   },
   {
@@ -148,11 +256,35 @@
     "brand": "Roster"
   },
   {
+    "name": "Crush",
+    "brand": "Roster"
+  },
+  {
     "name": "Cruz Del Toro",
     "brand": "Roster"
   },
   {
+    "name": "D'Lo Brown",
+    "brand": "Roster"
+  },
+  {
+    "name": "Dahlia Hex",
+    "brand": "Roster"
+  },
+  {
+    "name": "Damian Priest",
+    "brand": "Roster"
+  },
+  {
     "name": "Dark Horse, The",
+    "brand": "Roster"
+  },
+  {
+    "name": "DDP '98",
+    "brand": "Roster"
+  },
+  {
+    "name": "Delilah Hex",
     "brand": "Roster"
   },
   {
@@ -204,6 +336,14 @@
     "brand": "Roster"
   },
   {
+    "name": "Fiend Bray Wyatt (Burned), The",
+    "brand": "Roster"
+  },
+  {
+    "name": "Fiend Bray Wyatt, The",
+    "brand": "Roster"
+  },
+  {
     "name": "Finn Balor",
     "brand": "Roster"
   },
@@ -233,6 +373,10 @@
   },
   {
     "name": "Hector Flores",
+    "brand": "Roster"
+  },
+  {
+    "name": "Hunter Hearst Helmsley",
     "brand": "Roster"
   },
   {
@@ -272,6 +416,10 @@
     "brand": "Roster"
   },
   {
+    "name": "Jalen Brunson",
+    "brand": "Roster"
+  },
+  {
     "name": "Jazmyn Nyx",
     "brand": "Roster"
   },
@@ -284,7 +432,19 @@
     "brand": "Roster"
   },
   {
+    "name": "Je'Von Evans",
+    "brand": "Roster"
+  },
+  {
+    "name": "Jelly Roll",
+    "brand": "Roster"
+  },
+  {
     "name": "Jey Uso",
+    "brand": "Roster"
+  },
+  {
+    "name": "Jim \"The Anvil\" Neidhart",
     "brand": "Roster"
   },
   {
@@ -301,6 +461,14 @@
   },
   {
     "name": "Joe Hendry",
+    "brand": "Roster"
+  },
+  {
+    "name": "John Cena '13",
+    "brand": "Roster"
+  },
+  {
+    "name": "John Cena '15",
     "brand": "Roster"
   },
   {
@@ -328,6 +496,10 @@
     "brand": "Roster"
   },
   {
+    "name": "Justine '99",
+    "brand": "Roster"
+  },
+  {
     "name": "Kairi Sane",
     "brand": "Roster"
   },
@@ -337,6 +509,10 @@
   },
   {
     "name": "Kelani Jordan",
+    "brand": "Roster"
+  },
+  {
+    "name": "Kelly Kelly",
     "brand": "Roster"
   },
   {
@@ -356,11 +532,23 @@
     "brand": "Roster"
   },
   {
+    "name": "Kurt Angle '19",
+    "brand": "Roster"
+  },
+  {
     "name": "La Cangrejita Loca",
     "brand": "Roster"
   },
   {
     "name": "LA Knight",
+    "brand": "Roster"
+  },
+  {
+    "name": "La Parka",
+    "brand": "Roster"
+  },
+  {
+    "name": "Lady Shani",
     "brand": "Roster"
   },
   {
@@ -380,6 +568,10 @@
     "brand": "Roster"
   },
   {
+    "name": "Lock, The",
+    "brand": "Roster"
+  },
+  {
     "name": "Logan Paul",
     "brand": "Roster"
   },
@@ -393,6 +585,14 @@
   },
   {
     "name": "Lyra Valkyria",
+    "brand": "Roster"
+  },
+  {
+    "name": "Main Event R-Truth",
+    "brand": "Roster"
+  },
+  {
+    "name": "Matt Cardona",
     "brand": "Roster"
   },
   {
@@ -413,6 +613,14 @@
   },
   {
     "name": "Myles Borne",
+    "brand": "Roster"
+  },
+  {
+    "name": "MyRISE 2K22 Female Player",
+    "brand": "Roster"
+  },
+  {
+    "name": "MyRISE 2K22 Male Player",
     "brand": "Roster"
   },
   {
@@ -456,6 +664,10 @@
     "brand": "Roster"
   },
   {
+    "name": "Odette Beaumont",
+    "brand": "Roster"
+  },
+  {
     "name": "Odyssey Rift",
     "brand": "Roster"
   },
@@ -473,6 +685,14 @@
   },
   {
     "name": "Pat Mcafee",
+    "brand": "Roster"
+  },
+  {
+    "name": "Paul Heyman",
+    "brand": "Roster"
+  },
+  {
+    "name": "Penta",
     "brand": "Roster"
   },
   {
@@ -496,7 +716,19 @@
     "brand": "Roster"
   },
   {
+    "name": "Randy Orton '11",
+    "brand": "Roster"
+  },
+  {
+    "name": "Randy Orton '14",
+    "brand": "Roster"
+  },
+  {
     "name": "Raquel Rodriguez",
+    "brand": "Roster"
+  },
+  {
+    "name": "Red",
     "brand": "Roster"
   },
   {
@@ -520,6 +752,26 @@
     "brand": "Roster"
   },
   {
+    "name": "Road Dogg Jesse James",
+    "brand": "Roster"
+  },
+  {
+    "name": "Rock '01, The",
+    "brand": "Roster"
+  },
+  {
+    "name": "Rock '13, The",
+    "brand": "Roster"
+  },
+  {
+    "name": "Rock '99, The",
+    "brand": "Roster"
+  },
+  {
+    "name": "Rocky Maivia",
+    "brand": "Roster"
+  },
+  {
     "name": "Roman Reigns",
     "brand": "Roster"
   },
@@ -540,6 +792,34 @@
     "brand": "Roster"
   },
   {
+    "name": "Seth \"Freakin\" Rollins",
+    "brand": "Roster"
+  },
+  {
+    "name": "Seth Rollins '25",
+    "brand": "Roster"
+  },
+  {
+    "name": "Seth Rollins WM41",
+    "brand": "Roster"
+  },
+  {
+    "name": "Shawn Michaels '05",
+    "brand": "Roster"
+  },
+  {
+    "name": "Shawn Michaels '94",
+    "brand": "Roster"
+  },
+  {
+    "name": "Shawn Michaels '97",
+    "brand": "Roster"
+  },
+  {
+    "name": "Shawn Michaels DX",
+    "brand": "Roster"
+  },
+  {
     "name": "Shawn Spears",
     "brand": "Roster"
   },
@@ -556,11 +836,27 @@
     "brand": "Roster"
   },
   {
+    "name": "Smash",
+    "brand": "Roster"
+  },
+  {
     "name": "Sol Ruca",
     "brand": "Roster"
   },
   {
     "name": "Solo Sikoa",
+    "brand": "Roster"
+  },
+  {
+    "name": "Stephanie McMahon-Helmsley",
+    "brand": "Roster"
+  },
+  {
+    "name": "Stephanie Vaquer",
+    "brand": "Roster"
+  },
+  {
+    "name": "Strauss Zelnick",
     "brand": "Roster"
   },
   {
@@ -588,6 +884,10 @@
     "brand": "Roster"
   },
   {
+    "name": "The Miz '17",
+    "brand": "Roster"
+  },
+  {
     "name": "Thea Hail",
     "brand": "Roster"
   },
@@ -604,6 +904,14 @@
     "brand": "Roster"
   },
   {
+    "name": "Tony D'Angelo",
+    "brand": "Roster"
+  },
+  {
+    "name": "Torrie Wilson",
+    "brand": "Roster"
+  },
+  {
     "name": "Tre",
     "brand": "Roster"
   },
@@ -612,7 +920,23 @@
     "brand": "Roster"
   },
   {
+    "name": "Triple H '08",
+    "brand": "Roster"
+  },
+  {
+    "name": "Triple H '14",
+    "brand": "Roster"
+  },
+  {
+    "name": "Triple H '98",
+    "brand": "Roster"
+  },
+  {
     "name": "Tyler Bate",
+    "brand": "Roster"
+  },
+  {
+    "name": "Tyrese Haliburton",
     "brand": "Roster"
   },
   {
@@ -637,6 +961,10 @@
   },
   {
     "name": "Zaria",
+    "brand": "Roster"
+  },
+  {
+    "name": "Zelina Vega",
     "brand": "Roster"
   },
   {
@@ -796,6 +1124,10 @@
     "brand": "Legend"
   },
   {
+    "name": "Jeff Hardy",
+    "brand": "Roster"
+  },
+  {
     "name": "Jesse The Body Ventura",
     "brand": "Legend"
   },
@@ -829,7 +1161,7 @@
   },
   {
     "name": "Lita",
-    "brand": "Legend"
+    "brand": "Roster"
   },
   {
     "name": "Macho Man Randy Savage",
@@ -846,6 +1178,10 @@
   {
     "name": "Maryse",
     "brand": "Legend"
+  },
+  {
+    "name": "Matt Hardy",
+    "brand": "Roster"
   },
   {
     "name": "Michelle Mccool",
@@ -881,7 +1217,7 @@
   },
   {
     "name": "Princess Victoria",
-    "brand": "Princess"
+    "brand": "DSEPW"
   },
   {
     "name": "Psycho Clown",
@@ -1069,7 +1405,7 @@
   },
   {
     "name": "Velvet Mcintyre",
-    "brand": "Legend"
+    "brand": "DSEPW"
   },
   {
     "name": "Victoria",

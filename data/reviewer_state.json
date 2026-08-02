@@ -644,7 +644,7 @@
     "Cactus Jack",
     "Mankind",
     "Carl Grimes",
-    "Wolverine",
+    "Rick Grimes",
     "Apollo Crews",
     "Batista",
     "Aquaman",
@@ -774,7 +774,7 @@
       "Cactus Jack",
       "Mankind",
       "Carl Grimes",
-      "Wolverine"
+      "Rick Grimes"
     ],
     "Empire of Pain 14": [
       "Apollo Crews",
@@ -824,8 +824,7 @@
       "Seth Freakin Rollins",
       "Drew Mcintyre",
       "Gunther"
-    ],
-    "Empire of Pain 21": []
+    ]
   },
   "renameHistory": [],
   "titleAssignments": {
@@ -913,6 +912,9 @@
     ],
     "Je Von Evans": [
       "Cruiserweight Championship"
+    ],
+    "Rick Grimes": [
+      "DSEPW Championship"
     ]
   }
 }
