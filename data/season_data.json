@@ -109,7 +109,9 @@
       "rematchList": {},
       "rematchQueue": {},
       "titlesUsedCycle": [],
-      "titlePhases": {}
+      "titlePhases": {
+        "Undisputed WWE Championship": "locked"
+      }
     }
   },
   "customRoster": [
