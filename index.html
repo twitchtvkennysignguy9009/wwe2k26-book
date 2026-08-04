@@ -195,6 +195,24 @@ table.tbl tr:hover td { background: #0c0c18; }
     <div id="statsBody"><div class="loading">Loading&hellip;</div></div>
   </section>
 
+  <section id="winloss">
+    <h1 class="page-title">Win / Loss Records</h1>
+    <div class="page-sub" id="wlSub">EVERY WRESTLER&#39;S RECORD</div>
+    <div id="wlBody"><div class="loading">Loading&hellip;</div></div>
+  </section>
+
+  <section id="teams">
+    <h1 class="page-title">Tag Teams</h1>
+    <div class="page-sub" id="teamSub">TAG TEAM BUILDER</div>
+    <div id="teamList"><div class="loading">Loading&hellip;</div></div>
+  </section>
+
+  <section id="custombook">
+    <h1 class="page-title">Customs Book</h1>
+    <div class="page-sub" id="cbSub">DIVISIONS</div>
+    <div id="cbBody"><div class="loading">Loading&hellip;</div></div>
+  </section>
+
   <section id="rematch">
     <h1 class="page-title">Rematch Pools</h1>
     <div class="page-sub" id="rematchSub">CHALLENGER QUEUES BY TITLE</div>
@@ -210,6 +228,9 @@ const PAGES = [
   { id: 'tournaments', label: 'Tournaments' },
   { id: 'season', label: 'Season Log' },
   { id: 'stats', label: 'Records & Stats' },
+  { id: 'winloss', label: 'Win / Loss Records' },
+  { id: 'teams', label: 'Tag Teams' },
+  { id: 'custombook', label: 'Customs Book' },
   { id: 'factions', label: 'Empire of Pain' },
   { id: 'divisions', label: 'Divisions' },
   { id: 'roster', label: 'Master Roster' },
@@ -217,6 +238,7 @@ const PAGES = [
   { id: 'rematch', label: 'Rematch Pools' },
 ];
 let STATE = {}, TOUR = {}, SEASON = {}, TEAMS = [], SORTER = { assignments: {} }, ROSTERST = {};
+let CUSTOMBOOK = { divisions: [] };
 let BRAND = {}, KEPT_BY_NORM = {}, EOP_SET = new Set(), selTour = null;
 
 async function loadJSON(p) {
@@ -427,6 +449,66 @@ function renderReigns() {
   document.getElementById('reignBody').innerHTML = h;
 }
 
+// Every wrestler's win/loss record, overall and per title. Built from the match log,
+// same source the season tracker uses in the book.
+function renderWinLoss() {
+  const m = allMatches();
+  const body = document.getElementById('wlBody');
+  if (!m.length) {
+    document.getElementById('wlSub').textContent = 'NO MATCHES LOGGED YET';
+    body.innerHTML = '<div class="note">No matches recorded yet this season. Every wrestler&#39;s record fills in here automatically as matches are logged in the book &mdash; overall record, win percentage, and a breakdown per championship.</div>';
+    return;
+  }
+  const rec = {}, perTitle = {};
+  m.forEach(x => {
+    const t = x.championship || 'Non-title';
+    (x.participants || []).forEach(p => {
+      const won = p === x.winner;
+      const r = rec[p] = rec[p] || { w: 0, l: 0 };
+      won ? r.w++ : r.l++;
+      const pt = perTitle[p] = perTitle[p] || {};
+      const q = pt[t] = pt[t] || { w: 0, l: 0 };
+      won ? q.w++ : q.l++;
+    });
+  });
+  const names = Object.keys(rec).sort((a, b) => {
+    const ra = rec[a], rb = rec[b];
+    const pa = (ra.w + ra.l) ? ra.w / (ra.w + ra.l) : 0, pb = (rb.w + rb.l) ? rb.w / (rb.w + rb.l) : 0;
+    return (pb - pa) || (rb.w - ra.w) || a.localeCompare(b);
+  });
+  let h = '<div class="statblock"><h3>Overall Records</h3>';
+  h += '<table class="tbl"><tr><th class="rank">#</th><th>Wrestler</th><th>W</th><th>L</th><th>Win %</th><th>Matches</th></tr>';
+  names.forEach((n, i) => {
+    const r = rec[n], tot = r.w + r.l, pct = tot ? Math.round(100 * r.w / tot) : 0;
+    h += '<tr><td class="rank">' + (i + 1) + '</td><td>' + esc(n) + eopTag(n) + '</td><td>' + r.w + '</td><td>' + r.l + '</td><td>' + pct + '%</td><td>' + tot + '</td></tr>';
+  });
+  h += '</table></div>';
+  h += '<div class="statblock"><h3>Records By Championship</h3><table class="tbl"><tr><th>Wrestler</th><th>Championship</th><th>W</th><th>L</th></tr>';
+  names.forEach(n => {
+    Object.keys(perTitle[n]).sort().forEach(t => {
+      const q = perTitle[n][t];
+      h += '<tr><td>' + esc(n) + '</td><td>' + esc(t) + '</td><td>' + q.w + '</td><td>' + q.l + '</td></tr>';
+    });
+  });
+  h += '</table></div>';
+  document.getElementById('wlSub').textContent = names.length + ' WRESTLERS WITH A RECORD';
+  body.innerHTML = h;
+}
+
+function renderCustomBook() {
+  const divs = (CUSTOMBOOK && CUSTOMBOOK.divisions) || [];
+  const el = document.getElementById('cbBody');
+  if (!divs.length) { el.innerHTML = '<div class="note">No customs book divisions yet.</div>'; return; }
+  document.getElementById('cbSub').textContent = divs.length + ' DIVISIONS';
+  let h = '';
+  divs.forEach(d => {
+    const mem = d.members || [];
+    h += '<div class="statblock"><h3>' + esc(d.name || 'Division') + ' <span class="cnt">&mdash; ' + mem.length + '</span></h3>';
+    h += '<div class="mem">' + mem.map(n => '<span class="chip' + (isEOP(n) ? ' eopc' : '') + '">' + esc(n) + '</span>').join('') + '</div></div>';
+  });
+  el.innerHTML = h;
+}
+
 function renderSeasonLog() {
   const m = allMatches();
   document.getElementById('seasonSub').textContent = 'SEASON ' + (SEASON.currentSeason || 1) + ' — ' + m.length + ' MATCHES LOGGED';
@@ -523,6 +605,7 @@ async function boot() {
   TEAMS = await loadJSON('data/teams_state.json').catch(() => []);
   SORTER = await loadJSON('data/sorter_data.json').catch(() => ({ assignments: {} }));
   ROSTERST = await loadJSON('data/roster_state.json').catch(() => ({}));
+  CUSTOMBOOK = await loadJSON('data/custom_book_data.json').catch(() => ({ divisions: [] }));
 
   (SEASON.customRoster || []).forEach(r => { if (r && r.name) BRAND[r.name] = r.brand || ''; });
   (STATE.kept || []).forEach(n => { KEPT_BY_NORM[normName(n)] = n; });
@@ -542,6 +625,9 @@ async function boot() {
   renderReigns();
   renderSeasonLog();
   renderStats();
+  renderWinLoss();
+  renderTeams();
+  renderCustomBook();
   renderRematch();
 }
 boot();
