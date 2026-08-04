@@ -110,7 +110,14 @@
       "rematchQueue": {},
       "titlesUsedCycle": [],
       "titlePhases": {
-        "Undisputed WWE Championship": "locked"
+        "Undisputed WWE Championship": "locked",
+        "WWE Intercontinental Championship": "locked",
+        "Superhero/Villain Championship": "locked",
+        "Elite Championship": "locked",
+        "WWE Hardcore Championship": "locked",
+        "Million Dollar Championship": "locked",
+        "Cartoons Championship": "locked",
+        "EOP Undisputed Ultraviolent Championship": "locked"
       }
     }
   },
