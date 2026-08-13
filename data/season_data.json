@@ -208,6 +208,28 @@
           "previousChampion": "Princess Daisy",
           "previousWonDate": "2026-06-29",
           "previousDefenses": 0
+        },
+        {
+          "id": 1786657028658,
+          "championship": "Legends Championship",
+          "matchType": "Iron Man",
+          "date": "2026-08-13",
+          "titleOnLine": true,
+          "notes": "",
+          "participants": [
+            "Hollywood Hogan",
+            "Yokozuna"
+          ],
+          "winner": "Hollywood Hogan",
+          "losers": [
+            "Yokozuna"
+          ],
+          "specialGuestReferee": null,
+          "draw": false,
+          "isTest": false,
+          "previousChampion": "Hollywood Hogan",
+          "previousWonDate": "2026-06-24",
+          "previousDefenses": 0
         }
       ],
       "titleHolders": {
@@ -249,7 +271,7 @@
         "Legends Championship": {
           "holder": "Hollywood Hogan",
           "wonDate": "2026-06-24",
-          "defenses": 0
+          "defenses": 1
         },
         "Undisputed WWE Championship": {
           "holder": "Johnny Bravo",
@@ -351,6 +373,9 @@
           "Cinderella",
           "Rapunzel",
           "Belle"
+        ],
+        "Legends Championship": [
+          "Yokozuna"
         ]
       },
       "rematchList": {
@@ -373,12 +398,10 @@
         "Cartoons Championship",
         "EOP Undisputed Ultraviolent Championship",
         "Mortal Kombat Championship",
-        "Princess Championship"
+        "Princess Championship",
+        "Legends Championship"
       ],
-      "titlePhases": {
-        "Mortal Kombat Championship": "locked",
-        "Princess Championship": "locked"
-      }
+      "titlePhases": {}
     }
   },
   "customRoster": [
