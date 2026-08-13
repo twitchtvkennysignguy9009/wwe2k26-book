@@ -2,7 +2,68 @@
   "currentSeason": 1,
   "seasons": {
     "1": {
-      "matches": [],
+      "matches": [
+        {
+          "id": 1786565474914,
+          "championship": "Government Championship",
+          "matchType": "Casket",
+          "date": "2026-08-12",
+          "titleOnLine": true,
+          "notes": "",
+          "participants": [
+            "Donald Trump",
+            "Barack Obama"
+          ],
+          "winner": "Donald Trump",
+          "losers": [
+            "Barack Obama"
+          ],
+          "specialGuestReferee": null,
+          "draw": false,
+          "isTest": false,
+          "previousChampion": "Donald Trump",
+          "previousWonDate": "2026-06-25",
+          "previousDefenses": 0
+        },
+        {
+          "id": 1786575835701,
+          "championship": "Million Dollar Championship",
+          "matchType": "Gauntlet Eliminator - 10 Entrants",
+          "date": "2026-08-12",
+          "titleOnLine": true,
+          "notes": "",
+          "participants": [
+            "Danny Lopez (Player/Streamer)",
+            "PlaqueBoyMax",
+            "Wolverine",
+            "Wonder Woman",
+            "Ironman",
+            "Scorpion",
+            "Terry Silver",
+            "Sid",
+            "Black Widow",
+            "Tiffany Valentine"
+          ],
+          "winner": "Danny Lopez (Player/Streamer)",
+          "losers": [
+            "PlaqueBoyMax",
+            "Wolverine",
+            "Wonder Woman",
+            "Ironman",
+            "Scorpion",
+            "Terry Silver",
+            "Sid",
+            "Black Widow",
+            "Tiffany Valentine"
+          ],
+          "specialGuestReferee": null,
+          "draw": false,
+          "isTest": false,
+          "previousChampion": "Danny Lopez (Player/Streamer)",
+          "previousWonDate": "2026-06-12",
+          "previousDefenses": 0
+        }
+      ],
       "titleHolders": {
         "DSEPW Championship": {
           "holder": "Rick Grimes",
@@ -22,7 +83,7 @@
         "Million Dollar Championship": {
           "holder": "Danny Lopez (Player/Streamer)",
           "wonDate": "2026-06-12",
-          "defenses": 0
+          "defenses": 1
         },
         "WWE Hardcore Championship": {
           "holder": "Ethan Page",
@@ -57,7 +118,7 @@
         "Government Championship": {
           "holder": "Donald Trump",
           "wonDate": "2026-06-25",
-          "defenses": 0
+          "defenses": 1
         },
         "Superhero/Villain Championship": {
           "holder": "Cheetah",
@@ -105,10 +166,28 @@
           "defenses": 0
         }
       },
-      "eliminated": {},
+      "eliminated": {
+        "Government Championship": [
+          "Barack Obama"
+        ],
+        "Million Dollar Championship": [
+          "PlaqueBoyMax",
+          "Wolverine",
+          "Wonder Woman",
+          "Ironman",
+          "Scorpion",
+          "Terry Silver",
+          "Sid",
+          "Black Widow",
+          "Tiffany Valentine"
+        ]
+      },
       "rematchList": {},
       "rematchQueue": {},
-      "titlesUsedCycle": [],
+      "titlesUsedCycle": [
+        "Government Championship",
+        "Million Dollar Championship"
+      ],
       "titlePhases": {}
     }
   },
@@ -328,18 +407,6 @@
     {
       "name": "Dr. Doom",
       "brand": "DSEPW"
-    },
-    {
-      "name": "Elite Jacob Fatu",
-      "brand": "Elite"
-    },
-    {
-      "name": "Elite Rhea Ripley",
-      "brand": "Elite"
-    },
-    {
-      "name": "Elite The Rock",
-      "brand": "Elite"
     },
     {
       "name": "Fred Flintstone",
@@ -920,26 +987,14 @@
     {
       "name": "The One Vincent",
       "brand": "DSEPW"
+    },
+    {
+      "name": "PlaqueBoyMax",
+      "brand": "Internet Television"
     }
   ],
   "customMatchTypes": [],
   "customChampionships": [],
-  "removedRoster": [
-    "Mr. Chicken"
-  ],
-  "removedMatchTypes": [],
-  "removedChampionships": [],
-  "testMode": false,
-  "version": 1,
-  "lockedRoster": [
-    "Bronze Breakker",
-    "Captain, The",
-    "Juggernaut Grace",
-    "Marshall Thompson",
-    "Meilee Fanny Fan",
-    "Moreno",
-    "Robby Cobra Kai"
-  ],
   "championships": [
     {
       "name": "Undisputed WWE Championship",
@@ -1021,5 +1076,12 @@
       "name": "EOP Undisputed Ultraviolent Championship",
       "type": "singles"
     }
-  ]
+  ],
+  "removedRoster": [
+    "Mr. Chicken"
+  ],
+  "removedMatchTypes": [],
+  "removedChampionships": [],
+  "testMode": false,
+  "version": 1
 }
