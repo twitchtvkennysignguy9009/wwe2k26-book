@@ -2,236 +2,7 @@
   "currentSeason": 1,
   "seasons": {
     "1": {
-      "matches": [
-        {
-          "id": 1786565474914,
-          "championship": "Government Championship",
-          "matchType": "Casket",
-          "date": "2026-08-12",
-          "titleOnLine": true,
-          "notes": "",
-          "participants": [
-            "Donald Trump",
-            "Barack Obama"
-          ],
-          "winner": "Donald Trump",
-          "losers": [
-            "Barack Obama"
-          ],
-          "specialGuestReferee": null,
-          "draw": false,
-          "isTest": false,
-          "previousChampion": "Donald Trump",
-          "previousWonDate": "2026-06-25",
-          "previousDefenses": 0
-        },
-        {
-          "id": 1786575835701,
-          "championship": "Million Dollar Championship",
-          "matchType": "Gauntlet Eliminator - 10 Entrants",
-          "date": "2026-08-12",
-          "titleOnLine": true,
-          "notes": "",
-          "participants": [
-            "Danny Lopez (Player/Streamer)",
-            "PlaqueBoyMax",
-            "Wolverine",
-            "Wonder Woman",
-            "Ironman",
-            "Scorpion",
-            "Terry Silver",
-            "Sid",
-            "Black Widow",
-            "Tiffany Valentine"
-          ],
-          "winner": "Danny Lopez (Player/Streamer)",
-          "losers": [
-            "PlaqueBoyMax",
-            "Wolverine",
-            "Wonder Woman",
-            "Ironman",
-            "Scorpion",
-            "Terry Silver",
-            "Sid",
-            "Black Widow",
-            "Tiffany Valentine"
-          ],
-          "specialGuestReferee": null,
-          "draw": false,
-          "isTest": false,
-          "previousChampion": "Danny Lopez (Player/Streamer)",
-          "previousWonDate": "2026-06-12",
-          "previousDefenses": 0
-        },
-        {
-          "id": 1786620944953,
-          "championship": "Undisputed WWE Championship",
-          "matchType": "Normal - One on One",
-          "date": "2026-08-13",
-          "titleOnLine": true,
-          "notes": "",
-          "participants": [
-            "Johnny Bravo",
-            "Sindel"
-          ],
-          "winner": "Johnny Bravo",
-          "losers": [
-            "Sindel"
-          ],
-          "specialGuestReferee": null,
-          "draw": false,
-          "isTest": false,
-          "previousChampion": "Johnny Bravo",
-          "previousWonDate": "2026-06-24",
-          "previousDefenses": 0
-        },
-        {
-          "id": 1786623156228,
-          "championship": "WWE Intercontinental Championship",
-          "matchType": "No Holds Barred",
-          "date": "2026-08-13",
-          "titleOnLine": true,
-          "notes": "",
-          "participants": [
-            "Wonder Woman",
-            "Carly Prime"
-          ],
-          "winner": "Wonder Woman",
-          "losers": [
-            "Carly Prime"
-          ],
-          "specialGuestReferee": null,
-          "draw": false,
-          "isTest": false,
-          "previousChampion": "Wonder Woman",
-          "previousWonDate": "2026-06-24",
-          "previousDefenses": 0
-        },
-        {
-          "id": 1786625844936,
-          "championship": "Cartoons Championship",
-          "matchType": "Battle Royal - 5-Way",
-          "date": "2026-08-13",
-          "titleOnLine": true,
-          "notes": "",
-          "participants": [
-            "Kim Possible",
-            "Fred Jones",
-            "Velma Dinkley",
-            "Buzz Lightyear",
-            "Scooby Doo"
-          ],
-          "winner": "Scooby Doo",
-          "losers": [
-            "Kim Possible",
-            "Fred Jones",
-            "Velma Dinkley",
-            "Buzz Lightyear"
-          ],
-          "specialGuestReferee": null,
-          "draw": false,
-          "isTest": false,
-          "previousChampion": "Kim Possible",
-          "previousWonDate": "2026-06-09",
-          "previousDefenses": 0
-        },
-        {
-          "id": 1786627761529,
-          "championship": "EOP Undisputed Ultraviolent Championship",
-          "matchType": "Last Man Standing",
-          "date": "2026-08-13",
-          "titleOnLine": true,
-          "notes": "",
-          "participants": [
-            "Sam Larusso",
-            "Scorpion"
-          ],
-          "winner": "Scorpion",
-          "losers": [
-            "Sam Larusso"
-          ],
-          "specialGuestReferee": null,
-          "draw": false,
-          "isTest": false,
-          "previousChampion": "Sam Larusso",
-          "previousWonDate": "2026-07-13",
-          "previousDefenses": 0
-        },
-        {
-          "id": 1786639341677,
-          "championship": "Mortal Kombat Championship",
-          "matchType": "Hell in a Cell - One on One",
-          "date": "2026-08-13",
-          "titleOnLine": true,
-          "notes": "",
-          "participants": [
-            "Sub Zero (Player/Streamer)",
-            "Sheeva"
-          ],
-          "winner": "Sub Zero (Player/Streamer)",
-          "losers": [
-            "Sheeva"
-          ],
-          "specialGuestReferee": null,
-          "draw": false,
-          "isTest": false,
-          "previousChampion": "Sub Zero (Player/Streamer)",
-          "previousWonDate": "2026-07-10",
-          "previousDefenses": 0
-        },
-        {
-          "id": 1786642834425,
-          "championship": "Princess Championship",
-          "matchType": "Elimination Chamber - 6-Way",
-          "date": "2026-08-13",
-          "titleOnLine": true,
-          "notes": "",
-          "participants": [
-            "Princess Daisy",
-            "Pocahontas",
-            "Moana (Player/Streamer)",
-            "Cinderella",
-            "Rapunzel",
-            "Belle"
-          ],
-          "winner": "Moana (Player/Streamer)",
-          "losers": [
-            "Princess Daisy",
-            "Pocahontas",
-            "Cinderella",
-            "Rapunzel",
-            "Belle"
-          ],
-          "specialGuestReferee": null,
-          "draw": false,
-          "isTest": false,
-          "previousChampion": "Princess Daisy",
-          "previousWonDate": "2026-06-29",
-          "previousDefenses": 0
-        },
-        {
-          "id": 1786657028658,
-          "championship": "Legends Championship",
-          "matchType": "Iron Man",
-          "date": "2026-08-13",
-          "titleOnLine": true,
-          "notes": "",
-          "participants": [
-            "Hollywood Hogan",
-            "Yokozuna"
-          ],
-          "winner": "Hollywood Hogan",
-          "losers": [
-            "Yokozuna"
-          ],
-          "specialGuestReferee": null,
-          "draw": false,
-          "isTest": false,
-          "previousChampion": "Hollywood Hogan",
-          "previousWonDate": "2026-06-24",
-          "previousDefenses": 0
-        }
-      ],
+      "matches": [],
       "titleHolders": {
         "DSEPW Championship": {
           "holder": "Rick Grimes",
@@ -244,14 +15,14 @@
           "defenses": 0
         },
         "Cartoons Championship": {
-          "holder": "Scooby Doo",
-          "wonDate": "2026-08-13",
+          "holder": "Kim Possible",
+          "wonDate": "2026-06-09",
           "defenses": 0
         },
         "Million Dollar Championship": {
           "holder": "Danny Lopez (Player/Streamer)",
           "wonDate": "2026-06-12",
-          "defenses": 1
+          "defenses": 0
         },
         "WWE Hardcore Championship": {
           "holder": "Ethan Page",
@@ -271,12 +42,12 @@
         "Legends Championship": {
           "holder": "Hollywood Hogan",
           "wonDate": "2026-06-24",
-          "defenses": 1
+          "defenses": 0
         },
         "Undisputed WWE Championship": {
           "holder": "Johnny Bravo",
           "wonDate": "2026-06-24",
-          "defenses": 1
+          "defenses": 0
         },
         "WWE Tag Team Championship": {
           "holder": "Rhiyo (Rhea Ripley & IYO SKY)",
@@ -286,7 +57,7 @@
         "Government Championship": {
           "holder": "Donald Trump",
           "wonDate": "2026-06-25",
-          "defenses": 1
+          "defenses": 0
         },
         "Superhero/Villain Championship": {
           "holder": "Cheetah",
@@ -296,7 +67,7 @@
         "WWE Intercontinental Championship": {
           "holder": "Wonder Woman",
           "wonDate": "2026-06-24",
-          "defenses": 1
+          "defenses": 0
         },
         "Cruiserweight Championship": {
           "holder": "Je'Von Evans (Player/Streamer)",
@@ -304,8 +75,8 @@
           "defenses": 0
         },
         "Princess Championship": {
-          "holder": "Moana (Player/Streamer)",
-          "wonDate": "2026-08-13",
+          "holder": "Princess Daisy",
+          "wonDate": "2026-06-29",
           "defenses": 0
         },
         "Super Heavyweight Championship": {
@@ -326,82 +97,20 @@
         "Mortal Kombat Championship": {
           "holder": "Sub Zero (Player/Streamer)",
           "wonDate": "2026-07-10",
-          "defenses": 1
+          "defenses": 0
         },
         "EOP Undisputed Ultraviolent Championship": {
-          "holder": "Scorpion",
-          "wonDate": "2026-08-13",
+          "holder": "Sam Larusso",
+          "wonDate": "2026-07-13",
           "defenses": 0
         }
       },
-      "eliminated": {
-        "Government Championship": [
-          "Barack Obama"
-        ],
-        "Million Dollar Championship": [
-          "PlaqueBoyMax",
-          "Wolverine",
-          "Wonder Woman",
-          "Ironman",
-          "Scorpion",
-          "Terry Silver",
-          "Sid",
-          "Black Widow",
-          "Tiffany Valentine"
-        ],
-        "Undisputed WWE Championship": [
-          "Sindel"
-        ],
-        "WWE Intercontinental Championship": [
-          "Carly Prime"
-        ],
-        "Cartoons Championship": [
-          "Kim Possible",
-          "Fred Jones",
-          "Velma Dinkley",
-          "Buzz Lightyear"
-        ],
-        "EOP Undisputed Ultraviolent Championship": [
-          "Sam Larusso"
-        ],
-        "Mortal Kombat Championship": [
-          "Sheeva"
-        ],
-        "Princess Championship": [
-          "Princess Daisy",
-          "Pocahontas",
-          "Cinderella",
-          "Rapunzel",
-          "Belle"
-        ],
-        "Legends Championship": [
-          "Yokozuna"
-        ]
-      },
-      "rematchList": {
-        "Cartoons Championship": [
-          "Kim Possible"
-        ],
-        "EOP Undisputed Ultraviolent Championship": [
-          "Sam Larusso"
-        ],
-        "Princess Championship": [
-          "Princess Daisy"
-        ]
-      },
+      "eliminated": {},
+      "rematchList": {},
       "rematchQueue": {},
-      "titlesUsedCycle": [
-        "Government Championship",
-        "Million Dollar Championship",
-        "Undisputed WWE Championship",
-        "WWE Intercontinental Championship",
-        "Cartoons Championship",
-        "EOP Undisputed Ultraviolent Championship",
-        "Mortal Kombat Championship",
-        "Princess Championship",
-        "Legends Championship"
-      ],
-      "titlePhases": {}
+      "titlesUsedCycle": [],
+      "titlePhases": {},
+      "episode": 1
     }
   },
   "customRoster": [
