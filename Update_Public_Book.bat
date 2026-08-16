@@ -21,6 +21,10 @@ copy /Y "%APP%\sorter\sorter_locks.json"                 "%PUB%data\sorter_locks
 copy /Y "%BOOK%\match_types.json"                        "%PUB%data\match_types.json"     >nul
 
 cd /d "%PUB%"
+cd /d "%PUB%"
+REM every division/championship and the pool it draws from, worked out the same way
+REM the pickers do it (Kenny 2026-08-16)
+python "%PUB%_gen_title_pools.py"
 git add -A
 git -c user.email="kenny199009@gmail.com" -c user.name="twitchtvkennysignguy9009" commit -m "Update book %date% %time%"
 if errorlevel 1 (

@@ -1,0 +1,104 @@
+{
+  "titles": [
+    {
+      "title": "Undisputed WWE Championship",
+      "pool": 560,
+      "how": "open to the whole roster"
+    },
+    {
+      "title": "WWE Intercontinental Championship",
+      "pool": 560,
+      "how": "open to the whole roster"
+    },
+    {
+      "title": "WWE United States Championship",
+      "pool": 560,
+      "how": "open to the whole roster"
+    },
+    {
+      "title": "WWE Tag Team Championship",
+      "pool": 62,
+      "how": "tag teams with two or more members"
+    },
+    {
+      "title": "Million Dollar Championship",
+      "pool": 560,
+      "how": "open to the whole roster"
+    },
+    {
+      "title": "WWE Hardcore Championship",
+      "pool": 560,
+      "how": "open to the whole roster"
+    },
+    {
+      "title": "Legends Championship",
+      "pool": 105,
+      "how": "the Legend brand"
+    },
+    {
+      "title": "Horror Championship",
+      "pool": 25,
+      "how": "the Horror brand"
+    },
+    {
+      "title": "Mortal Kombat Championship",
+      "pool": 16,
+      "how": "the Mortal Kombat brand"
+    },
+    {
+      "title": "Princess Championship",
+      "pool": 16,
+      "how": "the Princess brand"
+    },
+    {
+      "title": "Government Championship",
+      "pool": 6,
+      "how": "the Government brand"
+    },
+    {
+      "title": "Superhero/Villain Championship",
+      "pool": 54,
+      "how": "the Superhero/Villain brand"
+    },
+    {
+      "title": "Cartoons Championship",
+      "pool": 16,
+      "how": "the Cartoons brand"
+    },
+    {
+      "title": "DSEPW Championship",
+      "pool": 200,
+      "how": "every custom wrestler"
+    },
+    {
+      "title": "Internet Television Championship",
+      "pool": 18,
+      "how": "the Internet Television brand"
+    },
+    {
+      "title": "Super Heavyweight Championship",
+      "pool": 102,
+      "how": "the Super Heavyweight list"
+    },
+    {
+      "title": "Cruiserweight Championship",
+      "pool": 30,
+      "how": "the Cruiserweight list"
+    },
+    {
+      "title": "Martial Arts Championship",
+      "pool": 17,
+      "how": "the Martial Arts brand"
+    },
+    {
+      "title": "Elite Championship",
+      "pool": 3,
+      "how": "the Elite brand"
+    },
+    {
+      "title": "EOP Undisputed Ultraviolent Championship",
+      "pool": 100,
+      "how": "the Empire of Pain list"
+    }
+  ]
+}

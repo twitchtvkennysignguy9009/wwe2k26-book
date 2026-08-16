@@ -191,7 +191,7 @@ table.tbl tr:hover td { background: #0c0c18; }
 
   <section id="stats">
     <h1 class="page-title">Records &amp; Stats</h1>
-    <div class="page-sub">DIVISIONS &middot; STREAKS &middot; HEAD-TO-HEAD &amp; MORE</div>
+    <div class="page-sub">BRAND PERFORMANCE &middot; STREAKS &middot; HEAD-TO-HEAD &amp; MORE</div>
     <div id="statsBody"><div class="loading">Loading&hellip;</div></div>
   </section>
 
@@ -238,7 +238,6 @@ const PAGES = [
   { id: 'rematch', label: 'Rematch Pools' },
 ];
 let STATE = {}, TOUR = {}, SEASON = {}, TEAMS = [], SORTER = { assignments: {} }, ROSTERST = {};
-let TITLEPOOLS = { titles: [] };
 let CUSTOMBOOK = { divisions: [] };
 let BRAND = {}, KEPT_BY_NORM = {}, EOP_SET = new Set(), selTour = null;
 
@@ -524,31 +523,7 @@ function renderSeasonLog() {
 function renderStats() {
   const m = allMatches();
   let h = '';
-  // EVERY CHAMPIONSHIP, not just the custom brands. The page says Records & Stats, so the main
-  // belts belong here too — and the numbers are the pool each title actually draws from, worked
-  // out the same way the pickers do it. (Kenny 2026-08-16)
-  h += '<div class="statblock"><h3>Divisions &mdash; all 20 championships</h3>';
-  {
-    const rows = (TITLEPOOLS && TITLEPOOLS.titles) || [];
-    const holders = seasonNow().titleHolders || {};
-    const wins = {}, losses = {};
-    m.forEach(x => { const t = x.championship; if (!t) return; wins[t] = (wins[t] || 0) + 1;
-                     losses[t] = (losses[t] || 0) + ((x.participants || []).length - 1); });
-    if (rows.length) {
-      h += '<table class="tbl"><tr><th>Division / Championship</th><th>Champion</th><th>Wrestlers In It</th><th>Matches</th></tr>';
-      rows.forEach(r => {
-        const ch = (holders[r.title] && holders[r.title].holder) || '—';
-        h += '<tr><td>' + esc(r.title) + '</td><td style="color:#ffd700">' + esc(ch) + '</td><td>' +
-             r.pool + ' <span style="color:#888">(' + esc(r.how) + ')</span></td><td>' +
-             (wins[r.title] || 0) + '</td></tr>';
-      });
-      h += '</table>';
-    } else {
-      h += '<div class="note">Championship list not published yet — run Update_Public_Book.bat.</div>';
-    }
-  }
-  h += '</div>';
-  h += '<div class="statblock"><h3>Custom Roster Split</h3>';
+  h += '<div class="statblock"><h3>Brand Performance</h3>';
   if (m.length) {
     const bw = {}, bl = {};
     m.forEach(x => { const wb = brandOf(x.winner); if (wb) bw[wb] = (bw[wb] || 0) + 1; (x.losers || []).forEach(l => { const lb = brandOf(l); if (lb) bl[lb] = (bl[lb] || 0) + 1; }); });
@@ -559,7 +534,7 @@ function renderStats() {
     h += '</table>';
   } else {
     const bc = {}; (SEASON.customRoster || []).forEach(r => { if (r && r.brand) bc[r.brand] = (bc[r.brand] || 0) + 1; });
-    h += '<div class="note">No match results yet — showing how many CUSTOM wrestlers sit on each brand. This is only how his 200 custom wrestlers are split up — the full division list is above. Win/loss fills in as matches are logged.</div><table class="tbl"><tr><th>Brand</th><th>Roster</th></tr>';
+    h += '<div class="note">No match results yet — showing roster size per brand. Win/loss fills in as matches are logged.</div><table class="tbl"><tr><th>Brand</th><th>Roster</th></tr>';
     Object.keys(bc).sort((a, b) => bc[b] - bc[a]).forEach(b => { h += '<tr><td>' + esc(b) + '</td><td>' + bc[b] + '</td></tr>'; });
     h += '</table>';
   }
@@ -631,7 +606,6 @@ async function boot() {
   SORTER = await loadJSON('data/sorter_data.json').catch(() => ({ assignments: {} }));
   ROSTERST = await loadJSON('data/roster_state.json').catch(() => ({}));
   CUSTOMBOOK = await loadJSON('data/custom_book_data.json').catch(() => ({ divisions: [] }));
-  TITLEPOOLS = await loadJSON('data/title_pools.json').catch(() => ({ titles: [] }));
 
   (SEASON.customRoster || []).forEach(r => { if (r && r.name) BRAND[r.name] = r.brand || ''; });
   (STATE.kept || []).forEach(n => { KEPT_BY_NORM[normName(n)] = n; });
