@@ -515,7 +515,10 @@ function renderSeasonLog() {
   document.getElementById('seasonSub').textContent = 'SEASON ' + (SEASON.currentSeason || 1) + ' — ' + m.length + ' MATCHES LOGGED';
   if (!m.length) { document.getElementById('seasonBody').innerHTML = '<div class="note">No matches recorded yet for this season. This fills in as matches are logged in the book.</div>'; return; }
   let h = '<table class="tbl"><tr><th>Date</th><th>Match</th><th>Winner</th><th>Type</th><th>Title</th></tr>';
-  m.slice().reverse().forEach(x => {
+  // IN THE ORDER HE DEFENDED THEM (Kenny 2026-08-17: "lets keep all titles in the order they
+  // were defended ... it will help me keep organized"). This used to run newest-first, which
+  // read backwards against the book and against the order he posts the videos in.
+  m.slice().forEach(x => {
     h += '<tr><td>' + esc(x.date || '') + '</td><td>' + esc((x.participants || []).join(' vs ')) + '</td><td style="color:#ffd700">' + esc(x.winner || '') + '</td><td>' + esc(x.matchType || '') + '</td><td>' + esc(x.championship || '') + (x.isRematch ? ' <span style="color:#cc99ff">(rematch)</span>' : '') + '</td></tr>';
   });
   document.getElementById('seasonBody').innerHTML = h + '</table>';

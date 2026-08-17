@@ -2,7 +2,82 @@
   "currentSeason": 1,
   "seasons": {
     "1": {
-      "matches": [],
+      "matches": [
+        {
+          "id": 1786993220065,
+          "championship": "Super Heavyweight Championship",
+          "matchType": "I Quit",
+          "date": "2026-08-17",
+          "titleOnLine": true,
+          "notes": "",
+          "participants": [
+            "Mark Henry (Player/Streamer)",
+            "Gunther"
+          ],
+          "winner": "Mark Henry (Player/Streamer)",
+          "losers": [
+            "Gunther"
+          ],
+          "specialGuestReferee": null,
+          "draw": false,
+          "isTest": false,
+          "previousChampion": "Mark Henry (Player/Streamer)",
+          "previousWonDate": "2026-07-02",
+          "previousDefenses": 0
+        },
+        {
+          "id": 1786978894984,
+          "championship": "WWE Hardcore Championship",
+          "matchType": "Last Man Standing",
+          "date": "2026-08-17",
+          "titleOnLine": true,
+          "notes": "",
+          "participants": [
+            "Ethan Page",
+            "Odette Beaumont"
+          ],
+          "winner": "Odette Beaumont",
+          "losers": [
+            "Ethan Page"
+          ],
+          "specialGuestReferee": null,
+          "draw": false,
+          "isTest": false,
+          "previousChampion": "Ethan Page",
+          "previousWonDate": "2026-06-20",
+          "previousDefenses": 0
+        },
+        {
+          "id": 1786993165885,
+          "championship": "Martial Arts Championship",
+          "matchType": "Battle Royal - 6-Way",
+          "date": "2026-08-17",
+          "titleOnLine": true,
+          "notes": "",
+          "participants": [
+            "Chuck Norris (Player/Streamer)",
+            "Bruce Lee",
+            "Paul Walter Hauser",
+            "Sam Larusso",
+            "Daniel Larusso",
+            "John Kreese"
+          ],
+          "winner": "Chuck Norris (Player/Streamer)",
+          "losers": [
+            "Bruce Lee",
+            "Paul Walter Hauser",
+            "Sam Larusso",
+            "Daniel Larusso",
+            "John Kreese"
+          ],
+          "specialGuestReferee": null,
+          "draw": false,
+          "isTest": false,
+          "previousChampion": "Chuck Norris (Player/Streamer)",
+          "previousWonDate": "2026-07-04",
+          "previousDefenses": 0
+        }
+      ],
       "titleHolders": {
         "DSEPW Championship": {
           "holder": "Rick Grimes",
@@ -25,8 +100,8 @@
           "defenses": 0
         },
         "WWE Hardcore Championship": {
-          "holder": "Ethan Page",
-          "wonDate": "2026-06-20",
+          "holder": "Odette Beaumont",
+          "wonDate": "2026-08-17",
           "defenses": 0
         },
         "Internet Television Championship": {
@@ -82,7 +157,7 @@
         "Super Heavyweight Championship": {
           "holder": "Mark Henry (Player/Streamer)",
           "wonDate": "2026-07-02",
-          "defenses": 0
+          "defenses": 1
         },
         "Elite Championship": {
           "holder": "Elite The Rock (Player/Streamer)",
@@ -92,7 +167,7 @@
         "Martial Arts Championship": {
           "holder": "Chuck Norris (Player/Streamer)",
           "wonDate": "2026-07-04",
-          "defenses": 0
+          "defenses": 1
         },
         "Mortal Kombat Championship": {
           "holder": "Sub Zero (Player/Streamer)",
@@ -105,10 +180,32 @@
           "defenses": 0
         }
       },
-      "eliminated": {},
-      "rematchList": {},
+      "eliminated": {
+        "WWE Hardcore Championship": [
+          "Ethan Page"
+        ],
+        "Martial Arts Championship": [
+          "Bruce Lee",
+          "Paul Walter Hauser",
+          "Sam Larusso",
+          "Daniel Larusso",
+          "John Kreese"
+        ],
+        "Super Heavyweight Championship": [
+          "Gunther"
+        ]
+      },
+      "rematchList": {
+        "WWE Hardcore Championship": [
+          "Ethan Page"
+        ]
+      },
       "rematchQueue": {},
-      "titlesUsedCycle": [],
+      "titlesUsedCycle": [
+        "Super Heavyweight Championship",
+        "WWE Hardcore Championship",
+        "Martial Arts Championship"
+      ],
       "titlePhases": {}
     }
   },
