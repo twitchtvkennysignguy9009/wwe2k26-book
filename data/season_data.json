@@ -4,28 +4,6 @@
     "1": {
       "matches": [
         {
-          "id": 1786993220065,
-          "championship": "Super Heavyweight Championship",
-          "matchType": "I Quit",
-          "date": "2026-08-17",
-          "titleOnLine": true,
-          "notes": "",
-          "participants": [
-            "Mark Henry (Player/Streamer)",
-            "Gunther"
-          ],
-          "winner": "Mark Henry (Player/Streamer)",
-          "losers": [
-            "Gunther"
-          ],
-          "specialGuestReferee": null,
-          "draw": false,
-          "isTest": false,
-          "previousChampion": "Mark Henry (Player/Streamer)",
-          "previousWonDate": "2026-07-02",
-          "previousDefenses": 0
-        },
-        {
           "id": 1786978894984,
           "championship": "WWE Hardcore Championship",
           "matchType": "Last Man Standing",
@@ -76,6 +54,94 @@
           "previousChampion": "Chuck Norris (Player/Streamer)",
           "previousWonDate": "2026-07-04",
           "previousDefenses": 0
+        },
+        {
+          "id": 1786993220065,
+          "championship": "Super Heavyweight Championship",
+          "matchType": "I Quit",
+          "date": "2026-08-17",
+          "titleOnLine": true,
+          "notes": "",
+          "participants": [
+            "Mark Henry (Player/Streamer)",
+            "Gunther"
+          ],
+          "winner": "Mark Henry (Player/Streamer)",
+          "losers": [
+            "Gunther"
+          ],
+          "specialGuestReferee": null,
+          "draw": false,
+          "isTest": false,
+          "previousChampion": "Mark Henry (Player/Streamer)",
+          "previousWonDate": "2026-07-02",
+          "previousDefenses": 0
+        },
+        {
+          "id": 1787027188451,
+          "championship": "WWE United States Championship",
+          "matchType": "Special Guest Referee - Normal One on One",
+          "date": "2026-08-17",
+          "titleOnLine": true,
+          "notes": "",
+          "participants": [
+            "Harley Quinn",
+            "Ethan Page"
+          ],
+          "winner": "Harley Quinn",
+          "losers": [
+            "Ethan Page"
+          ],
+          "specialGuestReferee": "Kenny Lopez",
+          "draw": false,
+          "isTest": false,
+          "previousChampion": "Harley Quinn",
+          "previousWonDate": "2026-06-23",
+          "previousDefenses": 0
+        },
+        {
+          "id": 1787027647543,
+          "championship": "EOP Undisputed Ultraviolent Championship",
+          "matchType": "Steel Cage - One on One",
+          "date": "2026-08-17",
+          "titleOnLine": true,
+          "notes": "",
+          "participants": [
+            "Sam Larusso",
+            "Buzz Lightyear"
+          ],
+          "winner": "Sam Larusso",
+          "losers": [
+            "Buzz Lightyear"
+          ],
+          "specialGuestReferee": null,
+          "draw": false,
+          "isTest": false,
+          "previousChampion": "Sam Larusso",
+          "previousWonDate": "2026-07-13",
+          "previousDefenses": 0
+        },
+        {
+          "id": 1787029447710,
+          "championship": "Mortal Kombat Championship",
+          "matchType": "Iron Man",
+          "date": "2026-08-17",
+          "titleOnLine": true,
+          "notes": "",
+          "participants": [
+            "Sub Zero (Player/Streamer)",
+            "Kitana"
+          ],
+          "winner": "Sub Zero (Player/Streamer)",
+          "losers": [
+            "Kitana"
+          ],
+          "specialGuestReferee": null,
+          "draw": false,
+          "isTest": false,
+          "previousChampion": "Sub Zero (Player/Streamer)",
+          "previousWonDate": "2026-07-10",
+          "previousDefenses": 0
         }
       ],
       "titleHolders": {
@@ -112,7 +178,7 @@
         "WWE United States Championship": {
           "holder": "Harley Quinn",
           "wonDate": "2026-06-23",
-          "defenses": 0
+          "defenses": 1
         },
         "Legends Championship": {
           "holder": "Hollywood Hogan",
@@ -172,12 +238,12 @@
         "Mortal Kombat Championship": {
           "holder": "Sub Zero (Player/Streamer)",
           "wonDate": "2026-07-10",
-          "defenses": 0
+          "defenses": 1
         },
         "EOP Undisputed Ultraviolent Championship": {
           "holder": "Sam Larusso",
           "wonDate": "2026-07-13",
-          "defenses": 0
+          "defenses": 1
         }
       },
       "eliminated": {
@@ -193,6 +259,15 @@
         ],
         "Super Heavyweight Championship": [
           "Gunther"
+        ],
+        "WWE United States Championship": [
+          "Ethan Page"
+        ],
+        "EOP Undisputed Ultraviolent Championship": [
+          "Buzz Lightyear"
+        ],
+        "Mortal Kombat Championship": [
+          "Kitana"
         ]
       },
       "rematchList": {
@@ -202,9 +277,12 @@
       },
       "rematchQueue": {},
       "titlesUsedCycle": [
-        "Super Heavyweight Championship",
         "WWE Hardcore Championship",
-        "Martial Arts Championship"
+        "Martial Arts Championship",
+        "Super Heavyweight Championship",
+        "WWE United States Championship",
+        "EOP Undisputed Ultraviolent Championship",
+        "Mortal Kombat Championship"
       ],
       "titlePhases": {}
     }
