@@ -142,6 +142,98 @@
           "previousChampion": "Sub Zero (Player/Streamer)",
           "previousWonDate": "2026-07-10",
           "previousDefenses": 0
+        },
+        {
+          "id": 1787056534700,
+          "championship": "Horror Championship",
+          "matchType": "Dumpster",
+          "date": "2026-08-18",
+          "titleOnLine": true,
+          "notes": "",
+          "participants": [
+            "Ghostface (Player/Streamer)",
+            "Chucky"
+          ],
+          "winner": "Ghostface (Player/Streamer)",
+          "losers": [
+            "Chucky"
+          ],
+          "specialGuestReferee": null,
+          "draw": false,
+          "isTest": false,
+          "previousChampion": "Ghostface (Player/Streamer)",
+          "previousWonDate": "2026-06-07",
+          "previousDefenses": 0
+        },
+        {
+          "id": 1787061650840,
+          "championship": "Cartoons Championship",
+          "matchType": "Extreme Rules - Fatal 4-Way",
+          "date": "2026-08-18",
+          "titleOnLine": true,
+          "notes": "",
+          "participants": [
+            "Kim Possible",
+            "Daphne Blake",
+            "Velma Dinkley",
+            "Woody (Player/Streamer)"
+          ],
+          "winner": "Woody (Player/Streamer)",
+          "losers": [
+            "Kim Possible",
+            "Daphne Blake",
+            "Velma Dinkley"
+          ],
+          "specialGuestReferee": null,
+          "draw": false,
+          "isTest": false,
+          "previousChampion": "Kim Possible",
+          "previousWonDate": "2026-06-09",
+          "previousDefenses": 0
+        },
+        {
+          "id": 1787063891882,
+          "championship": "Cruiserweight Championship",
+          "matchType": "Ladder - One on One",
+          "date": "2026-08-18",
+          "titleOnLine": true,
+          "notes": "",
+          "participants": [
+            "Je'Von Evans (Player/Streamer)",
+            "Flammer"
+          ],
+          "winner": "Je'Von Evans (Player/Streamer)",
+          "losers": [
+            "Flammer"
+          ],
+          "specialGuestReferee": null,
+          "draw": false,
+          "isTest": false,
+          "previousChampion": "Je'Von Evans (Player/Streamer)",
+          "previousWonDate": "2026-06-28",
+          "previousDefenses": 0
+        },
+        {
+          "id": 1787067373793,
+          "championship": "Elite Championship",
+          "matchType": "Falls Count Anywhere - One on One",
+          "date": "2026-08-18",
+          "titleOnLine": true,
+          "notes": "",
+          "participants": [
+            "Elite The Rock (Player/Streamer)",
+            "Elite Rhea Ripley"
+          ],
+          "winner": "Elite Rhea Ripley",
+          "losers": [
+            "Elite The Rock (Player/Streamer)"
+          ],
+          "specialGuestReferee": null,
+          "draw": false,
+          "isTest": false,
+          "previousChampion": "Elite The Rock (Player/Streamer)",
+          "previousWonDate": "2026-07-04",
+          "previousDefenses": 0
         }
       ],
       "titleHolders": {
@@ -153,11 +245,11 @@
         "Horror Championship": {
           "holder": "Ghostface (Player/Streamer)",
           "wonDate": "2026-06-07",
-          "defenses": 0
+          "defenses": 1
         },
         "Cartoons Championship": {
-          "holder": "Kim Possible",
-          "wonDate": "2026-06-09",
+          "holder": "Woody (Player/Streamer)",
+          "wonDate": "2026-08-18",
           "defenses": 0
         },
         "Million Dollar Championship": {
@@ -213,7 +305,7 @@
         "Cruiserweight Championship": {
           "holder": "Je'Von Evans (Player/Streamer)",
           "wonDate": "2026-06-28",
-          "defenses": 0
+          "defenses": 1
         },
         "Princess Championship": {
           "holder": "Princess Daisy",
@@ -226,8 +318,8 @@
           "defenses": 1
         },
         "Elite Championship": {
-          "holder": "Elite The Rock (Player/Streamer)",
-          "wonDate": "2026-07-04",
+          "holder": "Elite Rhea Ripley",
+          "wonDate": "2026-08-18",
           "defenses": 0
         },
         "Martial Arts Championship": {
@@ -268,11 +360,25 @@
         ],
         "Mortal Kombat Championship": [
           "Kitana"
+        ],
+        "Horror Championship": [
+          "Chucky"
+        ],
+        "Cartoons Championship": [
+          "Kim Possible",
+          "Daphne Blake",
+          "Velma Dinkley"
+        ],
+        "Cruiserweight Championship": [
+          "Flammer"
         ]
       },
       "rematchList": {
         "WWE Hardcore Championship": [
           "Ethan Page"
+        ],
+        "Cartoons Championship": [
+          "Kim Possible"
         ]
       },
       "rematchQueue": {},
@@ -282,7 +388,11 @@
         "Super Heavyweight Championship",
         "WWE United States Championship",
         "EOP Undisputed Ultraviolent Championship",
-        "Mortal Kombat Championship"
+        "Mortal Kombat Championship",
+        "Horror Championship",
+        "Cartoons Championship",
+        "Cruiserweight Championship",
+        "Elite Championship"
       ],
       "titlePhases": {}
     }
