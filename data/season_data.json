@@ -26,6 +26,28 @@
           "previousDefenses": 0
         },
         {
+          "id": 1786993220065,
+          "championship": "Super Heavyweight Championship",
+          "matchType": "I Quit",
+          "date": "2026-08-17",
+          "titleOnLine": true,
+          "notes": "",
+          "participants": [
+            "Mark Henry (Player/Streamer)",
+            "Gunther"
+          ],
+          "winner": "Mark Henry (Player/Streamer)",
+          "losers": [
+            "Gunther"
+          ],
+          "specialGuestReferee": null,
+          "draw": false,
+          "isTest": false,
+          "previousChampion": "Mark Henry (Player/Streamer)",
+          "previousWonDate": "2026-07-02",
+          "previousDefenses": 0
+        },
+        {
           "id": 1786993165885,
           "championship": "Martial Arts Championship",
           "matchType": "Battle Royal - 6-Way",
@@ -53,28 +75,6 @@
           "isTest": false,
           "previousChampion": "Chuck Norris (Player/Streamer)",
           "previousWonDate": "2026-07-04",
-          "previousDefenses": 0
-        },
-        {
-          "id": 1786993220065,
-          "championship": "Super Heavyweight Championship",
-          "matchType": "I Quit",
-          "date": "2026-08-17",
-          "titleOnLine": true,
-          "notes": "",
-          "participants": [
-            "Mark Henry (Player/Streamer)",
-            "Gunther"
-          ],
-          "winner": "Mark Henry (Player/Streamer)",
-          "losers": [
-            "Gunther"
-          ],
-          "specialGuestReferee": null,
-          "draw": false,
-          "isTest": false,
-          "previousChampion": "Mark Henry (Player/Streamer)",
-          "previousWonDate": "2026-07-02",
           "previousDefenses": 0
         },
         {
@@ -234,6 +234,28 @@
           "previousChampion": "Elite The Rock (Player/Streamer)",
           "previousWonDate": "2026-07-04",
           "previousDefenses": 0
+        },
+        {
+          "id": 1787145525495,
+          "championship": "Undisputed WWE Championship",
+          "matchType": "Special Guest Referee - Extreme Rules One on One",
+          "date": "2026-08-18",
+          "titleOnLine": true,
+          "notes": "",
+          "participants": [
+            "Johnny Bravo",
+            "Kenny Lopez"
+          ],
+          "winner": "Kenny Lopez",
+          "losers": [
+            "Johnny Bravo"
+          ],
+          "specialGuestReferee": "Cody Rhodes",
+          "draw": false,
+          "isTest": false,
+          "previousChampion": "Johnny Bravo",
+          "previousWonDate": "2026-06-24",
+          "previousDefenses": 0
         }
       ],
       "titleHolders": {
@@ -278,8 +300,8 @@
           "defenses": 0
         },
         "Undisputed WWE Championship": {
-          "holder": "Johnny Bravo",
-          "wonDate": "2026-06-24",
+          "holder": "Kenny Lopez",
+          "wonDate": "2026-08-18",
           "defenses": 0
         },
         "WWE Tag Team Championship": {
@@ -371,6 +393,9 @@
         ],
         "Cruiserweight Championship": [
           "Flammer"
+        ],
+        "Undisputed WWE Championship": [
+          "Johnny Bravo"
         ]
       },
       "rematchList": {
@@ -379,20 +404,24 @@
         ],
         "Cartoons Championship": [
           "Kim Possible"
+        ],
+        "Undisputed WWE Championship": [
+          "Johnny Bravo"
         ]
       },
       "rematchQueue": {},
       "titlesUsedCycle": [
         "WWE Hardcore Championship",
-        "Martial Arts Championship",
         "Super Heavyweight Championship",
+        "Martial Arts Championship",
         "WWE United States Championship",
         "EOP Undisputed Ultraviolent Championship",
         "Mortal Kombat Championship",
         "Horror Championship",
         "Cartoons Championship",
         "Cruiserweight Championship",
-        "Elite Championship"
+        "Elite Championship",
+        "Undisputed WWE Championship"
       ],
       "titlePhases": {}
     }
