@@ -256,6 +256,54 @@
           "previousChampion": "Johnny Bravo",
           "previousWonDate": "2026-06-24",
           "previousDefenses": 0
+        },
+        {
+          "id": 1787148482448,
+          "championship": "Legends Championship",
+          "matchType": "Hell in a Cell - Fatal 4-Way",
+          "date": "2026-08-19",
+          "titleOnLine": true,
+          "notes": "",
+          "participants": [
+            "Hollywood Hogan",
+            "Alundra Blayze",
+            "Tito Santana",
+            "Thrasher"
+          ],
+          "winner": "Tito Santana",
+          "losers": [
+            "Hollywood Hogan",
+            "Alundra Blayze",
+            "Thrasher"
+          ],
+          "specialGuestReferee": null,
+          "draw": false,
+          "isTest": false,
+          "previousChampion": "Hollywood Hogan",
+          "previousWonDate": "2026-06-24",
+          "previousDefenses": 0
+        },
+        {
+          "id": 1787149849400,
+          "championship": "WWE Intercontinental Championship",
+          "matchType": "Dumpster",
+          "date": "2026-08-19",
+          "titleOnLine": true,
+          "notes": "",
+          "participants": [
+            "Wonder Woman",
+            "Michelle Mccool"
+          ],
+          "winner": "Michelle Mccool",
+          "losers": [
+            "Wonder Woman"
+          ],
+          "specialGuestReferee": null,
+          "draw": false,
+          "isTest": false,
+          "previousChampion": "Wonder Woman",
+          "previousWonDate": "2026-06-24",
+          "previousDefenses": 0
         }
       ],
       "titleHolders": {
@@ -295,8 +343,8 @@
           "defenses": 1
         },
         "Legends Championship": {
-          "holder": "Hollywood Hogan",
-          "wonDate": "2026-06-24",
+          "holder": "Tito Santana",
+          "wonDate": "2026-08-19",
           "defenses": 0
         },
         "Undisputed WWE Championship": {
@@ -320,8 +368,8 @@
           "defenses": 0
         },
         "WWE Intercontinental Championship": {
-          "holder": "Wonder Woman",
-          "wonDate": "2026-06-24",
+          "holder": "Michelle Mccool",
+          "wonDate": "2026-08-19",
           "defenses": 0
         },
         "Cruiserweight Championship": {
@@ -396,6 +444,14 @@
         ],
         "Undisputed WWE Championship": [
           "Johnny Bravo"
+        ],
+        "Legends Championship": [
+          "Hollywood Hogan",
+          "Alundra Blayze",
+          "Thrasher"
+        ],
+        "WWE Intercontinental Championship": [
+          "Wonder Woman"
         ]
       },
       "rematchList": {
@@ -407,6 +463,12 @@
         ],
         "Undisputed WWE Championship": [
           "Johnny Bravo"
+        ],
+        "Legends Championship": [
+          "Hollywood Hogan"
+        ],
+        "WWE Intercontinental Championship": [
+          "Wonder Woman"
         ]
       },
       "rematchQueue": {},
@@ -421,7 +483,9 @@
         "Cartoons Championship",
         "Cruiserweight Championship",
         "Elite Championship",
-        "Undisputed WWE Championship"
+        "Undisputed WWE Championship",
+        "Legends Championship",
+        "WWE Intercontinental Championship"
       ],
       "titlePhases": {}
     }
