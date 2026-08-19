@@ -304,6 +304,28 @@
           "previousChampion": "Wonder Woman",
           "previousWonDate": "2026-06-24",
           "previousDefenses": 0
+        },
+        {
+          "id": 1787150909757,
+          "championship": "Internet Television Championship",
+          "matchType": "I Quit",
+          "date": "2026-08-19",
+          "titleOnLine": true,
+          "notes": "",
+          "participants": [
+            "Markiplier",
+            "Ninja"
+          ],
+          "winner": "Markiplier",
+          "losers": [
+            "Ninja"
+          ],
+          "specialGuestReferee": null,
+          "draw": false,
+          "isTest": false,
+          "previousChampion": "Markiplier",
+          "previousWonDate": "2026-06-22",
+          "previousDefenses": 0
         }
       ],
       "titleHolders": {
@@ -335,7 +357,7 @@
         "Internet Television Championship": {
           "holder": "Markiplier",
           "wonDate": "2026-06-22",
-          "defenses": 0
+          "defenses": 1
         },
         "WWE United States Championship": {
           "holder": "Harley Quinn",
@@ -452,6 +474,9 @@
         ],
         "WWE Intercontinental Championship": [
           "Wonder Woman"
+        ],
+        "Internet Television Championship": [
+          "Ninja"
         ]
       },
       "rematchList": {
@@ -485,7 +510,8 @@
         "Elite Championship",
         "Undisputed WWE Championship",
         "Legends Championship",
-        "WWE Intercontinental Championship"
+        "WWE Intercontinental Championship",
+        "Internet Television Championship"
       ],
       "titlePhases": {}
     }
