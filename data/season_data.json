@@ -372,6 +372,30 @@
           "previousChampion": "Cheetah",
           "previousWonDate": "2026-06-27",
           "previousDefenses": 0
+        },
+        {
+          "id": 1787246272526,
+          "championship": "Princess Championship",
+          "matchType": "Falls Count Anywhere - Triple Threat",
+          "date": "2026-08-20",
+          "titleOnLine": true,
+          "notes": "",
+          "participants": [
+            "Princess Daisy",
+            "Frozen Elsa",
+            "Princess Zelda"
+          ],
+          "winner": "Frozen Elsa",
+          "losers": [
+            "Princess Daisy",
+            "Princess Zelda"
+          ],
+          "specialGuestReferee": null,
+          "draw": false,
+          "isTest": false,
+          "previousChampion": "Princess Daisy",
+          "previousWonDate": "2026-06-29",
+          "previousDefenses": 0
         }
       ],
       "titleHolders": {
@@ -446,8 +470,8 @@
           "defenses": 1
         },
         "Princess Championship": {
-          "holder": "Princess Daisy",
-          "wonDate": "2026-06-29",
+          "holder": "Frozen Elsa",
+          "wonDate": "2026-08-20",
           "defenses": 0
         },
         "Super Heavyweight Championship": {
@@ -530,6 +554,10 @@
         ],
         "Superhero/Villain Championship": [
           "Mrs. Incredible"
+        ],
+        "Princess Championship": [
+          "Princess Daisy",
+          "Princess Zelda"
         ]
       },
       "rematchList": {
@@ -550,6 +578,9 @@
         ],
         "WWE Tag Team Championship": [
           "Rhiyo"
+        ],
+        "Princess Championship": [
+          "Princess Daisy"
         ]
       },
       "rematchQueue": {},
@@ -569,7 +600,8 @@
         "WWE Intercontinental Championship",
         "Internet Television Championship",
         "WWE Tag Team Championship",
-        "Superhero/Villain Championship"
+        "Superhero/Villain Championship",
+        "Princess Championship"
       ],
       "titlePhases": {}
     }
