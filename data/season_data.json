@@ -396,13 +396,35 @@
           "previousChampion": "Princess Daisy",
           "previousWonDate": "2026-06-29",
           "previousDefenses": 0
+        },
+        {
+          "id": 1787247736098,
+          "championship": "DSEPW Championship",
+          "matchType": "No Holds Barred",
+          "date": "2026-08-20",
+          "titleOnLine": true,
+          "notes": "",
+          "participants": [
+            "Rick Grimes",
+            "Lenneth Valkyrie"
+          ],
+          "winner": "Rick Grimes",
+          "losers": [
+            "Lenneth Valkyrie"
+          ],
+          "specialGuestReferee": null,
+          "draw": false,
+          "isTest": false,
+          "previousChampion": "Rick Grimes",
+          "previousWonDate": "2026-06-03",
+          "previousDefenses": 0
         }
       ],
       "titleHolders": {
         "DSEPW Championship": {
           "holder": "Rick Grimes",
           "wonDate": "2026-06-03",
-          "defenses": 0
+          "defenses": 1
         },
         "Horror Championship": {
           "holder": "Ghostface (Player/Streamer)",
@@ -558,6 +580,9 @@
         "Princess Championship": [
           "Princess Daisy",
           "Princess Zelda"
+        ],
+        "DSEPW Championship": [
+          "Lenneth Valkyrie"
         ]
       },
       "rematchList": {
@@ -601,7 +626,8 @@
         "Internet Television Championship",
         "WWE Tag Team Championship",
         "Superhero/Villain Championship",
-        "Princess Championship"
+        "Princess Championship",
+        "DSEPW Championship"
       ],
       "titlePhases": {}
     }
