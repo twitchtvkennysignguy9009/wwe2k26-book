@@ -326,6 +326,52 @@
           "previousChampion": "Markiplier",
           "previousWonDate": "2026-06-22",
           "previousDefenses": 0
+        },
+        {
+          "id": 1787233323681,
+          "championship": "WWE Tag Team Championship",
+          "matchType": "Special Guest Referee - Tag Team Triple Threat Tornado Tag",
+          "date": "2026-08-19",
+          "titleOnLine": true,
+          "notes": "",
+          "participants": [
+            "Rhiyo (Rhea Ripley & IYO SKY)",
+            "Dudley Boyz, The",
+            "Kabuki Warriors"
+          ],
+          "winner": "Kabuki Warriors",
+          "losers": [
+            "Rhiyo (Rhea Ripley & IYO SKY)",
+            "Dudley Boyz, The"
+          ],
+          "specialGuestReferee": "Jack Talos",
+          "draw": false,
+          "isTest": false,
+          "previousChampion": "Rhiyo (Rhea Ripley & IYO SKY)",
+          "previousWonDate": "2026-06-25",
+          "previousDefenses": 0
+        },
+        {
+          "id": 1787243927249,
+          "championship": "Superhero/Villain Championship",
+          "matchType": "Casket",
+          "date": "2026-08-20",
+          "titleOnLine": true,
+          "notes": "",
+          "participants": [
+            "Cheetah",
+            "Mrs. Incredible"
+          ],
+          "winner": "Cheetah",
+          "losers": [
+            "Mrs. Incredible"
+          ],
+          "specialGuestReferee": null,
+          "draw": false,
+          "isTest": false,
+          "previousChampion": "Cheetah",
+          "previousWonDate": "2026-06-27",
+          "previousDefenses": 0
         }
       ],
       "titleHolders": {
@@ -375,8 +421,8 @@
           "defenses": 0
         },
         "WWE Tag Team Championship": {
-          "holder": "Rhiyo (Rhea Ripley & IYO SKY)",
-          "wonDate": "2026-06-25",
+          "holder": "Kabuki Warriors",
+          "wonDate": "2026-08-19",
           "defenses": 0
         },
         "Government Championship": {
@@ -387,7 +433,7 @@
         "Superhero/Villain Championship": {
           "holder": "Cheetah",
           "wonDate": "2026-06-27",
-          "defenses": 0
+          "defenses": 1
         },
         "WWE Intercontinental Championship": {
           "holder": "Michelle Mccool",
@@ -477,6 +523,13 @@
         ],
         "Internet Television Championship": [
           "Ninja"
+        ],
+        "WWE Tag Team Championship": [
+          "Rhiyo",
+          "Dudley Boyz, The"
+        ],
+        "Superhero/Villain Championship": [
+          "Mrs. Incredible"
         ]
       },
       "rematchList": {
@@ -494,6 +547,9 @@
         ],
         "WWE Intercontinental Championship": [
           "Wonder Woman"
+        ],
+        "WWE Tag Team Championship": [
+          "Rhiyo"
         ]
       },
       "rematchQueue": {},
@@ -511,7 +567,9 @@
         "Undisputed WWE Championship",
         "Legends Championship",
         "WWE Intercontinental Championship",
-        "Internet Television Championship"
+        "Internet Television Championship",
+        "WWE Tag Team Championship",
+        "Superhero/Villain Championship"
       ],
       "titlePhases": {}
     }
