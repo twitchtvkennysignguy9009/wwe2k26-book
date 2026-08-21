@@ -448,6 +448,28 @@
           "previousChampion": "Danny Lopez (Player/Streamer)",
           "previousWonDate": "2026-06-12",
           "previousDefenses": 0
+        },
+        {
+          "id": 1787324342377,
+          "championship": "Government Championship",
+          "matchType": "Hell in a Cell - One on One",
+          "date": "2026-08-21",
+          "titleOnLine": true,
+          "notes": "",
+          "participants": [
+            "Donald Trump",
+            "Joe Biden"
+          ],
+          "winner": "Donald Trump",
+          "losers": [
+            "Joe Biden"
+          ],
+          "specialGuestReferee": null,
+          "draw": false,
+          "isTest": false,
+          "previousChampion": "Donald Trump",
+          "previousWonDate": "2026-06-25",
+          "previousDefenses": 0
         }
       ],
       "titleHolders": {
@@ -504,7 +526,7 @@
         "Government Championship": {
           "holder": "Donald Trump",
           "wonDate": "2026-06-25",
-          "defenses": 0
+          "defenses": 1
         },
         "Superhero/Villain Championship": {
           "holder": "Cheetah",
@@ -620,6 +642,9 @@
           "Noam Dar",
           "Kim Possible",
           "Sidney Prescott"
+        ],
+        "Government Championship": [
+          "Joe Biden"
         ]
       },
       "rematchList": {
@@ -646,27 +671,7 @@
         ]
       },
       "rematchQueue": {},
-      "titlesUsedCycle": [
-        "WWE Hardcore Championship",
-        "Super Heavyweight Championship",
-        "Martial Arts Championship",
-        "WWE United States Championship",
-        "EOP Undisputed Ultraviolent Championship",
-        "Mortal Kombat Championship",
-        "Horror Championship",
-        "Cartoons Championship",
-        "Cruiserweight Championship",
-        "Elite Championship",
-        "Undisputed WWE Championship",
-        "Legends Championship",
-        "WWE Intercontinental Championship",
-        "Internet Television Championship",
-        "WWE Tag Team Championship",
-        "Superhero/Villain Championship",
-        "Princess Championship",
-        "DSEPW Championship",
-        "Million Dollar Championship"
-      ],
+      "titlesUsedCycle": [],
       "titlePhases": {}
     }
   },
