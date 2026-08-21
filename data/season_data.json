@@ -418,6 +418,36 @@
           "previousChampion": "Rick Grimes",
           "previousWonDate": "2026-06-03",
           "previousDefenses": 0
+        },
+        {
+          "id": 1787314904911,
+          "championship": "Million Dollar Championship",
+          "matchType": "Hell in a Cell - 6-Way",
+          "date": "2026-08-21",
+          "titleOnLine": true,
+          "notes": "",
+          "participants": [
+            "Danny Lopez (Player/Streamer)",
+            "Buzz Lightyear",
+            "Wonder Woman",
+            "Noam Dar",
+            "Kim Possible",
+            "Sidney Prescott"
+          ],
+          "winner": "Danny Lopez (Player/Streamer)",
+          "losers": [
+            "Buzz Lightyear",
+            "Wonder Woman",
+            "Noam Dar",
+            "Kim Possible",
+            "Sidney Prescott"
+          ],
+          "specialGuestReferee": null,
+          "draw": false,
+          "isTest": false,
+          "previousChampion": "Danny Lopez (Player/Streamer)",
+          "previousWonDate": "2026-06-12",
+          "previousDefenses": 0
         }
       ],
       "titleHolders": {
@@ -439,7 +469,7 @@
         "Million Dollar Championship": {
           "holder": "Danny Lopez (Player/Streamer)",
           "wonDate": "2026-06-12",
-          "defenses": 0
+          "defenses": 1
         },
         "WWE Hardcore Championship": {
           "holder": "Odette Beaumont",
@@ -583,6 +613,13 @@
         ],
         "DSEPW Championship": [
           "Lenneth Valkyrie"
+        ],
+        "Million Dollar Championship": [
+          "Buzz Lightyear",
+          "Wonder Woman",
+          "Noam Dar",
+          "Kim Possible",
+          "Sidney Prescott"
         ]
       },
       "rematchList": {
@@ -627,7 +664,8 @@
         "WWE Tag Team Championship",
         "Superhero/Villain Championship",
         "Princess Championship",
-        "DSEPW Championship"
+        "DSEPW Championship",
+        "Million Dollar Championship"
       ],
       "titlePhases": {}
     }
